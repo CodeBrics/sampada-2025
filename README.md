@@ -111,9 +111,8 @@ chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (
 
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
-2. Explore other directories (`/web`, `/Wireless`) for sensitive information or misconfigurations.
-3. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
-4. Search for SUID/SGID binaries that could allow privilege escalation:
+2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
+3. Search for SUID/SGID binaries that could allow privilege escalation:
 # 
     find / -perm /4000 2>/dev/null
  
