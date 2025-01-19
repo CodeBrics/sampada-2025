@@ -279,6 +279,13 @@ SjdjKtaRRxpeaSbFw/J7CZodcyTlNXOMx3n+ikUwtKw5iEdoRr9iq69WgqY0bd+O
 9pWKE32swy6QXJaumiREjMQTHAtiB2y+qwIDAQAB
 -----END RSA PUBLIC KEY-----
 
+# 
+    jay@5UD0-WH04M1:ü/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin$ qemu-arm -L $(realpath ../../) ./DahuaExec
+    ./DahuaExec: cache '/etc/ld.so.cache' is corrupt
+    DahuaExec usage : need 2 arguments, line : 81
+    DahuaExec command is :
+
+
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
