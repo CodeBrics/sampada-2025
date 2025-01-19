@@ -305,7 +305,12 @@ Leaks credentials
         INI_DEFAULT_USER_PWD            = "tluafed",
 ...
 ```
+# Algorithms
+# 
+    jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/web/jsCore$ ls
+    aes.js  common.js  rpcCore.js  rsa.js
 
+    
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
