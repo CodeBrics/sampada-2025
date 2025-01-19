@@ -268,6 +268,17 @@ kFtUTg+C6T2n6aA+1PyAqZFGWg==
 -----END ENCRYPTED PRIVATE KEY-----
 ```
 
+Password reset key - 
+jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin/ssl$ cat pwdreset.pem
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEA3RuR12tA3aFoIFJSekw1e9+Tc5JaJ3FczvFyQF4SmdK+XrHLnNlP
+WCOrsok1neg7Tqbj09Y5AFmqxAhhHrPsZD+6lvBMr1QUHR+DsGQKxR10BuUOjn5B
+z4g8PGjuFxYxE6UzKO8cYaUgcgVp9P1/kdnW/PZwNyJAwLwRpZUIOgs3636CH2UO
+W3wMpjGu1nMB8PAQ4+v6dUC/jB5JoJrgEgRl94n5iwIJt+f38/ZXoL+DJOb6Q2UI
+SjdjKtaRRxpeaSbFw/J7CZodcyTlNXOMx3n+ikUwtKw5iEdoRr9iq69WgqY0bd+O
+9pWKE32swy6QXJaumiREjMQTHAtiB2y+qwIDAQAB
+-----END RSA PUBLIC KEY-----
+
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
