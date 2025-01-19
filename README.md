@@ -11,7 +11,7 @@ The firmware image was initially analyzed using `binwalk`, a tool for inspecting
 
 ### **Command Used**:
 binwalk -e chakravyuh.bin
-text
+ 
 
 ### **Findings**:
 - The firmware contained a `uImage` Linux kernel header and a SquashFS filesystem.
@@ -26,7 +26,7 @@ lzma uncompress failed with error code 9
 read_block: failed to read block @0x15142b5
 read_fragment_table: failed to read fragment table index
 FATAL ERROR: File system corruption detected.
-text
+ 
 As a result, the `squashfs-root` directory was empty after extraction.
 
 ### **Resolution with Sasquatch**:
@@ -35,17 +35,17 @@ To address this, `sasquatch`, a tool for extracting non-standard SquashFS filesy
 #### **Steps Taken**:
 1. Installed dependencies:
 sudo apt-get install zlib1g-dev liblzma-dev liblzo2-dev
-text
+ 
 2. Cloned and built Sasquatch:
 git clone https://github.com/devttys0/sasquatch
 cd sasquatch
 ./build.sh
-text
+ 
 3. Applied a patch to resolve build errors:
 wget https://raw.githubusercontent.com/devttys0/sasquatch/82da12efe97a37ddcd33dba53933bc96db4d7c69/patches/patch0.txt
 mv patch0.txt patches/
 ./build.sh
-text
+ 
 
 ### **Result**:
 Successfully extracted the SquashFS filesystem from the firmware image.
@@ -61,19 +61,19 @@ The root directory contained standard Linux directories such as `/bin`, `/etc`, 
 ### **Key Findings in `/etc` Directory**:
 1. **`passwd` File**:
 cat /etc/passwd
-text
+ 
 Output:
 root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
-text
+ 
 - The root user password hash is stored in MD5 format (`$1$`), which is considered weak.
 - This hash can potentially be cracked using tools like `John the Ripper`.
 
 2. **Backup Password File (`passwd-`)**:
 cat /etc/passwd-
-text
+ 
 Output:
 root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
-text
+ 
 - This file contains another hash format for the root password.
 
 3. **No Shadow File**:
@@ -82,12 +82,11 @@ text
 ---
 
 ## **Step 4: Identifying Camera Model**
-Using the `strings` command, I identified details about the camera model embedded in the firmware:
+Using the `file` command, I identified details about the camera model embedded in the firmware:
 
 ### **Command Used**:
-strings chakravyuh.bin | grep -i "camera|model|version|firmware"
-strings chakravyuh.bin | grep -i "hisilicon|hi3520|hisi|hwid"
-text
+$ file chakravyuh.bin
+chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (gzip), 13144064 bytes, Wed Nov 29 14:28:44 2017, Load Address: 0XA0060000, Entry Point: 0XA0DA0000, Header CRC: 0X71FF3C3D, Data CRC: 0X3F9F5075
 
 ### **Findings**:
 - The firmware references `hi3520Dromfs`, indicating it is based on HiSilicon's Hi3520D chip, commonly used in IP cameras.
@@ -110,7 +109,7 @@ text
 3. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
 4. Search for SUID/SGID binaries that could allow privilege escalation:
 find / -perm /4000 2>/dev/null
-text
+ 
 
 ---
 
