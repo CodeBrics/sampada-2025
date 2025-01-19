@@ -286,6 +286,26 @@ SjdjKtaRRxpeaSbFw/J7CZodcyTlNXOMx3n+ikUwtKw5iEdoRr9iq69WgqY0bd+O
     DahuaExec command is :
 
 
+Leaks credentials
+#
+    /usr/data$ cat config.lua
+```
+...
+ -- group
+        INI_GROUP_NAME_ADMIN            = "admin";
+        INI_GROUP_NAME_USER             = "user";
+        -- user
+        INI_SYS_USER_ADMIN              = "admin",
+        INI_SYS_USER_ADMIN_PWD          = "admin",
+        INI_SYS_USER_LOCAL              = "888888",
+        INI_SYS_USER_LOCAL_PWD          = "888888",
+        INI_USER_USER_LOCAL             = "666666",
+        INI_USER_USER_LOCAL_PWD         = "666666",
+        INI_DEFAULT_USER_NAME           = "default",
+        INI_DEFAULT_USER_PWD            = "tluafed",
+...
+```
+
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
