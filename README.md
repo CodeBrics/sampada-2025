@@ -231,6 +231,43 @@ username=aditya
 passwd=BXw6K8YB
 ```
 
+## Exposed Private Key
+```
+jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/data/ssl$ ls
+ca.crt  ca.key  cacert.pem  privkey.pem  pubkey.pem
+jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/data/ssl$ cat privkey.pem
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFHzBJBgkqhkiG9w0BBQ0wPDAbBgkqhkiG9w0BBQwwDgQIc2H4GvZuEVMCAggA
+MB0GCWCGSAFlAwQBKgQQ9Kw+XgzsGnGNAQPLfd7TdASCBNB9rOfOs8GwNUM++AJI
+PZ02fzfI2KawLLjJNAddqpjwpfTzLxNSo8IBubYZJMFkOKzQmva6cwjxeaQ/f/2C
+4MrTFiU0IKmTvWOSjLkSVt93e8fN4sbBf7n2c4lNC8NEUrWqE00d9EeW+WuyPqW1
+9EukswWYafRNXLufDgx+O/2mWoO94bzqS0lyhLlVz02DJFSs403WuYlmzGSqiSWI
+kL9CPdYa9fHfZX4fIF62HMFCbZKMGCmaXJutpi96jeDezbke1dIeg/c0YTt+vLRT
+QDp2LKHhxrFdQA+VH9dWgGirlHjAcsLyRYmaiJjs3fAeXwRDzQejaGdVo4VNqPGQ
+CJDqIAjCuaGTOCmw/Pr3vb0XGLEL4xFYeocJAoA/AidvyJgCIPvVdGDUolJv44w6
+VNh85w1rfKQMW3fSrs7zS74WBAwP2Tk9iC+2nv29hKzVbqBApDgXsD+56i6FBtVx
+fDKxUppcx2tcP3lDzEX7QNL7xY4rrAaBPZ28VMwKGG2X+bo0ruT1pkItuEqLCxBS
++si/cemicO9N/gEKF1c9BOx82IsuWBpYzhYYnAVy2rw9dcQF+SdspetwWCKkX2FD
+zM0AaDLwrVFwK3lE2WqEkootGBbxbCpT3tPeYya4ybs4iFinMdbgITZnv7sJs9EU
+02oKALfxbdHa3dFWGTUYmlG84GOfowvEWMM6WdJ6B16E/hYvW2hZIMf7+aT1w+5+
+9RWFFgzqBl8K9D/aZdIn2h9ekNIxdIUYPO8DfRqwU4BP0lVI1q3wYwT6vuuR1GZ5
+pR+sJnkw/h+a5ZUIqZkLJWxwmTOTZNEAimCR0yjjTeVm1qQ0nY2u++UYVEKk2HpU
+NrDpgQ+l+Asecu6iA619WUQX+hDi4lIO2OHI1vN8xFuoWw9B3qr85ySHHkQAvaaq
+bbqLxcGFZ1MK51qdlEBwjbFFOoj+tPx6SrqWIAJNfAcyFquAW3cMiRk+R9W00Vh1
+1dYKwB8/VyiS94yLkUuDN55CaXH3i1ljEIrAoc6G8xTM2s5UUwESghMOLBT5Yozq
+BI4pkgecsLNj9iRnLaM7RFxptjgrLVysp6iKtWn6r9ODFzf0wuF+Cwz709SUsuFi
+iTFEdYNzBM4njQTuuI1XAa1WaWcfW0bdIIiHOP4ls1bwfAHQejt2YW1f4HYvsCyA
+hDulztcUaC2J/aC2M6uO0t92fPsm3YmBRD087WNDGCex86XMm6FmEd287JaNffqj
+poB7tbOk5kFulstIR09WjUBSOv4t4ufNIWSn1J9T5RYrGzhdD8gT1258OQhnALRH
+R4hG+7a41LphN5lC+1P6BECIjwrcune2FqrGIChGMW7k3xvwJwsq3fd5N12hRv/y
+sSj84mmfr1tImLfAphd4yOY2hgqUNIL+JwPIbfdbGHUx1PG2TzXD3qxyr55MPV13
+U3IpXW8lSyjKonFgJwjZl8S5mxQQC3LYTiUT+uheR/4uqLQ1HYgSRkguFeBWVOX0
+FctNLuu55vz/WiKVKMnrbhPT9JgjwZC2rsvQT4cJK2EWXuftMPA6u0G13yCkKZav
+KDHq8D7VDl7l4iOR959tm8FFb7w+uuvFyWPpve5Wz1l0QVjfK2SWRZOzuNOxnti9
+kFtUTg+C6T2n6aA+1PyAqZFGWg==
+-----END ENCRYPTED PRIVATE KEY-----
+```
+
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
