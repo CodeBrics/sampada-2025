@@ -222,7 +222,14 @@ dvrhelper /var/Challenge
    - Successfully overcame this issue by using `sasquatch`, which is designed for non-standard or corrupted SquashFS filesystems.
 
 ---
+# Vulnerabilities
 
+## Exposed Credentials
+Telnet credentials found in cleartext in `/usr/etc/telnet_cfg`
+```
+username=aditya
+passwd=BXw6K8YB
+```
 
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
