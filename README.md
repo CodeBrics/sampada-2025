@@ -68,7 +68,7 @@ The root directory contained standard Linux directories such as `/bin`, `/etc`, 
     cat /etc/passwd
  
 Output:
-root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
+```root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh```
  
 - The root user password hash is stored in MD5 format (`$1$`), which is considered weak.
 - This hash can potentially be cracked using tools like `John the Ripper`.
@@ -78,7 +78,7 @@ root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
     cat /etc/passwd-
  
 Output:
-root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
+```root:ab8nBoH3mb8.g:0:0::/root:/bin/sh```
  
 - This file contains another hash format for the root password.
 
@@ -92,7 +92,7 @@ Using the `file` command, I identified details about the camera model embedded i
 
 ### **Command Used**:
     file chakravyuh.bin
-chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (gzip), 13144064 bytes, Wed Nov 29 14:28:44 2017, Load Address: 0XA0060000, Entry Point: 0XA0DA0000, Header CRC: 0X71FF3C3D, Data CRC: 0X3F9F5075
+```chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (gzip), 13144064 bytes, Wed Nov 29 14:28:44 2017, Load Address: 0XA0060000, Entry Point: 0XA0DA0000, Header CRC: 0X71FF3C3D, Data CRC: 0X3F9F5075```
 
 ### **Findings**:
 - The firmware references `hi3520Dromfs`, indicating it is based on HiSilicon's Hi3520D chip, commonly used in IP cameras.
