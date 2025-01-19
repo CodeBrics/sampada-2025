@@ -35,20 +35,20 @@ To address this, `sasquatch`, a tool for extracting non-standard SquashFS filesy
 #### **Steps Taken**:
 1. Installed dependencies:
 # 
-        sudo apt-get install zlib1g-dev liblzma-dev liblzo2-dev
+    sudo apt-get install zlib1g-dev liblzma-dev liblzo2-dev
  
 3. Cloned and built Sasquatch:
 # 
-        git clone https://github.com/devttys0/sasquatch
-        cd sasquatch
-        ./build.sh
+    git clone https://github.com/devttys0/sasquatch
+    cd sasquatch
+    ./build.sh
 
  
 3. Applied a patch to resolve build errors:
-
-        wget https://raw.githubusercontent.com/devttys0/sasquatch/82da12efe97a37ddcd33dba53933bc96db4d7c69/patches/patch0.txt
-        mv patch0.txt patches/
-        ./build.sh
+# 
+    wget https://raw.githubusercontent.com/devttys0/sasquatch/82da12efe97a37ddcd33dba53933bc96db4d7c69/patches/patch0.txt
+    mv patch0.txt patches/
+    ./build.sh
 
 
 ### **Result**:
@@ -65,7 +65,7 @@ The root directory contained standard Linux directories such as `/bin`, `/etc`, 
 ### **Key Findings in `/etc` Directory**:
 1. **`passwd` File**:
 #
-        cat /etc/passwd
+    cat /etc/passwd
  
 Output:
 root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
@@ -75,7 +75,7 @@ root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
 
 2. **Backup Password File (`passwd-`)**:
 #
-        cat /etc/passwd-
+    cat /etc/passwd-
  
 Output:
 root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
@@ -91,7 +91,7 @@ root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
 Using the `file` command, I identified details about the camera model embedded in the firmware:
 
 ### **Command Used**:
-        file chakravyuh.bin
+    file chakravyuh.bin
 chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (gzip), 13144064 bytes, Wed Nov 29 14:28:44 2017, Load Address: 0XA0060000, Entry Point: 0XA0DA0000, Header CRC: 0X71FF3C3D, Data CRC: 0X3F9F5075
 
 ### **Findings**:
@@ -114,7 +114,8 @@ chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (
 2. Explore other directories (`/web`, `/Wireless`) for sensitive information or misconfigurations.
 3. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
 4. Search for SUID/SGID binaries that could allow privilege escalation:
-        find / -perm /4000 2>/dev/null
+# 
+    find / -perm /4000 2>/dev/null
  
 
 ---
