@@ -146,7 +146,7 @@ APSDAC=0;0;0;0
 The path `etc/init.d/` has these bash scripts- 
 #
     ls etc/init.d/
-S00devs  S01udev  S02wndev  S80network  S81toe  S99dh  rcS
+```S00devs  S01udev  S02wndev  S80network  S81toe  S99dh  rcS```
 
 The rcS script executes all other scripts in `etc/init.d`
 ### **S02wndev**
