@@ -10,7 +10,7 @@ This report documents the steps undertaken in analyzing the firmware image `chak
 The firmware image was initially analyzed using `binwalk`, a tool for inspecting and extracting embedded files and filesystems from binary images.
 
 ### **Command Used**:
-  ```binwalk -e chakravyuh.bin```
+    binwalk -e chakravyuh.bin
  
 
 ### **Findings**:
