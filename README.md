@@ -312,6 +312,11 @@ Leaks credentials
 
     
 ## **Next Steps**
+Important - todo:
+#
+    Automation of assessment
+    Network wide capability
+    Linux hardening standard operating procedures
 1. Attempt password cracking for hashes found in `/etc/passwd` and `/etc/passwd-`.
 2. Analyze startup scripts in `/etc/init.d/` for potential vulnerabilities.
 3. Search for SUID/SGID binaries that could allow privilege escalation:
