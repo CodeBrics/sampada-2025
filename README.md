@@ -305,6 +305,17 @@ Leaks credentials
         INI_DEFAULT_USER_PWD            = "tluafed",
 ...
 ```
+DahuaExec is vulnerable to Command Injection - 
+jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin$ qemu-arm -L $(realpath ../../) ./Dahua
+    Exec /bin/ls /tmp
+    ./DahuaExec: cache '/etc/ld.so.cache' is corrupt
+    DahuaExec command is : ./DahuaExec /bin/ls /tmp
+    1test  Challenge  DahuaExec  lua  secboot  ssl
+jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin$ qemu-arm -L $(realpath ../../) ./DahuaExec /bin/pwd /tmp
+    ./DahuaExec: cache '/etc/ld.so.cache' is corrupt
+    DahuaExec command is : ./DahuaExec /bin/pwd /tmp
+    /home/jay/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin
+
 # Algorithms
 # 
     jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/web/jsCore$ ls
@@ -323,8 +334,8 @@ Important - todo:
 3. Search for SUID/SGID binaries that could allow privilege escalation:
 # 
     find / -perm /4000 2>/dev/null
- 
 
+    
 ---
 
 ## **Conclusion**
