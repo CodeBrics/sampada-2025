@@ -337,7 +337,7 @@ Output:
         print("DES Hash:", des_hash)
 
     Output of python program - `DES Hash: ab8nBoH3mb8.g`
-    ✅ Matches with the hash we found earlier. 
+    - ✅ Matches with the hash we found earlier. 
 
 2. **Main Password File (`passwd`)**
 # 
@@ -362,7 +362,7 @@ Output:
 
   
   Output of python program - `MD5  Hash: $1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/`
-  ✅ Matches with the hash we found earlier. 
+  - ✅ Matches with the hash we found earlier. 
 
 # Algorithms
 # 
