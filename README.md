@@ -81,6 +81,7 @@ Output:
 ```root:ab8nBoH3mb8.g:0:0::/root:/bin/sh```
  
 - This file contains another hash format for the root password.
+- The type is DES and it has been CRACKED! THE PASSWORD IS - `helpme`
 
 3. **No Shadow File**:
 - The absence of an `/etc/shadow` file indicates that password hashes are stored directly in `passwd`, which is less secure.
