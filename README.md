@@ -364,6 +364,8 @@ Output:
   Output of python program - `MD5  Hash: $1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/`
   - ✅ Matches with the hash we found earlier. 
 
+`/usr/data` seems interesting
+
 # Algorithms
 # 
     jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/web/jsCore$ ls
