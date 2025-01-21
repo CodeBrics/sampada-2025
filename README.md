@@ -76,15 +76,7 @@ Output:
 - The root user password hash is stored in MD5 format (`$1$`), which is considered weak.
 - This hash can potentially be cracked using tools like `John the Ripper`.
 
-2. **Backup Password File (`passwd-`)**:
-#
-    cat /etc/passwd-
- 
-Output:
-```root:ab8nBoH3mb8.g:0:0::/root:/bin/sh```
- 
-- This file contains another hash format for the root password.
-- The type is DES and it has been CRACKED! THE PASSWORD IS - `helpme`
+
 
 3. **No Shadow File**:
 - The absence of an `/etc/shadow` file indicates that password hashes are stored directly in `passwd`, which is less secure.
@@ -319,6 +311,58 @@ jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/us
     ./DahuaExec: cache '/etc/ld.so.cache' is corrupt
     DahuaExec command is : ./DahuaExec /bin/pwd /tmp
     /home/jay/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/usr/bin
+
+
+## /etc/passwd & /etc/passwd-
+1. **Backup Password File (`passwd-`)**:
+#
+    cat /etc/passwd-
+ 
+Output:
+```root:ab8nBoH3mb8.g:0:0::/root:/bin/sh```
+ 
+- This file contains another hash format for the root password.
+- The type is DES and it has been CRACKED! THE PASSWORD IS - `helpme`
+- It had the salt `ab`
+
+  Python Script to verify -
+  #
+        import crypt
+
+        password = "helpme"
+        salt = "ab"
+        
+        des_hash = crypt.crypt(password, salt)
+        
+        print("DES Hash:", des_hash)
+
+    Output of python program - `DES Hash: ab8nBoH3mb8.g`
+    ✅ Matches with the hash we found earlier. 
+
+2. **Main Password File (`passwd`)**
+# 
+    cat /etc/passwd
+
+Output: 
+```root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh```
+
+- This file contains an MD5 hash with salt `$1$jSqQv.uP`
+- It has been CRACKED! THE PASSWORD IS - `vizxv`
+
+  Python script to verify -
+  #
+        import crypt
+        
+        password = "vizxv"
+        salt = "$1$jSqQv.uP"
+        
+        des_hash = crypt.crypt(password, salt)
+        
+        print("MD5  Hash:", des_hash)
+
+  
+  Output of python program - `MD5  Hash: $1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/`
+  ✅ Matches with the hash we found earlier. 
 
 # Algorithms
 # 
