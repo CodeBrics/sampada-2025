@@ -55,6 +55,9 @@ To address this, `sasquatch`, a tool for extracting non-standard SquashFS filesy
 Successfully extracted the SquashFS filesystem from the firmware image.
 
 ---
+Trying to extract IP Addresses - 
+#
+    grep -r -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' .
 
 ## **Step 3: Exploring the Extracted Filesystem**
 After extraction, I navigated through the extracted filesystem to identify interesting files and directories.
