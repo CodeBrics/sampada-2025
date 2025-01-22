@@ -428,7 +428,8 @@ function loginOCX(usr, pwd, type, logintype)
     aes.js  common.js  rpcCore.js  rsa.js
 
 
-    
+# Important
+   write impact in slides, and include direct access to web directory as a vulnerability
 ## **Next Steps**
 Important - todo:
 #
