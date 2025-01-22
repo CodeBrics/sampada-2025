@@ -411,10 +411,22 @@ function loginOCX(usr, pwd, type, logintype)
     cd usr/etc/
     cat Global.lua
     
+
+## Analyzing the Challenge file
+
+# 
+    strings Challenge | grep "Don't"
+# 
+    strings Challenge | grep "decrypt"
+# 
+    strings Challenge | grep "passwd"
+# 
+    strings Challenge | grep "pass"
 # Algorithms
 # 
     jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/web/jsCore$ ls
     aes.js  common.js  rpcCore.js  rsa.js
+
 
     
 ## **Next Steps**
