@@ -364,8 +364,51 @@ Output:
   Output of python program - `MD5  Hash: $1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/`
   - ✅ Matches with the hash we found earlier. 
 
-`/usr/data` seems interesting
+Other interesting folders
+#
+     cd /usr/data  
+#
+    cd etc/Wireless/RT2870STA/
+    cat RT2870STA.dat
+# 
+    cat etc/services
+    
 
+# 
+    cd usr/lib/lib.7z.extracted/0/lib
+    ls
+
+# 
+    
+- Stores username and password in base64 based on - `g_basePassword = Base64.encode(username + ':' + password);` 
+- Allows weak passwords - `var g_supportWeakPassword = true;//是否允许添加弱密码，默认是支持的`
+- IP - 
+```
+function loginOCX(usr, pwd, type, logintype)
+{
+        var ret = 0;
+        //var ip = '172.8.1.176';
+        var ip = location.hostname;
+        var username = usr;
+        var password = pwd;
+        var tcpPort = capTcpPort;
+        g_netType = type;
+        g_ocx.SetModuleMode(g_netType==0?1:10);
+        ret = g_ocx.LoginDeviceEx(ip, tcpPort, username, password, logintype);
+
+        if (ret == 0)
+        {
+                g_LoginId = g_ocx.GetLoginID();
+        }
+        return ret;
+}
+```
+- An old comment - `//兼容明文username=admin&password=admin`
+
+# 
+    cd usr/etc/
+    cat Global.lua
+    
 # Algorithms
 # 
     jay@5UD0-WH04M1:~/sampada_hackathon/_chakravyuh.bin-1.extracted/squashfs-root/web/jsCore$ ls
