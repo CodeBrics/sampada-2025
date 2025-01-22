@@ -366,7 +366,7 @@ Output:
 
 ## Other interesting folders
 #
-     cd /usr/data  
+     cd usr/data  
 #
     cd etc/Wireless/RT2870STA/
     cat RT2870STA.dat
