@@ -364,7 +364,7 @@ Output:
   Output of python program - `MD5  Hash: $1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/`
   - ✅ Matches with the hash we found earlier. 
 
-Other interesting folders
+## Other interesting folders
 #
      cd /usr/data  
 #
@@ -379,7 +379,9 @@ Other interesting folders
     ls
 
 # 
-    
+    cd web/config/
+    cat index.htm | less
+
 - Stores username and password in base64 based on - `g_basePassword = Base64.encode(username + ':' + password);` 
 - Allows weak passwords - `var g_supportWeakPassword = true;//是否允许添加弱密码，默认是支持的`
 - IP - 
