@@ -1,8 +1,7 @@
 <details>
-<summary>📁 ANALYSING FILE STRUCTURE</summary>
-
-```
 # Directory Tree Structure
+
+```# Directory Tree Structure
 
 - **bin/**
   - bin/Data_Signature `unknown`
@@ -1464,10 +1463,7 @@
   - web/webplugin.exe `exe`
 ```
 
-</details>
-
-<details>
-<summary>🔍 ANALYSING FIRMWARE DETAILS</summary>
+# Firmware Details
 
 - **File Size**: 22106176 bytes
 - **MD5 Hash**: 487471520fbaace46b1677890f4ef4c6
@@ -1476,7 +1472,7 @@
 - **Detected IP Addresses**: ['0.0.0.0', '0.9.33.2', '1.0.0.1', '1.1.1.1', '10.6.3.213', '10.6.5.52', '110.119.0.1', '110.119.120.1', '127.0.0.1', '172.8.1.176', '192.168.0.0', '192.168.1.1', '192.168.1.108', '192.168.1.240', '192.168.25.22', '203.0.113.25', '224.0.0.0', '239.255.255.255', '255.255.255.0']
 - **Entropy**: 8.0
 - **Entropy Analysis**: High
-### Metadata
+## Metadata
 - **Version**: hi3520Dromfs
 - **Build_date**: 2017-11-29 14:28:44
 - **Developer**: D@0.gN
@@ -2285,37 +2281,31 @@
 
 - **Packing**: Archive Detected
 - **Architecture**: 0             0x0             uImage header, header size: 64 bytes, header CRC: 0x71FF3C3D, created: 2017-11-29 14:28:44, image size: 13144064 bytes, Data Address: 0xA0060000, Entry Point: 0xA0DA0000, data CRC: 0x3F9F5075, OS: Linux, CPU: ARM, image type: OS Kernel Image, compression type: gzip, image name: "hi3520Dromfs"
-</details>
-
-<details>
-<summary>🔐 RUNNING CRYPTOGRAPHIC ANALYSIS</summary>
+## Cryptographic Analysis
 
 
-- **Found Cryptographic Functions**:
-  * [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RSA_public_encrypt, RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, RAND_bytes(m_rand_data, m_rand_length) != 0, RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0
+- Found Cryptographic Functions:
+  * [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RSA_public_encrypt, RAND_bytes(m_rand_data, m_rand_length) != 0
 
-- **Weak Encryption Detected**:
-  * EAP: MD5-Challenge with bad length %d (8..%d), hmacWithMD5, d","CODE","CODE","CODE","CODE"],"atm_card_str.ptransaction_date":["DATE","DATE","Datum","DATE","DATE","DATE","DATE"],"atm_card_str.ptransaction_destination":["DEST","DEST","Um, DES-CDMF, EDH-RSA-DES-CBC3-SHA
+- Weak Encryption Detected:
+  * 6MD5 Hash %s for [%pI6c]:%u->[%pI6c]:%u, pbeWithSHA1And40BitRC2-CBC, EAP: received MD5-Response with no data, MD5-sess, ecdsa-with-SHA1
 
-- **Found Hardcoded Base64 Keys**:
-  * z4g8PGjuFxYxE6UzKO8cYaUgcgVp9P1/kdnW/PZwNyJAwLwRpZUIOgs3636CH2UO
+- Found Hardcoded Base64 Keys:
+  * 2QKgkQqVjfnOBhOOpkCHNiwY+5ptehwWcwI2nw+MKp4aP4xEl1HUSpK3UU6jm2yY
 
-- **Potential RSA Private Keys Found**:
+- Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
 
-### Potential Passwords Found
-- **Password**: `BXw6K8YB` | **Found in**: `usr/etc/telnet_cfg`
-- **Password**: `admin` | **Found in**: `usr/data/config.lua`
-- **Password**: `888888` | **Found in**: `usr/data/config.lua`
-- **Password**: `666666` | **Found in**: `usr/data/config.lua`
-- **Password**: `tluafed` | **Found in**: `usr/data/config.lua`
+## Potential Passwords Found
+- **Password**: BXw6K8YB | **Found in**: usr/etc/telnet_cfg
+- **Password**: admin | **Found in**: usr/data/config.lua
+- **Password**: 888888 | **Found in**: usr/data/config.lua
+- **Password**: 666666 | **Found in**: usr/data/config.lua
+- **Password**: tluafed | **Found in**: usr/data/config.lua
 
-</details>
+# Security Details
 
-<details>
-<summary>🛡️ ANALYSING SECURITY DETAILS</summary>
-
-### etc/shadow and etc/passwd files
+## etc/shadow and etc/passwd files
 - etc/passwd
 - Content of etc/passwd:
 root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
@@ -2325,10 +2315,10 @@ root:$1$jSqQv.uP$jgz4lwEx2pnDh4QwXkh06/:0:0:root:/:/bin/sh
 root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
 
 
-### etc/ssl directory files
+## etc/ssl directory files
 - No files found in /etc/ssl directory
 
-### SSL related files
+## SSL related files
 - usr/bin/ssl/pwdreset.pem
 - usr/bin/secboot/public.pem
 - usr/data/ssl/privkey.pem
@@ -2337,12 +2327,12 @@ root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
 - usr/data/ssl/ca.crt
 - usr/data/ssl/ca.key
 
-### Configuration files
+## Configuration files
 - etc/resolv.conf
 - etc/memstat.conf
 - etc/udev/udev.conf
 
-### Script files
+## Script files
 - usr/sbin/.dec.sh
 - usr/etc/load_modules.sh
 - usr/lib/lib.7z.extracted/0/lib/pinmux_hi3521a_i2s.sh
@@ -2352,23 +2342,23 @@ root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
 - usr/lib/lib.7z.extracted/0/lib/pinmux_hi3521a_vga_hdmi_spi.sh
 - usr/lib/lib.7z.extracted/0/lib/load_hisimod.sh
 
-### Other .bin files
+## Other .bin files
 - boot/uImage.extracted/0/Linux-3.10.0.bin
 - boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
 - usr/data/Data/FontSmallEn.bin
 - usr/data/Data/Font.bin
 
-### Keywords found
+## Keywords found
 - **password**: linuxrc, init, sbin/getty, sbin/lsusb, sbin/ifdown, sbin/makedevs, sbin/pppoe, sbin/ifconfig, sbin/chat, sbin/upnp_tv_ctrlpt, sbin/route, sbin/depmod, sbin/insmod, sbin/reboot, sbin/mdev, sbin/ifup, sbin/init, sbin/lsmod, sbin/hdparm, sbin/3gpp, sbin/net3g, sbin/netinit, sbin/halt, sbin/netinit6, sbin/dvrhelper, sbin/inetd, sbin/fdisk, sbin/modprobe, sbin/rmmod, sbin/pppd, sbin/upgraded, sbin/lspci, sbin/poweroff, bin/killall, bin/mknod, bin/cttyhack, bin/touch, bin/free, bin/mesg, bin/df, bin/killall5, bin/tar, bin/msh, bin/umount, bin/nice, bin/gzip, bin/passwd, bin/mv, bin/eject, bin/chat, bin/[, bin/echo, bin/vi, bin/sleep, bin/sync, bin/iproute, bin/mktemp, bin/top, bin/ping6, bin/dnsdomainname, bin/mkdir, bin/dd, bin/ping, bin/printenv, bin/iptunnel, bin/chmod, bin/bootenv, bin/busybox, bin/login, bin/ps, bin/ls, bin/ifenslave, bin/[[, bin/cat, bin/kill, bin/grep, bin/ip, bin/netstat, bin/mount, bin/wget, bin/pwd, bin/awk, bin/p7zip, bin/sh, bin/iprule, bin/iplink, bin/cp, bin/uname, bin/rm, bin/vlock, bin/ash, bin/devmem, bin/hostname, bin/du, bin/gunzip, bin/ipaddr, bin/hush, bin/less, lib/libc.so.0, lib/libuClibc-0.9.33.2.so, web/index.htm, web/olp.js, web/jsCore/rpcCore.js, web/config/index.htm, web/js/wificfg.js, web/js/ddnsconfig.js, web/js/index.js, web/js/connetcfg.js, web/js/findPwd.js, web/js/adddevice.js, web/js/usermanage.js, web/platformHtm/GAYS.htm, web/platformHtm/GAYS.js, web/html/3gnetcfg.htm, web/html/remotestorage.htm, web/html/usermanage.htm, web/html/useronvif.htm, web/html/pppoe.htm, web/html/emailconfig.htm, web/html/wificfg.htm, web/html/adddevice.htm, web/html/ddnsconfig.htm, web/html/iscsiconfig.htm, usr/sbin/usb_modeswitch, usr/sbin/3gpp, usr/bin/Challenge, usr/data/Data/StringAll.7z.extracted/0/StringAll
 - **admin**: linuxrc, init, sbin/getty, sbin/lsusb, sbin/ifdown, sbin/makedevs, sbin/pppoe, sbin/ifconfig, sbin/chat, sbin/upnp_tv_ctrlpt, sbin/route, sbin/depmod, sbin/insmod, sbin/reboot, sbin/mdev, sbin/ifup, sbin/init, sbin/lsmod, sbin/hdparm, sbin/3gpp, sbin/net3g, sbin/netinit, sbin/halt, sbin/netinit6, sbin/dvrhelper, sbin/inetd, sbin/fdisk, sbin/modprobe, sbin/rmmod, sbin/pppd, sbin/upgraded, sbin/lspci, sbin/poweroff, bin/killall, bin/mknod, bin/cttyhack, bin/touch, bin/free, bin/mesg, bin/df, bin/killall5, bin/tar, bin/msh, bin/umount, bin/nice, bin/gzip, bin/passwd, bin/mv, bin/eject, bin/chat, bin/[, bin/echo, bin/vi, bin/sleep, bin/sync, bin/iproute, bin/mktemp, bin/top, bin/ping6, bin/dnsdomainname, bin/mkdir, bin/dd, bin/ping, bin/printenv, bin/iptunnel, bin/chmod, bin/bootenv, bin/busybox, bin/login, bin/ps, bin/ls, bin/ifenslave, bin/[[, bin/cat, bin/kill, bin/grep, bin/ip, bin/netstat, bin/mount, bin/wget, bin/pwd, bin/awk, bin/p7zip, bin/sh, bin/iprule, bin/iplink, bin/cp, bin/uname, bin/rm, bin/vlock, bin/ash, bin/devmem, bin/hostname, bin/du, bin/gunzip, bin/ipaddr, bin/hush, bin/less, web/index.htm, web/jsCore/rpcCore.js, web/config/index.htm, web/js/deviceInitial.js, web/js/loginEx.js, web/js/index.js, web/js/findPwd.js, web/js/adddevice.js, web/js/usermanage.js, web/html/usermanage.htm, web/html/useronvif.htm, web/html/adddevice.htm, usr/sbin/usb_modeswitch, usr/sbin/3gpp, usr/bin/Challenge, usr/data/config.lua, usr/data/Data/StringAll.7z.extracted/0/StringAll
 - **root**: linuxrc, init, sbin/getty, sbin/lsusb, sbin/ifdown, sbin/makedevs, sbin/pppoe, sbin/ifconfig, sbin/chat, sbin/upnp_tv_ctrlpt, sbin/route, sbin/depmod, sbin/insmod, sbin/reboot, sbin/mdev, sbin/ifup, sbin/init, sbin/lsmod, sbin/hdparm, sbin/3gpp, sbin/net3g, sbin/netinit, sbin/halt, sbin/netinit6, sbin/dvrhelper, sbin/inetd, sbin/fdisk, sbin/modprobe, sbin/rmmod, sbin/pppd, sbin/upgraded, sbin/lspci, sbin/poweroff, etc/inittab, etc/passwd, etc/group, etc/passwd-, boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin, bin/killall, bin/mknod, bin/cttyhack, bin/touch, bin/free, bin/mesg, bin/df, bin/killall5, bin/tar, bin/msh, bin/umount, bin/nice, bin/gzip, bin/passwd, bin/mv, bin/eject, bin/chat, bin/[, bin/echo, bin/vi, bin/sleep, bin/sync, bin/iproute, bin/mktemp, bin/top, bin/ping6, bin/dnsdomainname, bin/mkdir, bin/dd, bin/ping, bin/printenv, bin/iptunnel, bin/chmod, bin/bootenv, bin/busybox, bin/login, bin/ps, bin/ls, bin/ifenslave, bin/[[, bin/cat, bin/kill, bin/grep, bin/ip, bin/netstat, bin/mount, bin/wget, bin/pwd, bin/awk, bin/p7zip, bin/sh, bin/iprule, bin/iplink, bin/cp, bin/uname, bin/rm, bin/vlock, bin/ash, bin/devmem, bin/hostname, bin/du, bin/gunzip, bin/ipaddr, bin/hush, bin/less, web/webplugin.exe, web/jsBase/lib/m1.2.js, usr/sbin/usb_modeswitch, usr/sbin/3gpp, usr/bin/Challenge
 - **123456**: lib/libc.so.0, lib/libuClibc-0.9.33.2.so, usr/bin/Challenge, usr/lib/lib.7z.extracted/0/lib/8192eu.ko, usr/lib/lib.7z.extracted/0/lib/8192cu.ko
 
-### Common web servers used on IoT devices
+## Common web servers used on IoT devices
 - usr/bin/Challenge
 - web/js/faceplayback.js
 
-### Common binaries
+## Common binaries
 - etc/ppp/pppoesessionctx
 - bin/sync
 - bin/busybox
@@ -2387,9 +2377,8 @@ root:ab8nBoH3mb8.g:0:0::/root:/bin/sh
 - usr/data/Data/title48/advanced2.bmp
 - usr/data/Data/title48/advanced1.bmp
 
-### URLs, email addresses, and IP addresses found
+## URLs, email addresses, and IP addresses found
 - **URLs**: http://192.168.1.108, http://203.0.113.25, http://amcrest.com, http://orange.instaon.com, http://www.apple.com, http://www.dahuaddns.com, http://www.freebsd.org, http://www.iana.org, http://www.keplerproject.org, http://www.quickddns.com, http://www.w3.org
 - **Emails**: ajt@debian.org, andersen@codepoet.org, resetpwd@cpplusworld.com., support_rpwd@global.dahuatech.com., wang_hengwen@dahuatech.com, wanghw@dhmail.com
 - **IP Addresses**: 0.0.0.0, 0.9.33.2, 1.0.0.1, 1.1.1.1, 10.6.3.213, 10.6.5.52, 110.119.0.1, 110.119.120.1, 127.0.0.1, 172.8.1.176, 192.168.0.0, 192.168.1.1, 192.168.1.108, 192.168.1.240, 192.168.25.22, 203.0.113.25, 224.0.0.0, 239.255.255.255, 255.255.255.0
 
-</details>
