@@ -1,1473 +1,1470 @@
 # Directory Tree Structure
 
-```# Directory Tree Structure
-
-- **bin/**
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - [ `unknown`
-  - [[ `unknown`
-  - ash `unknown`
-  - awk `unknown`
-  - bootenv `unknown`
-  - busybox `unknown`
-  - cat `unknown`
-  - chat `unknown`
-  - chmod `unknown`
-  - cp `unknown`
-  - cttyhack `unknown`
-  - dd `unknown`
-  - devmem `unknown`
-  - df `unknown`
-  - dnsdomainname `unknown`
-  - du `unknown`
-  - echo `unknown`
-  - eject `unknown`
-  - free `unknown`
-  - grep `unknown`
-  - gunzip `unknown`
-  - gzip `unknown`
-  - hostname `unknown`
-  - hush `unknown`
-  - ifenslave `unknown`
-  - ip `unknown`
-  - ipaddr `unknown`
-  - iplink `unknown`
-  - iproute `unknown`
-  - iprule `unknown`
-  - iptunnel `unknown`
-  - kill `unknown`
-  - killall `unknown`
-  - killall5 `unknown`
-  - less `unknown`
-  - login `unknown`
-  - ls `unknown`
-  - mesg `unknown`
-  - mkdir `unknown`
-  - mknod `unknown`
-  - mktemp `unknown`
-  - mount `unknown`
-  - msh `unknown`
-  - mv `unknown`
-  - netstat `unknown`
-  - nice `unknown`
-  - p7zip `unknown`
-  - passwd `unknown`
-  - ping `unknown`
-  - ping6 `unknown`
-  - printenv `unknown`
-  - ps `unknown`
-  - pwd `unknown`
-  - rm `unknown`
-  - sh `unknown`
-  - sleep `unknown`
-  - sync `unknown`
-  - tar `unknown`
-  - top `unknown`
-  - touch `unknown`
-  - umount `unknown`
-  - uname `unknown`
-  - vi `unknown`
-  - vlock `unknown`
-  - wget `unknown`
+```- **bin/**
+  - bin/Data_Signature (data)
+  - bin/SigFileList (ASCII text)
+  - bin/[ (symbolic link to busybox)
+  - bin/[[ (symbolic link to busybox)
+  - bin/ash (symbolic link to busybox)
+  - bin/awk (symbolic link to busybox)
+  - bin/bootenv (symbolic link to busybox)
+  - bin/busybox (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped)
+  - bin/cat (symbolic link to busybox)
+  - bin/chat (symbolic link to busybox)
+  - bin/chmod (symbolic link to busybox)
+  - bin/cp (symbolic link to busybox)
+  - bin/cttyhack (symbolic link to busybox)
+  - bin/dd (symbolic link to busybox)
+  - bin/devmem (symbolic link to busybox)
+  - bin/df (symbolic link to busybox)
+  - bin/dnsdomainname (symbolic link to busybox)
+  - bin/du (symbolic link to busybox)
+  - bin/echo (symbolic link to busybox)
+  - bin/eject (symbolic link to busybox)
+  - bin/free (symbolic link to busybox)
+  - bin/grep (symbolic link to busybox)
+  - bin/gunzip (symbolic link to busybox)
+  - bin/gzip (symbolic link to busybox)
+  - bin/hostname (symbolic link to busybox)
+  - bin/hush (symbolic link to busybox)
+  - bin/ifenslave (symbolic link to busybox)
+  - bin/ip (symbolic link to busybox)
+  - bin/ipaddr (symbolic link to busybox)
+  - bin/iplink (symbolic link to busybox)
+  - bin/iproute (symbolic link to busybox)
+  - bin/iprule (symbolic link to busybox)
+  - bin/iptunnel (symbolic link to busybox)
+  - bin/kill (symbolic link to busybox)
+  - bin/killall (symbolic link to busybox)
+  - bin/killall5 (symbolic link to busybox)
+  - bin/less (symbolic link to busybox)
+  - bin/login (symbolic link to busybox)
+  - bin/ls (symbolic link to busybox)
+  - bin/mesg (symbolic link to busybox)
+  - bin/mkdir (symbolic link to busybox)
+  - bin/mknod (symbolic link to busybox)
+  - bin/mktemp (symbolic link to busybox)
+  - bin/mount (symbolic link to busybox)
+  - bin/msh (symbolic link to busybox)
+  - bin/mv (symbolic link to busybox)
+  - bin/netstat (symbolic link to busybox)
+  - bin/nice (symbolic link to busybox)
+  - bin/p7zip (symbolic link to busybox)
+  - bin/passwd (symbolic link to busybox)
+  - bin/ping (symbolic link to busybox)
+  - bin/ping6 (symbolic link to busybox)
+  - bin/printenv (symbolic link to busybox)
+  - bin/ps (symbolic link to busybox)
+  - bin/pwd (symbolic link to busybox)
+  - bin/rm (symbolic link to busybox)
+  - bin/sh (symbolic link to busybox)
+  - bin/sleep (symbolic link to busybox)
+  - bin/sync (symbolic link to busybox)
+  - bin/tar (symbolic link to busybox)
+  - bin/top (symbolic link to busybox)
+  - bin/touch (symbolic link to busybox)
+  - bin/umount (symbolic link to busybox)
+  - bin/uname (symbolic link to busybox)
+  - bin/vi (symbolic link to busybox)
+  - bin/vlock (symbolic link to busybox)
+  - bin/wget (symbolic link to busybox)
 - **boot/**
-  - uImage `unknown`
-  - **uImage.extracted/**
-    - **0/**
-      - Linux-3.10.0.bin `bin`
-      - **Linux-3.10.0.bin.extracted/**
-        - **1F58/**
-          - decompressed.bin `bin`
-          - **decompressed.bin.extracted/**
-            - **52C6A0/**
-              - **dev/**
-                - console `unknown`
-              - **root/**
+  - boot/uImage (u-boot legacy uImage, Linux-3.10.0, Linux/ARM, OS Kernel Image (Not compressed), 2193136 bytes, Mon Oct 16 03:30:12 2017, Load Address: 0X80008000, Entry Point: 0X80008000, Header CRC: 0XD6076B1F, Data CRC: 0X90665D3C)
+  - **boot/uImage.extracted/**
+    - **boot/uImage.extracted/0/**
+      - boot/uImage.extracted/0/Linux-3.10.0.bin (Linux kernel ARM boot executable zImage (little-endian))
+      - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/**
+        - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/**
+          - boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin (data)
+          - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/**
+            - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/**
+              - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/dev/**
+              - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/root/**
 - **dev/**
 - **etc/**
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - SigFilePartition `unknown`
-  - **Wireless/**
-    - **RT2870STA/**
-      - RT2870STA.dat `dat`
-  - fs-version `unknown`
-  - fstab `unknown`
-  - group `unknown`
-  - **init.d/**
-    - S00devs `unknown`
-    - S01udev `unknown`
-    - S02wndev `unknown`
-    - S80network `unknown`
-    - S81toe `unknown`
-    - S99dh `unknown`
-    - rcS `unknown`
-  - inittab `unknown`
-  - mactab `unknown`
-  - memstat.conf `conf`
-  - mtab `unknown`
-  - passwd `unknown`
-  - passwd- `unknown`
-  - **ppp/**
-    - options `unknown`
-    - pap-secrets `unknown`
-    - pppoe-enable `unknown`
-    - pppoe-redial_time `unknown`
-    - pppoe-start `unknown`
-    - pppoesessionctx `unknown`
-  - profile `unknown`
-  - protocols `unknown`
-  - resolv.conf `conf`
-  - services `unknown`
-  - **udev/**
-    - **rules.d/**
-      - 54-gphoto.rules `rules`
-      - 60-pcmcia.rules `rules`
-      - 75-cd-aliases-generator.rules.optional `optional`
-      - 75-persistent-net-generator.rules.optional `optional`
-      - 90-hal.rules `rules`
-      - 97-bluetooth-serial.rules `rules`
-      - 99-fuse.rules `rules`
-      - device-mapper.rules `rules`
-    - udev.conf `conf`
+  - etc/Data_Signature (data)
+  - etc/SigFileList (ASCII text)
+  - etc/SigFilePartition (ASCII text)
+  - **etc/Wireless/**
+    - **etc/Wireless/RT2870STA/**
+      - etc/Wireless/RT2870STA/RT2870STA.dat (ASCII text)
+  - etc/fs-version (ASCII text, with CRLF line terminators)
+  - etc/fstab (ASCII text)
+  - etc/group (ASCII text)
+  - **etc/init.d/**
+    - etc/init.d/S00devs (POSIX shell script, ASCII text executable)
+    - etc/init.d/S01udev (POSIX shell script, ASCII text executable)
+    - etc/init.d/S02wndev (Bourne-Again shell script, ASCII text executable)
+    - etc/init.d/S80network (POSIX shell script, ASCII text executable)
+    - etc/init.d/S81toe (POSIX shell script, ASCII text executable)
+    - etc/init.d/S99dh (POSIX shell script, ASCII text executable)
+    - etc/init.d/rcS (POSIX shell script, ASCII text executable)
+  - etc/inittab (ASCII text)
+  - etc/mactab (empty)
+  - etc/memstat.conf (ASCII text, with CRLF line terminators)
+  - etc/mtab (ASCII text)
+  - etc/passwd (ASCII text)
+  - etc/passwd- (ASCII text)
+  - **etc/ppp/**
+    - etc/ppp/options (symbolic link to /dev/null)
+    - etc/ppp/pap-secrets (symbolic link to /dev/null)
+    - etc/ppp/pppoe-enable (symbolic link to /dev/null)
+    - etc/ppp/pppoe-redial_time (symbolic link to /dev/null)
+    - etc/ppp/pppoe-start (symbolic link to /dev/null)
+    - etc/ppp/pppoesessionctx (symbolic link to /dev/null)
+  - etc/profile (ASCII text, with CR, LF line terminators, with escape sequences)
+  - etc/protocols (ASCII text)
+  - etc/resolv.conf (symbolic link to /dev/null)
+  - etc/services (ASCII text)
+  - **etc/udev/**
+    - **etc/udev/rules.d/**
+      - etc/udev/rules.d/54-gphoto.rules (ASCII text)
+      - etc/udev/rules.d/60-pcmcia.rules (ASCII text)
+      - etc/udev/rules.d/75-cd-aliases-generator.rules.optional (ASCII text)
+      - etc/udev/rules.d/75-persistent-net-generator.rules.optional (ASCII text)
+      - etc/udev/rules.d/90-hal.rules (ASCII text)
+      - etc/udev/rules.d/97-bluetooth-serial.rules (ASCII text)
+      - etc/udev/rules.d/99-fuse.rules (ASCII text)
+      - etc/udev/rules.d/device-mapper.rules (ASCII text)
+    - etc/udev/udev.conf (ASCII text)
 - **home/**
-- init `unknown`
+- init (symbolic link to sbin/init)
 - **lib/**
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - ld-uClibc-0.9.33.2.so `so`
-  - ld-uClibc.so.0 `0`
-  - libc.so.0 `0`
-  - libcrypt-0.9.33.2.so `so`
-  - libcrypt.so.0 `0`
-  - libdl-0.9.33.2.so `so`
-  - libdl.so.0 `0`
-  - libgcc_s.so.1 `1`
-  - libhive_RES.so `so`
-  - libhive_common.so `so`
-  - libm-0.9.33.2.so `so`
-  - libm.so.0 `0`
-  - libpthread-0.9.33.2.so `so`
-  - libpthread.so.0 `0`
-  - librt-0.9.33.2.so `so`
-  - librt.so.0 `0`
-  - libstdc++.so.6 `6`
-  - libthread_db-0.9.33.2.so `so`
-  - libthread_db.so.1 `1`
-  - libuClibc-0.9.33.2.so `so`
-  - libutil-0.9.33.2.so `so`
-  - libutil.so.0 `0`
-- linuxrc `unknown`
+  - lib/Data_Signature (data)
+  - lib/SigFileList (ASCII text)
+  - lib/ld-uClibc-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), static-pie linked, stripped)
+  - lib/ld-uClibc.so.0 (symbolic link to ld-uClibc-0.9.33.2.so)
+  - lib/libc.so.0 (symbolic link to libuClibc-0.9.33.2.so)
+  - lib/libcrypt-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libcrypt.so.0 (symbolic link to libcrypt-0.9.33.2.so)
+  - lib/libdl-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libdl.so.0 (symbolic link to libdl-0.9.33.2.so)
+  - lib/libgcc_s.so.1 (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped)
+  - lib/libhive_RES.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped)
+  - lib/libhive_common.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, not stripped)
+  - lib/libm-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libm.so.0 (symbolic link to libm-0.9.33.2.so)
+  - lib/libpthread-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libpthread.so.0 (symbolic link to libpthread-0.9.33.2.so)
+  - lib/librt-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/librt.so.0 (symbolic link to librt-0.9.33.2.so)
+  - lib/libstdc++.so.6 (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped)
+  - lib/libthread_db-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libthread_db.so.1 (symbolic link to libthread_db-0.9.33.2.so)
+  - lib/libuClibc-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libutil-0.9.33.2.so (ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, stripped)
+  - lib/libutil.so.0 (symbolic link to libutil-0.9.33.2.so)
+- linuxrc (symbolic link to bin/busybox)
 - **mnt/**
-  - **custom/**
-  - **dvs/**
-  - **logo/**
-  - **mtd/**
-    - **Config/**
-      - **ppp/**
-    - **ppp/**
-  - **nfs/**
-  - **web/**
+  - **mnt/custom/**
+  - **mnt/dvs/**
+  - **mnt/logo/**
+  - **mnt/mtd/**
+    - **mnt/mtd/Config/**
+      - **mnt/mtd/Config/ppp/**
+    - **mnt/mtd/ppp/**
+  - **mnt/nfs/**
+  - **mnt/web/**
 - **nfs/**
 - **proc/**
-  - **dahua/**
+  - **proc/dahua/**
 - **root/**
 - **sbin/**
-  - 3gpp `unknown`
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - chat `unknown`
-  - depmod `unknown`
-  - dvrhelper `unknown`
-  - fdisk `unknown`
-  - getty `unknown`
-  - halt `unknown`
-  - hdparm `unknown`
-  - ifconfig `unknown`
-  - ifdown `unknown`
-  - ifup `unknown`
-  - inetd `unknown`
-  - init `unknown`
-  - insmod `unknown`
-  - lsmod `unknown`
-  - lspci `unknown`
-  - lsusb `unknown`
-  - makedevs `unknown`
-  - mdev `unknown`
-  - modprobe `unknown`
-  - net3g `unknown`
-  - netinit `unknown`
-  - netinit6 `unknown`
-  - poweroff `unknown`
-  - pppd `unknown`
-  - pppoe `unknown`
-  - pppoe-start `unknown`
-  - reboot `unknown`
-  - rmmod `unknown`
-  - route `unknown`
-  - snmpd `unknown`
-  - upgraded `unknown`
-  - upnp_tv_ctrlpt `unknown`
+  - sbin/3gpp (symbolic link to ./pppd)
+  - sbin/Data_Signature (data)
+  - sbin/SigFileList (ASCII text)
+  - sbin/chat (symbolic link to ../bin/busybox)
+  - sbin/depmod (symbolic link to ../bin/busybox)
+  - sbin/dvrhelper (symbolic link to ../bin/busybox)
+  - sbin/fdisk (symbolic link to ../bin/busybox)
+  - sbin/getty (symbolic link to ../bin/busybox)
+  - sbin/halt (symbolic link to ../bin/busybox)
+  - sbin/hdparm (symbolic link to ../bin/busybox)
+  - sbin/ifconfig (symbolic link to ../bin/busybox)
+  - sbin/ifdown (symbolic link to ../bin/busybox)
+  - sbin/ifup (symbolic link to ../bin/busybox)
+  - sbin/inetd (symbolic link to ../bin/busybox)
+  - sbin/init (symbolic link to ../bin/busybox)
+  - sbin/insmod (symbolic link to ../bin/busybox)
+  - sbin/lsmod (symbolic link to ../bin/busybox)
+  - sbin/lspci (symbolic link to ../bin/busybox)
+  - sbin/lsusb (symbolic link to ../bin/busybox)
+  - sbin/makedevs (symbolic link to ../bin/busybox)
+  - sbin/mdev (symbolic link to ../bin/busybox)
+  - sbin/modprobe (symbolic link to ../bin/busybox)
+  - sbin/net3g (symbolic link to ../bin/busybox)
+  - sbin/netinit (symbolic link to ../bin/busybox)
+  - sbin/netinit6 (symbolic link to ../bin/busybox)
+  - sbin/poweroff (symbolic link to ../bin/busybox)
+  - sbin/pppd (symbolic link to ../bin/busybox)
+  - sbin/pppoe (symbolic link to ../bin/busybox)
+  - sbin/pppoe-start (POSIX shell script, ASCII text executable)
+  - sbin/reboot (symbolic link to ../bin/busybox)
+  - sbin/rmmod (symbolic link to ../bin/busybox)
+  - sbin/route (symbolic link to ../bin/busybox)
+  - sbin/snmpd (symbolic link to ../var/Challenge)
+  - sbin/upgraded (symbolic link to ../bin/busybox)
+  - sbin/upnp_tv_ctrlpt (symbolic link to ../bin/busybox)
 - **share/**
 - **slave/**
 - **sys/**
 - **tmp/**
-  - daemon `unknown`
-  - daemon1 `unknown`
-  - daemon2 `unknown`
-  - **wireless/**
-    - 1 `unknown`
-    - 108 `unknown`
-    - 81 `unknown`
-    - 99 `unknown`
+  - tmp/daemon (ASCII text)
+  - tmp/daemon1 (Bourne-Again shell script, ASCII text executable)
+  - tmp/daemon2 (ASCII text)
+  - **tmp/wireless/**
+    - tmp/wireless/1 (empty)
+    - tmp/wireless/108 (empty)
+    - tmp/wireless/81 (empty)
+    - tmp/wireless/99 (empty)
 - **usr/**
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - **bin/**
-    - Challenge `unknown`
-    - DahuaExec `unknown`
-    - **lua/**
-      - ATMCtrl.lua `lua`
-      - ATMHead.lua `lua`
-      - LiveUpdate.lua `lua`
-      - PTZCtrl.lua `lua`
-      - **com/**
-        - ParseKLPOSStr.lua `lua`
-      - compat-5.1.lua `lua`
-      - init.lua `lua`
-      - **ptz/**
-        - AD1641M.lua `lua`
-        - ADMatrix.lua `lua`
-        - Banknote.lua `lua`
-        - CATU.lua `lua`
-        - CP-CVI.lua `lua`
-        - CP-CVI2.0.lua `lua`
-        - DH-CC440.lua `lua`
-        - DH-MATRIX.lua `lua`
-        - DH-SD1.lua `lua`
-        - DH-SD2.lua `lua`
-        - EPTZ.lua `lua`
-        - General.lua `lua`
-        - HAIYU.lua `lua`
-        - HY.lua `lua`
-        - LG.lua `lua`
-        - LiLin.lua `lua`
-        - Mercer-1.lua `lua`
-        - Mercer.lua `lua`
-        - PANASONIC.lua `lua`
-        - PELCOD-MING.lua `lua`
-        - PELCOD-S.lua `lua`
-        - PELCOD-S1.lua `lua`
-        - PHILIPS.lua `lua`
-        - PIH-717.lua `lua`
-        - Pe5051k.lua `lua`
-        - Pelco-9750.lua `lua`
-        - PelcoASCII.lua `lua`
-        - PelcoD-DON.lua `lua`
-        - PelcoD.lua `lua`
-        - PelcoD1.lua `lua`
-        - PelcoD1_Tour.lua `lua`
-        - PelcoD_Tour.lua `lua`
-        - PelcoP-A.lua `lua`
-        - PelcoP-HK.lua `lua`
-        - PelcoP-SD.lua `lua`
-        - PelcoP.lua `lua`
-        - PelcoP1-A.lua `lua`
-        - PelcoP1.lua `lua`
-        - PelcoP5.lua `lua`
-        - QT-2XXD.lua `lua`
-        - RM110.lua `lua`
-        - SAE.lua `lua`
-        - SANLI.lua `lua`
-        - SANTACHI.lua `lua`
-        - SHARP.lua `lua`
-        - SIERA-D.lua `lua`
-        - SIERA-P.lua `lua`
-        - SONY.lua `lua`
-        - SUNKWANG.lua `lua`
-        - Samsung.lua `lua`
-        - Videon-X.lua `lua`
-        - Videon_D.lua `lua`
-        - Videon_P.lua `lua`
-        - WV-CS850I.lua `lua`
-        - WV-CS850II.lua `lua`
-        - WV-CS950.lua `lua`
-        - Yaan.lua `lua`
-      - utils.lua `lua`
-    - **secboot/**
-      - public.pem `pem`
-    - **ssl/**
-      - pwdreset.pem `pem`
-  - **data/**
-    - CustomConfig `unknown`
-    - **Data/**
-      - **DeviceSecurity/**
-        - PatternNormal.png `png`
-        - PatternSelect.png `png`
-        - device_init_step1.png `png`
-        - device_init_step1_finish.png `png`
-        - device_init_step2.png `png`
-        - device_init_step2_finish.png `png`
-        - device_init_step3.png `png`
-        - device_init_step3_finish.png `png`
-        - headPic.png `png`
-        - progress0.png `png`
-        - progress1.png `png`
-        - progress2.png `png`
-        - progress3.png `png`
-        - progress4.png `png`
-        - progress5.png `png`
-        - progress6.png `png`
-        - progress7.png `png`
-        - progress8.png `png`
-        - progress9.png `png`
-      - Font.bin `bin`
-      - FontSmallEn.bin `bin`
-      - **Intell/**
-        - CrossLineDetection.png `png`
-        - CrossRegionDetection.png `png`
-        - LeftDetection.png `png`
-        - TakenAwayDetection.png `png`
-        - bmp_intellback.png `png`
-        - button_set_disable.bmp `bmp`
-        - button_set_normal.bmp `bmp`
-        - button_set_push.bmp `bmp`
-        - checkbox_intelli_0_disable.bmp `bmp`
-        - checkbox_intelli_0_normal.bmp `bmp`
-        - checkbox_intelli_1_disable.bmp `bmp`
-        - checkbox_intelli_1_normal.bmp `bmp`
-        - checkbox_intelli_disable.png `png`
-        - checkbox_intelli_disableselect.png `png`
-        - checkbox_intelli_enable.png `png`
-        - checkbox_intelli_enableselect.png `png`
-        - delete_normal.bmp `bmp`
-        - delete_select.bmp `bmp`
-        - filteredit_normal.bmp `bmp`
-        - filteredit_select.bmp `bmp`
-      - **NavigationBar/**
-        - Separator.png `png`
-        - alert_normal.png `png`
-        - alert_select.png `png`
-        - channel_info_normal.png `png`
-        - channel_info_select.png `png`
-        - channel_tree_normal.png `png`
-        - channel_tree_select.png `png`
-        - collect_normal.png `png`
-        - collect_select.png `png`
-        - colorSet_normal.png `png`
-        - colorSet_select.png `png`
-        - disk_error.png `png`
-        - disk_error_select.png `png`
-        - disk_normal.png `png`
-        - disk_notexist.png `png`
-        - disk_notexist_select.png `png`
-        - disk_select.png `png`
-        - home_normal.png `png`
-        - home_select.png `png`
-        - left_normal.png `png`
-        - left_select.png `png`
-        - menu_exp.png `png`
-        - net_abort.png `png`
-        - net_abort_select.png `png`
-        - net_arp.png `png`
-        - net_arp_select.png `png`
-        - network_connected_normal.png `png`
-        - network_connected_select.png `png`
-        - next_screen_normal.png `png`
-        - next_screen_select.png `png`
-        - playback_normal.png `png`
-        - playback_select.png `png`
-        - prev_screen_normal.png `png`
-        - prev_screen_select.png `png`
-        - ptz_normal.png `png`
-        - ptz_select.png `png`
-        - remote_normal.png `png`
-        - remote_select.png `png`
-        - right_normal.png `png`
-        - right_select.png `png`
-        - tour_disable_normal.png `png`
-        - tour_disable_select.png `png`
-        - tour_enable_normal.png `png`
-        - tour_enable_select.png `png`
-        - usb_normal.png `png`
-        - usb_select.png `png`
-        - windows16_normal.png `png`
-        - windows16_select.png `png`
-        - windows1_normal.png `png`
-        - windows1_select.png `png`
-        - windows25_normal.png `png`
-        - windows25_select.png `png`
-        - windows32_normal.png `png`
-        - windows32_select.png `png`
-        - windows4_normal.png `png`
-        - windows4_select.png `png`
-        - windows6_normal.png `png`
-        - windows6_select.png `png`
-        - windows8_normal.png `png`
-        - windows8_select.png `png`
-        - windows9_normal.png `png`
-        - windows9_select.png `png`
-      - **RealPlay/**
-        - audio_close_normal.png `png`
-        - audio_close_selected.png `png`
-        - audio_disable.png `png`
-        - audio_open_normal.png `png`
-        - audio_open_selected.png `png`
-        - audiotalk_disable.png `png`
-        - audiotalk_normal.png `png`
-        - audiotalk_push.png `png`
-        - audiotalk_selected.png `png`
-        - block_disable.png `png`
-        - block_normal.png `png`
-        - block_selected.png `png`
-        - close_normal.png `png`
-        - close_selected.png `png`
-        - disable.png `png`
-        - hover.png `png`
-        - manual_snap_disable.png `png`
-        - manual_snap_normal.png `png`
-        - manual_snap_on_normal.png `png`
-        - manual_snap_on_select.png `png`
-        - manual_snap_selected.png `png`
-        - menuplay_backcolor.png `png`
-        - netcameraedit_disable.png `png`
-        - netcameraedit_normal.png `png`
-        - netcameraedit_selected.png `png`
-        - normal.png `png`
-        - pause_normal.png `png`
-        - pause_selected.png `png`
-        - play_normal.png `png`
-        - play_selected.png `png`
-        - play_slider_background.png `png`
-        - play_slider_elapsed.png `png`
-        - realbk_disable.png `png`
-        - realbk_normal.png `png`
-        - realbk_on_normal.png `png`
-        - realbk_on_selected.png `png`
-        - realbk_selected.png `png`
-        - realplay_normal.png `png`
-        - realplay_selected.png `png`
-        - zoomin_normal.png `png`
-        - zoomin_on_normal.png `png`
-        - zoomin_on_selected.png `png`
-        - zoomin_selected.png `png`
-      - StringAll.7z `7z`
-      - **StringAll.7z.extracted/**
-        - **0/**
-          - StringAll `unknown`
-      - **afterSaleService/**
-        - DahuaTechnology.png `png`
-        - after_sale_service.png `png`
-        - after_sale_service1.png `png`
-        - after_sale_service2.png `png`
-      - **colorSettingPage/**
-        - Brightness.png `png`
-        - Contrast.png `png`
-        - EqLevel.png `png`
-        - Gamma.png `png`
-        - Hue.png `png`
-        - Saturation.png `png`
-        - VideoPosition.png `png`
-        - colorSet_normal.png `png`
-        - plus0.png `png`
-        - plus1.png `png`
-        - plus2.png `png`
-        - plus3.png `png`
-        - reset0.png `png`
-        - reset1.png `png`
-        - reset2.png `png`
-        - reset3.png `png`
-        - subtractive0.png `png`
-        - subtractive1.png `png`
-        - subtractive2.png `png`
-        - subtractive3.png `png`
-        - unlock_disable.png `png`
-        - unlock_normal.png `png`
-        - unlock_select.png `png`
-      - **ctrl/**
-        - **button/**
-          - button_disable.bmp `bmp`
-          - button_normal.bmp `bmp`
-          - button_push.bmp `bmp`
-          - button_select.bmp `bmp`
-      - **cursors/**
-        - arrow.cur `cur`
-        - busy.cur `cur`
-        - hand.cur `cur`
-        - move.cur `cur`
-        - size1.cur `cur`
-        - size2.cur `cur`
-        - size3.cur `cur`
-        - size4.cur `cur`
-        - wait.cur `cur`
-        - zoomin.cur `cur`
-      - **desktopPage/**
-        - 3G_pppon.bmp `bmp`
-        - 4G_pppon.bmp `bmp`
-        - channel_state_lock.bmp `bmp`
-        - channel_state_mtd.bmp `bmp`
-        - channel_state_vls.bmp `bmp`
-        - tour_disable.bmp `bmp`
-        - tour_enable.bmp `bmp`
-        - wifi_enable.bmp `bmp`
-      - **exitPage/**
-        - logout1.png `png`
-        - logout2.png `png`
-        - reboot1.png `png`
-        - reboot2.png `png`
-        - shutdown1.png `png`
-        - shutdown2.png `png`
-      - **faceplayer/**
-        - face_export_normal.png `png`
-        - face_export_select.png `png`
-        - face_search_disable.png `png`
-        - face_search_normal.png `png`
-        - face_search_select.png `png`
-        - firstpage_disable.bmp `bmp`
-        - firstpage_normal.bmp `bmp`
-        - firstpage_push.bmp `bmp`
-        - firstpage_select.bmp `bmp`
-        - lastpage_disable.bmp `bmp`
-        - lastpage_normal.bmp `bmp`
-        - lastpage_push.bmp `bmp`
-        - lastpage_select.bmp `bmp`
-        - left_select.bmp `bmp`
-        - play_back_disable.png `png`
-        - play_back_normal.png `png`
-        - play_back_pause_disable.bmp `bmp`
-        - play_back_pause_normal.bmp `bmp`
-        - play_back_pause_push.bmp `bmp`
-        - play_back_pause_select.bmp `bmp`
-        - play_back_push.png `png`
-        - play_back_select.png `png`
-        - play_fast_disable.png `png`
-        - play_fast_normal.png `png`
-        - play_fast_push.png `png`
-        - play_fast_select.png `png`
-        - play_nextframe_disable.png `png`
-        - play_nextframe_normal.png `png`
-        - play_nextframe_push.png `png`
-        - play_nextframe_select.png `png`
-        - play_pause_disable.bmp `bmp`
-        - play_pause_normal.bmp `bmp`
-        - play_pause_push.bmp `bmp`
-        - play_pause_select.bmp `bmp`
-        - play_preframe_disable.png `png`
-        - play_preframe_normal.png `png`
-        - play_preframe_push.png `png`
-        - play_preframe_select.png `png`
-        - play_slow_disable.png `png`
-        - play_slow_normal.png `png`
-        - play_slow_push.png `png`
-        - play_slow_select.png `png`
-        - play_start_disable.png `png`
-        - play_start_normal.png `png`
-        - play_start_push.png `png`
-        - play_start_select.png `png`
-        - play_stop_disable.png `png`
-        - play_stop_normal.png `png`
-        - play_stop_push.png `png`
-        - play_stop_select.png `png`
-        - play_volume_background.png `png`
-        - play_volume_disable.bmp `bmp`
-        - play_volume_elapsed.png `png`
-        - play_volume_normal.bmp `bmp`
-        - play_volume_select.bmp `bmp`
-        - right_select.bmp `bmp`
-      - **guiCtrls/**
-        - disable_select.png `png`
-        - expand1.bmp `bmp`
-        - expand2.bmp `bmp`
-        - netCameraButton.bmp `bmp`
-        - password_tip_disable.png `png`
-        - password_tip_normal.png `png`
-        - password_tip_select.png `png`
-        - retrieve_password_disable.png `png`
-        - retrieve_password_normal.png `png`
-        - retrieve_password_select.png `png`
-        - select_hover.png `png`
-        - select_hover_noamal.png `png`
-        - shrink1.bmp `bmp`
-        - shrink2.bmp `bmp`
-        - signal_select.png `png`
-        - smart_disable.png `png`
-        - smart_error.png `png`
-        - smart_ok.png `png`
-        - zhaohuimima_disable.png `png`
-        - zhaohuimima_normal.png `png`
-        - zhaohuimima_select.png `png`
-      - **infoOnlineUserPage/**
-        - shield_normal.png `png`
-        - shield_push.png `png`
-      - **mainMenu/**
-        - 16split_normal.png `png`
-        - 1split_normal.png `png`
-        - 3G.png `png`
-        - 4split_normal.png `png`
-        - 6split_normal.png `png`
-        - 8split_normal.png `png`
-        - 9split_normal.png `png`
-        - autoPtz_normal.png `png`
-        - blank_normal.bmp `bmp`
-        - cameraattribute_normal.png `png`
-        - colorSet_normal.png `png`
-        - config_guide_normal.png `png`
-        - customsplit_normal.png `png`
-        - face_search.bmp `bmp`
-        - face_search.png `png`
-        - main_normal.png `png`
-        - matrix_normal.png `png`
-        - netCamera_normal.png `png`
-        - next_screen_normal.png `png`
-        - originRate_normal.bmp `bmp`
-        - outmode_normal.png `png`
-        - previous_screen_normal.png `png`
-        - ptz_normal.png `png`
-        - record_normal.png `png`
-        - search_normal.png `png`
-      - **mainPage/**
-        - advanced1.bmp `bmp`
-        - advanced2.bmp `bmp`
-        - backup1.bmp `bmp`
-        - backup2.bmp `bmp`
-        - config1.bmp `bmp`
-        - config2.bmp `bmp`
-        - exit1.bmp `bmp`
-        - exit2.bmp `bmp`
-        - info1.bmp `bmp`
-        - info2.bmp `bmp`
-        - search1.bmp `bmp`
-        - search2.bmp `bmp`
-      - **menu/**
-        - tpl_menu_bar.bmp `bmp`
-        - tpl_menu_popup_item2.bmp `bmp`
-        - tpl_menu_popup_with_title.bmp `bmp`
-        - tpl_menu_popup_without_title.bmp `bmp`
-      - **motionSetPage/**
-        - blue_down.png `png`
-        - blue_normal.png `png`
-        - blue_select.png `png`
-        - green_down.png `png`
-        - green_normal.png `png`
-        - green_select.png `png`
-        - orange_down.png `png`
-        - orange_normal.png `png`
-        - orange_select.png `png`
-        - yellow_down.png `png`
-        - yellow_normal.png `png`
-        - yellow_select.png `png`
-      - **netCameraPage/**
-        - remotdev_editipc_disable.png `png`
-        - remotdev_editipc_normal.png `png`
-        - remotdev_editipc_selected.png `png`
-      - **player/**
-        - IVS_select.png `png`
-        - advanced_search_disable.png `png`
-        - advanced_search_normal.png `png`
-        - advanced_search_select.png `png`
-        - back.bmp `bmp`
-        - bmp_backup.bmp `bmp`
-        - bmp_backup.png `png`
-        - bmp_card.png `png`
-        - bmp_channel.png `png`
-        - bmp_time.png `png`
-        - bmp_txn_error.png `png`
-        - bmp_txn_money.png `png`
-        - bmp_txn_type.png `png`
-        - button_close_disabled.bmp `bmp`
-        - button_close_normal.bmp `bmp`
-        - button_close_pushed.bmp `bmp`
-        - button_close_selected.bmp `bmp`
-        - **calendar/**
-          - arraw_disable.bmp `bmp`
-          - arraw_disable1.bmp `bmp`
-          - arraw_normal.bmp `bmp`
-          - arraw_normal1.bmp `bmp`
-          - arraw_push.bmp `bmp`
-          - arraw_push1.bmp `bmp`
-          - arraw_select.bmp `bmp`
-          - arraw_select1.bmp `bmp`
-          - buttom_left.png `png`
-          - buttom_right.png `png`
-          - button_left.png `png`
-          - button_right.png `png`
-          - day_normal.bmp `bmp`
-          - day_recday.bmp `bmp`
-          - day_selected.bmp `bmp`
-        - camera_disable.png `png`
-        - camera_normal.png `png`
-        - camera_push.png `png`
-        - camera_select.png `png`
-        - checkbox_alarm_0_disable.bmp `bmp`
-        - checkbox_alarm_0_normal.bmp `bmp`
-        - checkbox_alarm_1_disable.bmp `bmp`
-        - checkbox_alarm_1_normal.bmp `bmp`
-        - checkbox_all_0_disable.bmp `bmp`
-        - checkbox_all_0_normal.bmp `bmp`
-        - checkbox_all_1_disable.bmp `bmp`
-        - checkbox_all_1_normal.bmp `bmp`
-        - checkbox_common_0_disable.bmp `bmp`
-        - checkbox_common_0_normal.bmp `bmp`
-        - checkbox_common_1_disable.bmp `bmp`
-        - checkbox_common_1_normal.bmp `bmp`
-        - checkbox_motion_0_disable.bmp `bmp`
-        - checkbox_motion_0_normal.bmp `bmp`
-        - checkbox_motion_1_disable.bmp `bmp`
-        - checkbox_motion_1_normal.bmp `bmp`
-        - clip_disable.png `png`
-        - clip_end_normal.bmp `bmp`
-        - clip_normal.png `png`
-        - clip_push.png `png`
-        - clip_save_disable.png `png`
-        - clip_save_normal.png `png`
-        - clip_save_push.png `png`
-        - clip_save_select.png `png`
-        - clip_select.png `png`
-        - clip_start_normal.bmp `bmp`
-        - close_filelist_disable.png `png`
-        - close_filelist_normal.png `png`
-        - close_filelist_push.png `png`
-        - close_filelist_select.png `png`
-        - fast.bmp `bmp`
-        - fastback.bmp `bmp`
-        - fileLocked.bmp `bmp`
-        - file_list_disable.png `png`
-        - file_list_normal.png `png`
-        - file_list_push.png `png`
-        - file_list_select.png `png`
-        - grid_1hr_disable.png `png`
-        - grid_1hr_normal.png `png`
-        - grid_1hr_push.png `png`
-        - grid_1hr_select.png `png`
-        - grid_24hr_disable.png `png`
-        - grid_24hr_normal.png `png`
-        - grid_24hr_push.png `png`
-        - grid_24hr_select.png `png`
-        - grid_2hr_disable.png `png`
-        - grid_2hr_normal.png `png`
-        - grid_2hr_push.png `png`
-        - grid_2hr_select.png `png`
-        - grid_30min_disable.png `png`
-        - grid_30min_normal.png `png`
-        - grid_30min_push.png `png`
-        - grid_30min_select.png `png`
-        - ivs_config.png `png`
-        - ivs_disable.png `png`
-        - ivs_normal.png `png`
-        - ivs_push.png `png`
-        - lockRecSearch_disable.png `png`
-        - lockRecSearch_normal.png `png`
-        - lockRecSearch_push.png `png`
-        - lockRecSearch_selected.png `png`
-        - pause.bmp `bmp`
-        - play.bmp `bmp`
-        - play_back_disable.png `png`
-        - play_back_normal.png `png`
-        - play_back_pause_disable.png `png`
-        - play_back_pause_normal.png `png`
-        - play_back_pause_push.png `png`
-        - play_back_pause_select.png `png`
-        - play_back_push.png `png`
-        - play_back_select.png `png`
-        - play_fast_disable.png `png`
-        - play_fast_normal.png `png`
-        - play_fast_push.png `png`
-        - play_fast_select.png `png`
-        - play_frame_bottom.png `png`
-        - play_frame_interval.png `png`
-        - play_frame_repeat.png `png`
-        - play_frame_top.png `png`
-        - play_nextday_disable.png `png`
-        - play_nextday_normal.png `png`
-        - play_nextday_push.png `png`
-        - play_nextday_select.png `png`
-        - play_nextframe_disable.png `png`
-        - play_nextframe_normal.png `png`
-        - play_nextframe_push.png `png`
-        - play_nextframe_select.png `png`
-        - play_pause_disable.png `png`
-        - play_pause_normal.png `png`
-        - play_pause_push.png `png`
-        - play_pause_select.png `png`
-        - play_preframe_disable.png `png`
-        - play_preframe_normal.png `png`
-        - play_preframe_push.png `png`
-        - play_preframe_select.png `png`
-        - play_prevday_disable.png `png`
-        - play_prevday_normal.png `png`
-        - play_prevday_push.png `png`
-        - play_prevday_select.png `png`
-        - play_slider_background.png `png`
-        - play_slider_elapsed.png `png`
-        - play_slow_disable.png `png`
-        - play_slow_normal.png `png`
-        - play_slow_push.png `png`
-        - play_slow_select.png `png`
-        - play_start_disable.png `png`
-        - play_start_normal.png `png`
-        - play_start_push.png `png`
-        - play_start_select.png `png`
-        - play_stop_disable.png `png`
-        - play_stop_normal.png `png`
-        - play_stop_push.png `png`
-        - play_stop_select.png `png`
-        - play_volume_background.png `png`
-        - play_volume_disable.bmp `bmp`
-        - play_volume_elapsed.png `png`
-        - play_volume_normal.bmp `bmp`
-        - play_volume_select.bmp `bmp`
-        - reclock_disable.png `png`
-        - reclock_normal.png `png`
-        - reclock_push.png `png`
-        - reclock_selected.png `png`
-        - search_disable.png `png`
-        - search_normal.png `png`
-        - search_push.png `png`
-        - search_select.png `png`
-        - slicediv.png `png`
-        - slow.bmp `bmp`
-        - slowback.bmp `bmp`
-        - sound_normal.png `png`
-        - sound_select.png `png`
-        - stop.bmp `bmp`
-        - tab10_normal.png `png`
-        - tab10_select.png `png`
-        - tab11_normal.png `png`
-        - tab11_select.png `png`
-        - tab12_normal.png `png`
-        - tab12_select.png `png`
-        - tab13_normal.png `png`
-        - tab13_select.png `png`
-        - tab14_normal.png `png`
-        - tab14_select.png `png`
-        - tab15_normal.png `png`
-        - tab15_select.png `png`
-        - tab16_normal.png `png`
-        - tab16_select.png `png`
-        - tab1_normal.png `png`
-        - tab1_select.png `png`
-        - tab2_normal.png `png`
-        - tab2_select.png `png`
-        - tab3_normal.png `png`
-        - tab3_select.png `png`
-        - tab4_normal.png `png`
-        - tab4_select.png `png`
-        - tab5_normal.png `png`
-        - tab5_select.png `png`
-        - tab6_normal.png `png`
-        - tab6_select.png `png`
-        - tab7_normal.png `png`
-        - tab7_select.png `png`
-        - tab8_normal.png `png`
-        - tab8_select.png `png`
-        - tab9_normal.png `png`
-        - tab9_select.png `png`
-        - tab_normal.png `png`
-        - tab_select.png `png`
-        - tag_list_disable.png `png`
-        - tag_list_normal.png `png`
-        - tag_list_push.png `png`
-        - tag_list_select.png `png`
-        - tagadd_disable.png `png`
-        - tagadd_normal.png `png`
-        - tagadd_push.png `png`
-        - tagadd_select.png `png`
-        - tagmanage_disable.png `png`
-        - tagmanage_normal.png `png`
-        - tagmanage_push.png `png`
-        - tagmanage_select.png `png`
-        - window_16ch_disable.png `png`
-        - window_16ch_normal.png `png`
-        - window_16ch_push.png `png`
-        - window_16ch_select.png `png`
-        - window_1ch_disable.png `png`
-        - window_1ch_normal.png `png`
-        - window_1ch_push.png `png`
-        - window_1ch_select.png `png`
-        - window_4ch_disable.png `png`
-        - window_4ch_normal.png `png`
-        - window_4ch_push.png `png`
-        - window_4ch_select.png `png`
-        - window_9ch_disable.png `png`
-        - window_9ch_normal.png `png`
-        - window_9ch_push.png `png`
-        - window_9ch_select.png `png`
-        - window_fullscreen_disable.png `png`
-        - window_fullscreen_normal.png `png`
-        - window_fullscreen_push.png `png`
-        - window_fullscreen_select.png `png`
-        - window_selfdef_disable.png `png`
-        - window_selfdef_normal.png `png`
-        - window_selfdef_push.png `png`
-        - window_selfdef_select.png `png`
-      - **popup/**
-        - bmp_popup.bmp `bmp`
-      - **ptz/**
-        - down0.png `png`
-        - down1.png `png`
-        - down2.png `png`
-        - down3.png `png`
-        - left0.png `png`
-        - left1.png `png`
-        - left2.png `png`
-        - left3.png `png`
-        - leftdown0.png `png`
-        - leftdown1.png `png`
-        - leftdown2.png `png`
-        - leftdown3.png `png`
-        - leftup0.png `png`
-        - leftup1.png `png`
-        - leftup2.png `png`
-        - leftup3.png `png`
-        - plus0.png `png`
-        - plus1.png `png`
-        - plus2.png `png`
-        - plus3.png `png`
-        - position0.png `png`
-        - position1.png `png`
-        - position2.png `png`
-        - position3.png `png`
-        - right0.png `png`
-        - right1.png `png`
-        - right2.png `png`
-        - right3.png `png`
-        - rightdown0.png `png`
-        - rightdown1.png `png`
-        - rightdown2.png `png`
-        - rightdown3.png `png`
-        - rightup0.png `png`
-        - rightup1.png `png`
-        - rightup2.png `png`
-        - rightup3.png `png`
-        - subtractive0.png `png`
-        - subtractive1.png `png`
-        - subtractive2.png `png`
-        - subtractive3.png `png`
-        - up0.png `png`
-        - up1.png `png`
-        - up2.png `png`
-        - up3.png `png`
-      - **ptzext/**
-        - autopan_disable.png `png`
-        - autopan_normal.png `png`
-        - autopan_push.png `png`
-        - autopan_select.png `png`
-        - autoscan_disable.png `png`
-        - autoscan_normal.png `png`
-        - autoscan_push.png `png`
-        - autoscan_select.png `png`
-        - aux_disable.png `png`
-        - aux_normal.png `png`
-        - aux_push.png `png`
-        - aux_select.png `png`
-        - flip_disable.png `png`
-        - flip_normal.png `png`
-        - flip_push.png `png`
-        - flip_select.png `png`
-        - highspeed_disable.png `png`
-        - highspeed_normal.png `png`
-        - highspeed_push.png `png`
-        - highspeed_select.png `png`
-        - menu_disable.png `png`
-        - menu_normal.png `png`
-        - menu_push.png `png`
-        - menu_select.png `png`
-        - pattern_disable.png `png`
-        - pattern_normal.png `png`
-        - pattern_push.png `png`
-        - pattern_select.png `png`
-        - preset_disable.png `png`
-        - preset_normal.png `png`
-        - preset_push.png `png`
-        - preset_select.png `png`
-        - reset_disable.png `png`
-        - reset_normal.png `png`
-        - reset_push.png `png`
-        - reset_select.png `png`
-        - setting_disable.png `png`
-        - setting_normal.png `png`
-        - setting_push.png `png`
-        - setting_select.png `png`
-        - toleft_normal.png `png`
-        - toleft_select.png `png`
-        - toright_normal.png `png`
-        - toright_select.png `png`
-        - tour_disable.png `png`
-        - tour_normal.png `png`
-        - tour_push.png `png`
-        - tour_select.png `png`
-      - **sharePicture/**
-        - PcapInvalid.png `png`
-        - PcapStart_normal.png `png`
-        - PcapStart_select.png `png`
-        - PcapStop_normal.png `png`
-        - PcapStop_select.png `png`
-        - bmp_frame.bmp `bmp`
-        - bmp_tab.bmp `bmp`
-        - bmp_tip.bmp `bmp`
-        - bmp_tipbar.bmp `bmp`
-        - bmp_title.bmp `bmp`
-        - button_close_disabled.bmp `bmp`
-        - button_close_normal.bmp `bmp`
-        - button_close_pushed.bmp `bmp`
-        - button_close_selected.bmp `bmp`
-        - button_disable.bmp `bmp`
-        - button_normal.bmp `bmp`
-        - button_normal_ex.png `png`
-        - button_push.bmp `bmp`
-        - button_select.bmp `bmp`
-        - button_select_ex.png `png`
-        - channel_state_lock.bmp `bmp`
-        - channel_state_mtd.bmp `bmp`
-        - channel_state_record.bmp `bmp`
-        - channel_state_vls.bmp `bmp`
-        - checkbox_select_hover.png `png`
-        - checkbox_select_large_hover.png `png`
-        - checkbox_signal_large_select.png `png`
-        - checkbox_signal_select.png `png`
-        - config_alarm0.bmp `bmp`
-        - config_chnname0.bmp `bmp`
-        - config_image0.bmp `bmp`
-        - config_ipc0.bmp `bmp`
-        - config_md0.bmp `bmp`
-        - config_net0.bmp `bmp`
-        - config_ptz0.bmp `bmp`
-        - config_storage0.bmp `bmp`
-        - config_sys0.bmp `bmp`
-        - config_sysinfo0.bmp `bmp`
-        - detail_normal.png `png`
-        - detail_push.png `png`
-        - detail_select.png `png`
-        - dir.png `png`
-        - disable_large_normal.png `png`
-        - disable_normal.png `png`
-        - dvr.bmp `bmp`
-        - file.png `png`
-        - gridLock.png `png`
-        - gridLockSelected.png `png`
-        - gridUnLock.png `png`
-        - gridUnLockSelected.png `png`
-        - info_bps0.bmp `bmp`
-        - info_log0.bmp `bmp`
-        - info_netDetect0.bmp `bmp`
-        - input_control.png `png`
-        - input_lowercase.png `png`
-        - input_mark.png `png`
-        - input_numeric.png `png`
-        - input_pinyin.png `png`
-        - input_uppercase.png `png`
-        - left_disable.bmp `bmp`
-        - left_normal.bmp `bmp`
-        - left_push.bmp `bmp`
-        - left_select.bmp `bmp`
-        - menu_normal.png `png`
-        - menu_tab_normal.png `png`
-        - menu_tab_select.png `png`
-        - play_search_disable.png `png`
-        - play_search_normal.png `png`
-        - play_search_push.png `png`
-        - play_search_select.png `png`
-        - radio_tab_normal.png `png`
-        - radio_tab_select.png `png`
-        - remotdev_del_disable.png `png`
-        - remotdev_del_normal.png `png`
-        - remotdev_del_selected.png `png`
-        - remotdev_edit_disable.png `png`
-        - remotdev_edit_normal.png `png`
-        - remotdev_edit_selected.png `png`
-        - remotdev_stat_disable.png `png`
-        - remotdev_stat_normal.png `png`
-        - remote_info.alarm.bmp `bmp`
-        - remote_info.notsupport.bmp `bmp`
-        - remote_info.support.bmp `bmp`
-        - reset0.png `png`
-        - reset1.png `png`
-        - reset2.png `png`
-        - reset3.png `png`
-        - reticle_state_bad.bmp `bmp`
-        - right_disable.bmp `bmp`
-        - right_normal.bmp `bmp`
-        - right_push.bmp `bmp`
-        - right_select.bmp `bmp`
-        - signal1.bmp `bmp`
-        - signal2.bmp `bmp`
-        - signal3.bmp `bmp`
-        - signal4.bmp `bmp`
-        - signal5.bmp `bmp`
-        - signal_select_large_normal.png `png`
-        - signal_select_normal.png `png`
-        - start_normal.bmp `bmp`
-        - sub_window_bottom.png `png`
-        - sub_window_top.png `png`
-        - tip.bmp `bmp`
-        - view_disable.png `png`
-        - view_normal.png `png`
-        - view_select.png `png`
-        - vol_background.bmp `bmp`
-        - vol_disable.bmp `bmp`
-        - vol_elapsed.bmp `bmp`
-        - vol_normal.bmp `bmp`
-        - vol_select.bmp `bmp`
-        - window_bottom.png `png`
-        - window_bottom1.png `png`
-        - window_title.png `png`
-        - window_top.png `png`
-      - **slider/**
-        - slider_line.bmp `bmp`
-        - spot0.bmp `bmp`
-        - spot1.bmp `bmp`
-        - spot2.bmp `bmp`
-      - **storagePage/**
-        - ClearNormal.png `png`
-        - ClearSelected.png `png`
-        - SettingNormal.png `png`
-        - SettingSelected.png `png`
-        - checkAlarmDisable.png `png`
-        - checkAlarmDisableSelect.png `png`
-        - checkAlarmEnable.png `png`
-        - checkAlarmEnableSelect.png `png`
-        - checkMDAlarmDisable.png `png`
-        - checkMDAlarmDisableSelect.png `png`
-        - checkMDAlarmEnable.png `png`
-        - checkMDAlarmEnableSelect.png `png`
-        - checkMDDisable.png `png`
-        - checkMDDisableSelect.png `png`
-        - checkMDEnable.png `png`
-        - checkMDEnableSelect.png `png`
-        - checkRegularDisable.png `png`
-        - checkRegularDisableSelect.png `png`
-        - checkRegularEnable.png `png`
-        - checkRegularEnableSelect.png `png`
-      - **tab/**
-        - tab_normal.bmp `bmp`
-        - tab_pushed.bmp `bmp`
-        - tab_select.bmp `bmp`
-      - **textbox/**
-        - textbox1.bmp `bmp`
-        - textbox2.bmp `bmp`
-      - **title48/**
-        - advanced1.bmp `bmp`
-        - advanced2.bmp `bmp`
-        - backup1.bmp `bmp`
-        - backup2.bmp `bmp`
-        - config1.bmp `bmp`
-        - config2.bmp `bmp`
-        - exit1.bmp `bmp`
-        - exit2.bmp `bmp`
-        - info1.bmp `bmp`
-        - info2.bmp `bmp`
-        - search1.bmp `bmp`
-        - search2.bmp `bmp`
-      - **usbDetectPage/**
-        - usb_disk.png `png`
-    - config.lua `lua`
-    - hardware.lua `lua`
-    - **player/**
-    - space `unknown`
-    - **ssl/**
-      - ca.crt `crt`
-      - ca.key `key`
-      - cacert.pem `pem`
-      - privkey.pem `pem`
-      - pubkey.pem `pem`
-  - **etc/**
-    - Global.lua `lua`
-    - load_modules.sh `sh`
-    - telnet_cfg `unknown`
-  - **lib/**
-    - lib.7z `7z`
-    - **lib.7z.extracted/**
-      - **0/**
-        - **lib/**
-          - 8192cu.ko `ko`
-          - 8192eu.ko `ko`
-          - avss.ko `ko`
-          - crgctrl_hi3521a.sh `sh`
-          - driverbox.ko `ko`
-          - hi3521a_adec.ko `ko`
-          - hi3521a_aenc.ko `ko`
-          - hi3521a_ai.ko `ko`
-          - hi3521a_aio.ko `ko`
-          - hi3521a_ao.ko `ko`
-          - hi3521a_base.ko `ko`
-          - hi3521a_chnl.ko `ko`
-          - hi3521a_h264e.ko `ko`
-          - hi3521a_hdmi.ko `ko`
-          - hi3521a_ive.ko `ko`
-          - hi3521a_jpegd.ko `ko`
-          - hi3521a_jpege.ko `ko`
-          - hi3521a_rc.ko `ko`
-          - hi3521a_region.ko `ko`
-          - hi3521a_sys.ko `ko`
-          - hi3521a_tde.ko `ko`
-          - hi3521a_vda.ko `ko`
-          - hi3521a_vdec.ko `ko`
-          - hi3521a_venc.ko `ko`
-          - hi3521a_vfmw.ko `ko`
-          - hi3521a_vgs.ko `ko`
-          - hi3521a_viu.ko `ko`
-          - hi3521a_vou.ko `ko`
-          - hi3521a_vpss.ko `ko`
-          - hi_i2c.ko `ko`
-          - hi_media.ko `ko`
-          - hi_rtc.ko `ko`
-          - hifb.ko `ko`
-          - hiuser.ko `ko`
-          - i2c_common.ko `ko`
-          - i2c_read `unknown`
-          - i2c_write `unknown`
-          - load_hisimod.sh `sh`
-          - mmz.ko `ko`
-          - option.ko `ko`
-          - osa.ko `ko`
-          - pinmux_hi3521a_i2s.sh `sh`
-          - pinmux_hi3521a_vga_hdmi_spi.sh `sh`
-          - pinmux_hi3521a_vicap.sh `sh`
-          - sysctl_hi3521a_asic.sh `sh`
-          - usb_wwan.ko `ko`
-          - usbserial.ko `ko`
-  - **sbin/**
-    - .dec.sh `sh`
-    - 3gconfig `unknown`
-    - 3gpp `unknown`
-    - ii `unknown`
-    - nfs `unknown`
-    - usb_modeswitch `unknown`
+  - usr/Data_Signature (data)
+  - usr/SigFileList (ASCII text)
+  - **usr/bin/**
+    - usr/bin/Challenge (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped)
+    - usr/bin/DahuaExec (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped)
+    - **usr/bin/lua/**
+      - usr/bin/lua/ATMCtrl.lua (ISO-8859 text, with CRLF line terminators)
+      - usr/bin/lua/ATMHead.lua (ISO-8859 text, with CRLF line terminators)
+      - usr/bin/lua/LiveUpdate.lua (ISO-8859 text)
+      - usr/bin/lua/PTZCtrl.lua (ISO-8859 text, with CRLF line terminators)
+      - **usr/bin/lua/com/**
+        - usr/bin/lua/com/ParseKLPOSStr.lua (ISO-8859 text, with CRLF line terminators)
+      - usr/bin/lua/compat-5.1.lua (ASCII text)
+      - usr/bin/lua/init.lua (ISO-8859 text, with CRLF line terminators)
+      - **usr/bin/lua/ptz/**
+        - usr/bin/lua/ptz/AD1641M.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/ADMatrix.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Banknote.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/CATU.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/CP-CVI.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/CP-CVI2.0.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/DH-CC440.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/DH-MATRIX.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/DH-SD1.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/DH-SD2.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/EPTZ.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/General.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/HAIYU.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/HY.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/LG.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/LiLin.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Mercer-1.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Mercer.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PANASONIC.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PELCOD-MING.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PELCOD-S.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PELCOD-S1.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PHILIPS.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PIH-717.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Pe5051k.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Pelco-9750.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoASCII.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoD-DON.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoD.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoD1.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoD1_Tour.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoD_Tour.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoP-A.lua (Non-ISO extended-ASCII text)
+        - usr/bin/lua/ptz/PelcoP-HK.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoP-SD.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/PelcoP.lua (Non-ISO extended-ASCII text)
+        - usr/bin/lua/ptz/PelcoP1-A.lua (Non-ISO extended-ASCII text)
+        - usr/bin/lua/ptz/PelcoP1.lua (Non-ISO extended-ASCII text)
+        - usr/bin/lua/ptz/PelcoP5.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/QT-2XXD.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/RM110.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SAE.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SANLI.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SANTACHI.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SHARP.lua (ASCII text)
+        - usr/bin/lua/ptz/SIERA-D.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SIERA-P.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SONY.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/SUNKWANG.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Samsung.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Videon-X.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Videon_D.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Videon_P.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/WV-CS850I.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/WV-CS850II.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/WV-CS950.lua (ISO-8859 text)
+        - usr/bin/lua/ptz/Yaan.lua (ISO-8859 text)
+      - usr/bin/lua/utils.lua (ISO-8859 text, with CRLF line terminators)
+    - **usr/bin/secboot/**
+      - usr/bin/secboot/public.pem (ASCII text)
+    - **usr/bin/ssl/**
+      - usr/bin/ssl/pwdreset.pem (ASCII text)
+  - **usr/data/**
+    - usr/data/CustomConfig (ISO-8859 text)
+    - **usr/data/Data/**
+      - **usr/data/Data/DeviceSecurity/**
+        - usr/data/Data/DeviceSecurity/PatternNormal.png (PNG image data, 70 x 70, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/PatternSelect.png (PNG image data, 70 x 70, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step1.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step1_finish.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step2.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step2_finish.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step3.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/device_init_step3_finish.png (PNG image data, 30 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/headPic.png (PNG image data, 80 x 80, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress0.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress1.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress2.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress3.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress4.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress5.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress6.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress7.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress8.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/DeviceSecurity/progress9.png (PNG image data, 580 x 14, 8-bit colormap, non-interlaced)
+      - usr/data/Data/Font.bin (data)
+      - usr/data/Data/FontSmallEn.bin (data)
+      - **usr/data/Data/Intell/**
+        - usr/data/Data/Intell/CrossLineDetection.png (PNG image data, 62 x 62, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/CrossRegionDetection.png (PNG image data, 62 x 62, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/LeftDetection.png (PNG image data, 62 x 62, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/TakenAwayDetection.png (PNG image data, 62 x 62, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/bmp_intellback.png (PNG image data, 150 x 200, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/button_set_disable.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/button_set_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/button_set_push.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/checkbox_intelli_0_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 23 important colors, cbSize 676, bits offset 146)
+        - usr/data/Data/Intell/checkbox_intelli_0_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 23 important colors, cbSize 676, bits offset 146)
+        - usr/data/Data/Intell/checkbox_intelli_1_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 35 important colors, cbSize 724, bits offset 194)
+        - usr/data/Data/Intell/checkbox_intelli_1_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 35 important colors, cbSize 724, bits offset 194)
+        - usr/data/Data/Intell/checkbox_intelli_disable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/checkbox_intelli_disableselect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/checkbox_intelli_enable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/checkbox_intelli_enableselect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/Intell/delete_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/delete_select.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/filteredit_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+        - usr/data/Data/Intell/filteredit_select.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, cbSize 1656, bits offset 1078)
+      - **usr/data/Data/NavigationBar/**
+        - usr/data/Data/NavigationBar/Separator.png (PNG image data, 8 x 59, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/alert_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/alert_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/channel_info_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/channel_info_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/channel_tree_normal.png (PNG image data, 36 x 31, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/NavigationBar/channel_tree_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/collect_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/collect_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/colorSet_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/colorSet_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_error.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_error_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_notexist.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_notexist_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/disk_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/home_normal.png (PNG image data, 80 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/home_select.png (PNG image data, 80 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/left_normal.png (PNG image data, 30 x 58, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/left_select.png (PNG image data, 30 x 58, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/menu_exp.png (PNG image data, 900 x 58, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/net_abort.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/net_abort_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/net_arp.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/net_arp_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/network_connected_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/network_connected_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/next_screen_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/next_screen_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/playback_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/playback_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/prev_screen_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/prev_screen_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/ptz_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/ptz_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/remote_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/remote_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/right_normal.png (PNG image data, 30 x 58, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/right_select.png (PNG image data, 30 x 58, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/tour_disable_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/tour_disable_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/tour_enable_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/tour_enable_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/usb_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/usb_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows16_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows16_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows1_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows1_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows25_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows25_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows32_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows32_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows4_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows4_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows6_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows6_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows8_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows8_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows9_normal.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/NavigationBar/windows9_select.png (PNG image data, 36 x 31, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/RealPlay/**
+        - usr/data/Data/RealPlay/audio_close_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audio_close_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audio_disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audio_open_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audio_open_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audiotalk_disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audiotalk_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audiotalk_push.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/audiotalk_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/block_disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/block_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/block_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/close_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/close_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/hover.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/manual_snap_disable.png (PNG image data, 24 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/manual_snap_normal.png (PNG image data, 24 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/manual_snap_on_normal.png (PNG image data, 24 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/manual_snap_on_select.png (PNG image data, 24 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/manual_snap_selected.png (PNG image data, 24 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/menuplay_backcolor.png (PNG image data, 210 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/netcameraedit_disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/netcameraedit_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/netcameraedit_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/pause_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/pause_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/play_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/play_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/play_slider_background.png (PNG image data, 140 x 4, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/play_slider_elapsed.png (PNG image data, 140 x 4, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realbk_disable.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realbk_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realbk_on_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realbk_on_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realbk_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realplay_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/realplay_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/zoomin_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/zoomin_on_normal.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/zoomin_on_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/RealPlay/zoomin_selected.png (PNG image data, 29 x 29, 8-bit colormap, non-interlaced)
+      - usr/data/Data/StringAll.7z (7-zip archive data, version 0.4)
+      - **usr/data/Data/StringAll.7z.extracted/**
+        - **usr/data/Data/StringAll.7z.extracted/0/**
+          - usr/data/Data/StringAll.7z.extracted/0/StringAll (Unicode text, UTF-8 (with BOM) text, with very long lines (63563), with no line terminators)
+      - **usr/data/Data/afterSaleService/**
+        - usr/data/Data/afterSaleService/DahuaTechnology.png (PNG image data, 516 x 289, 8-bit colormap, non-interlaced)
+        - usr/data/Data/afterSaleService/after_sale_service.png (PNG image data, 516 x 289, 8-bit colormap, non-interlaced)
+        - usr/data/Data/afterSaleService/after_sale_service1.png (PNG image data, 31 x 31, 8-bit colormap, non-interlaced)
+        - usr/data/Data/afterSaleService/after_sale_service2.png (PNG image data, 31 x 31, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/colorSettingPage/**
+        - usr/data/Data/colorSettingPage/Brightness.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/Contrast.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/EqLevel.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/Gamma.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/Hue.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/Saturation.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/VideoPosition.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/colorSet_normal.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/plus0.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/plus1.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/plus2.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/plus3.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/reset0.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/reset1.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/reset2.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/reset3.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/subtractive0.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/subtractive1.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/subtractive2.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/subtractive3.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/unlock_disable.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/unlock_normal.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/colorSettingPage/unlock_select.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/ctrl/**
+        - **usr/data/Data/ctrl/button/**
+          - usr/data/Data/ctrl/button/button_disable.bmp (PC bitmap, Windows 3.x format, 76 x 28 x 8, image size 2130, resolution 2834 x 2834 px/m, 100 important colors, cbSize 2584, bits offset 454)
+          - usr/data/Data/ctrl/button/button_normal.bmp (PC bitmap, Windows 3.x format, 76 x 28 x 8, image size 2130, resolution 2834 x 2834 px/m, 110 important colors, cbSize 2624, bits offset 494)
+          - usr/data/Data/ctrl/button/button_push.bmp (PC bitmap, Windows 3.x format, 76 x 28 x 8, image size 2130, resolution 2834 x 2834 px/m, 182 important colors, cbSize 2912, bits offset 782)
+          - usr/data/Data/ctrl/button/button_select.bmp (PC bitmap, Windows 3.x format, 76 x 28 x 8, image size 2130, resolution 2834 x 2834 px/m, 157 important colors, cbSize 2812, bits offset 682)
+      - **usr/data/Data/cursors/**
+        - usr/data/Data/cursors/arrow.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @2x4)
+        - usr/data/Data/cursors/busy.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @16x16)
+        - usr/data/Data/cursors/hand.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @1x1)
+        - usr/data/Data/cursors/move.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @16x16)
+        - usr/data/Data/cursors/size1.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @16x16)
+        - usr/data/Data/cursors/size2.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @15x16)
+        - usr/data/Data/cursors/size3.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @16x16)
+        - usr/data/Data/cursors/size4.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @16x16)
+        - usr/data/Data/cursors/wait.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @2x4)
+        - usr/data/Data/cursors/zoomin.cur (MS Windows cursor resource - 1 icon, 32x32, hotspot @9x8)
+      - **usr/data/Data/desktopPage/**
+        - usr/data/Data/desktopPage/3G_pppon.bmp (PC bitmap, Windows 3.x format, 29 x 29 x 8, image size 930, resolution 11808 x 11808 px/m, 242 important colors, cbSize 1952, bits offset 1022)
+        - usr/data/Data/desktopPage/4G_pppon.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 3779 x 3779 px/m, 129 important colors, cbSize 1148, bits offset 570)
+        - usr/data/Data/desktopPage/channel_state_lock.bmp (PC bitmap, Windows 3.x format, 108 x 24 x 16, image size 5186, resolution 2834 x 2834 px/m, cbSize 5240, bits offset 54)
+        - usr/data/Data/desktopPage/channel_state_mtd.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 164 important colors, cbSize 1288, bits offset 710)
+        - usr/data/Data/desktopPage/channel_state_vls.bmp (PC bitmap, Windows 3.x format, 108 x 24 x 16, image size 5186, resolution 2834 x 2834 px/m, cbSize 5240, bits offset 54)
+        - usr/data/Data/desktopPage/tour_disable.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 114 important colors, cbSize 1088, bits offset 510)
+        - usr/data/Data/desktopPage/tour_enable.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 108 important colors, cbSize 1064, bits offset 486)
+        - usr/data/Data/desktopPage/wifi_enable.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 3779 x 3779 px/m, 189 important colors, cbSize 1388, bits offset 810)
+      - **usr/data/Data/exitPage/**
+        - usr/data/Data/exitPage/logout1.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+        - usr/data/Data/exitPage/logout2.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+        - usr/data/Data/exitPage/reboot1.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+        - usr/data/Data/exitPage/reboot2.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+        - usr/data/Data/exitPage/shutdown1.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+        - usr/data/Data/exitPage/shutdown2.png (PNG image data, 90 x 90, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/faceplayer/**
+        - usr/data/Data/faceplayer/face_export_normal.png (PNG image data, 128 x 38, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/face_export_select.png (PNG image data, 128 x 38, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/face_search_disable.png (PNG image data, 307 x 38, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/face_search_normal.png (PNG image data, 307 x 38, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/face_search_select.png (PNG image data, 307 x 38, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/firstpage_disable.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 24 important colors, cbSize 936, bits offset 150)
+        - usr/data/Data/faceplayer/firstpage_normal.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 23 important colors, cbSize 932, bits offset 146)
+        - usr/data/Data/faceplayer/firstpage_push.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+        - usr/data/Data/faceplayer/firstpage_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+        - usr/data/Data/faceplayer/lastpage_disable.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 24 important colors, cbSize 936, bits offset 150)
+        - usr/data/Data/faceplayer/lastpage_normal.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 23 important colors, cbSize 932, bits offset 146)
+        - usr/data/Data/faceplayer/lastpage_push.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+        - usr/data/Data/faceplayer/lastpage_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+        - usr/data/Data/faceplayer/left_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+        - usr/data/Data/faceplayer/play_back_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_back_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_back_pause_disable.bmp (PC bitmap, Windows 3.x format, 42 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_back_pause_normal.bmp (PC bitmap, Windows 3.x format, 42 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_back_pause_push.bmp (PC bitmap, Windows 3.x format, 42 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_back_pause_select.bmp (PC bitmap, Windows 3.x format, 42 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_back_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_back_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_fast_disable.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_fast_normal.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_fast_push.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_fast_select.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_nextframe_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_nextframe_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_nextframe_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_nextframe_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_pause_disable.bmp (PC bitmap, Windows 3.x format, 41 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_pause_normal.bmp (PC bitmap, Windows 3.x format, 41 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_pause_push.bmp (PC bitmap, Windows 3.x format, 41 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_pause_select.bmp (PC bitmap, Windows 3.x format, 41 x 33 x 8, image size 1454, resolution 2834 x 2834 px/m, cbSize 2532, bits offset 1078)
+        - usr/data/Data/faceplayer/play_preframe_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_preframe_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_preframe_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_preframe_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_slow_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_slow_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_slow_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_slow_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_start_disable.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_start_normal.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_start_push.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_start_select.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_stop_disable.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_stop_normal.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_stop_push.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_stop_select.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_volume_background.png (PNG image data, 62 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_volume_disable.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 42 important colors, cbSize 428, bits offset 222)
+        - usr/data/Data/faceplayer/play_volume_elapsed.png (PNG image data, 62 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/faceplayer/play_volume_normal.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 39 important colors, cbSize 416, bits offset 210)
+        - usr/data/Data/faceplayer/play_volume_select.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 77 important colors, cbSize 568, bits offset 362)
+        - usr/data/Data/faceplayer/right_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 14 important colors, cbSize 896, bits offset 110)
+      - **usr/data/Data/guiCtrls/**
+        - usr/data/Data/guiCtrls/disable_select.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/expand1.bmp (PC bitmap, Windows 3.x format, 19 x 21 x 8, image size 422, resolution 2834 x 2834 px/m, 44 important colors, cbSize 652, bits offset 230)
+        - usr/data/Data/guiCtrls/expand2.bmp (PC bitmap, Windows 3.x format, 19 x 21 x 8, image size 422, resolution 2834 x 2834 px/m, 56 important colors, cbSize 700, bits offset 278)
+        - usr/data/Data/guiCtrls/netCameraButton.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 11808 x 11808 px/m, 39 important colors, cbSize 740, bits offset 210)
+        - usr/data/Data/guiCtrls/password_tip_disable.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/password_tip_normal.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/password_tip_select.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/retrieve_password_disable.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/retrieve_password_normal.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/retrieve_password_select.png (PNG image data, 31 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/select_hover.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/select_hover_noamal.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/shrink1.bmp (PC bitmap, Windows 3.x format, 19 x 21 x 8, image size 422, resolution 2834 x 2834 px/m, 43 important colors, cbSize 648, bits offset 226)
+        - usr/data/Data/guiCtrls/shrink2.bmp (PC bitmap, Windows 3.x format, 19 x 21 x 8, image size 422, resolution 2834 x 2834 px/m, 80 important colors, cbSize 796, bits offset 374)
+        - usr/data/Data/guiCtrls/signal_select.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/smart_disable.png (PNG image data, 20 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/smart_error.png (PNG image data, 20 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/smart_ok.png (PNG image data, 20 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/guiCtrls/zhaohuimima_disable.png (PNG image data, 31 x 29, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/guiCtrls/zhaohuimima_normal.png (PNG image data, 31 x 29, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/guiCtrls/zhaohuimima_select.png (PNG image data, 31 x 29, 8-bit/color RGB, non-interlaced)
+      - **usr/data/Data/infoOnlineUserPage/**
+        - usr/data/Data/infoOnlineUserPage/shield_normal.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/infoOnlineUserPage/shield_push.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/mainMenu/**
+        - usr/data/Data/mainMenu/16split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/1split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/3G.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/4split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/6split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/8split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/9split_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/autoPtz_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/blank_normal.bmp (PC bitmap, Windows 3.x format, 17 x 17 x 8, image size 342, resolution 2834 x 2834 px/m, 4 important colors, cbSize 412, bits offset 70)
+        - usr/data/Data/mainMenu/cameraattribute_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/colorSet_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/config_guide_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/customsplit_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/face_search.bmp (PC bitmap, Windows 3.x format, 17 x 17 x 8, image size 342, resolution 2834 x 2834 px/m, 103 important colors, cbSize 808, bits offset 466)
+        - usr/data/Data/mainMenu/face_search.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/main_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/matrix_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/netCamera_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/next_screen_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/originRate_normal.bmp (PC bitmap, Windows 3.x format, 17 x 17 x 8, image size 342, resolution 2834 x 2834 px/m, 29 important colors, cbSize 512, bits offset 170)
+        - usr/data/Data/mainMenu/outmode_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/previous_screen_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/ptz_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/record_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/mainMenu/search_normal.png (PNG image data, 17 x 17, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/mainPage/**
+        - usr/data/Data/mainPage/advanced1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/advanced2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, cbSize 7480, bits offset 1078)
+        - usr/data/Data/mainPage/backup1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/backup2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/config1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/config2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/exit1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/exit2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/info1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/info2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/search1.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+        - usr/data/Data/mainPage/search2.bmp (PC bitmap, Windows 3.x format, 80 x 80 x 8, image size 6402, resolution 2795 x 2795 px/m, 255 important colors, cbSize 7476, bits offset 1074)
+      - **usr/data/Data/menu/**
+        - usr/data/Data/menu/tpl_menu_bar.bmp (PC bitmap, Windows 3.x format, 72 x 89 x 8, image size 6408, resolution 11811 x 11811 px/m, 256 important colors, cbSize 7486, bits offset 1078)
+        - usr/data/Data/menu/tpl_menu_popup_item2.bmp (PC bitmap, Windows 3.x format, 128 x 30 x 8, image size 3840, resolution 11811 x 11811 px/m, 256 important colors, cbSize 4918, bits offset 1078)
+        - usr/data/Data/menu/tpl_menu_popup_with_title.bmp (PC bitmap, Windows 3.x format, 128 x 128 x 8, image size 16384, resolution 11811 x 11811 px/m, 256 important colors, cbSize 17462, bits offset 1078)
+        - usr/data/Data/menu/tpl_menu_popup_without_title.bmp (PC bitmap, Windows 3.x format, 128 x 64 x 24, image size 24578, resolution 2834 x 2834 px/m, cbSize 24632, bits offset 54)
+      - **usr/data/Data/motionSetPage/**
+        - usr/data/Data/motionSetPage/blue_down.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/blue_normal.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/blue_select.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/green_down.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/green_normal.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/green_select.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/orange_down.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/orange_normal.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/orange_select.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/yellow_down.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/yellow_normal.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+        - usr/data/Data/motionSetPage/yellow_select.png (PNG image data, 63 x 50, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/netCameraPage/**
+        - usr/data/Data/netCameraPage/remotdev_editipc_disable.png (PNG image data, 24 x 20, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/netCameraPage/remotdev_editipc_normal.png (PNG image data, 24 x 20, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/netCameraPage/remotdev_editipc_selected.png (PNG image data, 24 x 20, 8-bit/color RGB, non-interlaced)
+      - **usr/data/Data/player/**
+        - usr/data/Data/player/IVS_select.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/advanced_search_disable.png (PNG image data, 52 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/advanced_search_normal.png (PNG image data, 52 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/advanced_search_select.png (PNG image data, 52 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/back.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 7 important colors, cbSize 324, bits offset 82)
+        - usr/data/Data/player/bmp_backup.bmp (PC bitmap, Windows 3.x format, 20 x 20 x 8, image size 402, resolution 3779 x 3779 px/m, 5 important colors, cbSize 476, bits offset 74)
+        - usr/data/Data/player/bmp_backup.png (PNG image data, 20 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_card.png (PNG image data, 30 x 27, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_channel.png (PNG image data, 34 x 27, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_time.png (PNG image data, 28 x 28, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_txn_error.png (PNG image data, 30 x 27, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_txn_money.png (PNG image data, 30 x 27, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/bmp_txn_type.png (PNG image data, 30 x 27, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/button_close_disabled.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 5 important colors, cbSize 652, bits offset 74)
+        - usr/data/Data/player/button_close_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 4 important colors, cbSize 648, bits offset 70)
+        - usr/data/Data/player/button_close_pushed.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 66 important colors, cbSize 896, bits offset 318)
+        - usr/data/Data/player/button_close_selected.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 22 important colors, cbSize 720, bits offset 142)
+        - **usr/data/Data/player/calendar/**
+          - usr/data/Data/player/calendar/arraw_disable.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 98 important colors, cbSize 1024, bits offset 446)
+          - usr/data/Data/player/calendar/arraw_disable1.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 99 important colors, cbSize 1028, bits offset 450)
+          - usr/data/Data/player/calendar/arraw_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 103 important colors, cbSize 1044, bits offset 466)
+          - usr/data/Data/player/calendar/arraw_normal1.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 98 important colors, cbSize 1024, bits offset 446)
+          - usr/data/Data/player/calendar/arraw_push.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 153 important colors, cbSize 1244, bits offset 666)
+          - usr/data/Data/player/calendar/arraw_push1.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 132 important colors, cbSize 1160, bits offset 582)
+          - usr/data/Data/player/calendar/arraw_select.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 152 important colors, cbSize 1240, bits offset 662)
+          - usr/data/Data/player/calendar/arraw_select1.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 131 important colors, cbSize 1156, bits offset 578)
+          - usr/data/Data/player/calendar/buttom_left.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+          - usr/data/Data/player/calendar/buttom_right.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+          - usr/data/Data/player/calendar/button_left.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+          - usr/data/Data/player/calendar/button_right.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+          - usr/data/Data/player/calendar/day_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 4 important colors, cbSize 648, bits offset 70)
+          - usr/data/Data/player/calendar/day_recday.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 5 important colors, cbSize 652, bits offset 74)
+          - usr/data/Data/player/calendar/day_selected.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 4 important colors, cbSize 648, bits offset 70)
+        - usr/data/Data/player/camera_disable.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/camera_normal.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/camera_push.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/camera_select.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/checkbox_alarm_0_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 77 important colors, cbSize 892, bits offset 362)
+        - usr/data/Data/player/checkbox_alarm_0_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 78 important colors, cbSize 896, bits offset 366)
+        - usr/data/Data/player/checkbox_alarm_1_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 136 important colors, cbSize 1128, bits offset 598)
+        - usr/data/Data/player/checkbox_alarm_1_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 137 important colors, cbSize 1132, bits offset 602)
+        - usr/data/Data/player/checkbox_all_0_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 75 important colors, cbSize 884, bits offset 354)
+        - usr/data/Data/player/checkbox_all_0_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 76 important colors, cbSize 888, bits offset 358)
+        - usr/data/Data/player/checkbox_all_1_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 128 important colors, cbSize 1096, bits offset 566)
+        - usr/data/Data/player/checkbox_all_1_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 129 important colors, cbSize 1100, bits offset 570)
+        - usr/data/Data/player/checkbox_common_0_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 71 important colors, cbSize 868, bits offset 338)
+        - usr/data/Data/player/checkbox_common_0_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 72 important colors, cbSize 872, bits offset 342)
+        - usr/data/Data/player/checkbox_common_1_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 111 important colors, cbSize 1028, bits offset 498)
+        - usr/data/Data/player/checkbox_common_1_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 112 important colors, cbSize 1032, bits offset 502)
+        - usr/data/Data/player/checkbox_motion_0_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 72 important colors, cbSize 872, bits offset 342)
+        - usr/data/Data/player/checkbox_motion_0_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 73 important colors, cbSize 876, bits offset 346)
+        - usr/data/Data/player/checkbox_motion_1_disable.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 116 important colors, cbSize 1048, bits offset 518)
+        - usr/data/Data/player/checkbox_motion_1_normal.bmp (PC bitmap, Windows 3.x format, 22 x 22 x 8, image size 530, resolution 2834 x 2834 px/m, 117 important colors, cbSize 1052, bits offset 522)
+        - usr/data/Data/player/clip_disable.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_end_normal.bmp (PC bitmap, Windows 3.x format, 9 x 16 x 8, image size 194, resolution 2834 x 2834 px/m, 73 important colors, cbSize 540, bits offset 346)
+        - usr/data/Data/player/clip_normal.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_push.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_save_disable.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_save_normal.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_save_push.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_save_select.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_select.png (PNG image data, 46 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/clip_start_normal.bmp (PC bitmap, Windows 3.x format, 9 x 16 x 8, image size 194, resolution 2834 x 2834 px/m, 73 important colors, cbSize 540, bits offset 346)
+        - usr/data/Data/player/close_filelist_disable.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/close_filelist_normal.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/close_filelist_push.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/close_filelist_select.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/fast.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 11808 x 11808 px/m, cbSize 1320, bits offset 1078)
+        - usr/data/Data/player/fastback.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 11808 x 11808 px/m, cbSize 1320, bits offset 1078)
+        - usr/data/Data/player/fileLocked.bmp (PC bitmap, Windows 3.x format, 24 x 20 x 8, image size 482, resolution 2834 x 2834 px/m, 109 important colors, cbSize 972, bits offset 490)
+        - usr/data/Data/player/file_list_disable.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/file_list_normal.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/file_list_push.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/file_list_select.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_1hr_disable.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_1hr_normal.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_1hr_push.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_1hr_select.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_24hr_disable.png (PNG image data, 50 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_24hr_normal.png (PNG image data, 50 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_24hr_push.png (PNG image data, 50 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_24hr_select.png (PNG image data, 50 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_2hr_disable.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_2hr_normal.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_2hr_push.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_2hr_select.png (PNG image data, 49 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_30min_disable.png (PNG image data, 54 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_30min_normal.png (PNG image data, 54 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_30min_push.png (PNG image data, 54 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/grid_30min_select.png (PNG image data, 54 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/ivs_config.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/ivs_disable.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/ivs_normal.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/ivs_push.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/lockRecSearch_disable.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/lockRecSearch_normal.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/lockRecSearch_push.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/lockRecSearch_selected.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/pause.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 5 important colors, cbSize 316, bits offset 74)
+        - usr/data/Data/player/play.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 7 important colors, cbSize 324, bits offset 82)
+        - usr/data/Data/player/play_back_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_pause_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_pause_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_pause_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_pause_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_back_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_fast_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_fast_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_fast_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_fast_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_frame_bottom.png (PNG image data, 1024 x 57, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_frame_interval.png (PNG image data, 1024 x 7, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_frame_repeat.png (PNG image data, 1024 x 16, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_frame_top.png (PNG image data, 1024 x 23, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextday_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextday_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextday_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextday_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextframe_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextframe_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextframe_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_nextframe_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_pause_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_pause_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_pause_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_pause_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_preframe_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_preframe_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_preframe_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_preframe_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_prevday_disable.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_prevday_normal.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_prevday_push.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_prevday_select.png (PNG image data, 40 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slider_background.png (PNG image data, 670 x 12, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slider_elapsed.png (PNG image data, 670 x 12, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slow_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slow_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slow_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_slow_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_start_disable.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_start_normal.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_start_push.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_start_select.png (PNG image data, 41 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_stop_disable.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_stop_normal.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_stop_push.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_stop_select.png (PNG image data, 42 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_volume_background.png (PNG image data, 62 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_volume_disable.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 42 important colors, cbSize 428, bits offset 222)
+        - usr/data/Data/player/play_volume_elapsed.png (PNG image data, 62 x 17, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/play_volume_normal.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 39 important colors, cbSize 416, bits offset 210)
+        - usr/data/Data/player/play_volume_select.bmp (PC bitmap, Windows 3.x format, 9 x 17 x 8, image size 206, resolution 2834 x 2834 px/m, 77 important colors, cbSize 568, bits offset 362)
+        - usr/data/Data/player/reclock_disable.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/reclock_normal.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/reclock_push.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/reclock_selected.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/search_disable.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/search_normal.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/search_push.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/search_select.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/slicediv.png (PNG image data, 12 x 14, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/slow.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 5 important colors, cbSize 316, bits offset 74)
+        - usr/data/Data/player/slowback.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 6 important colors, cbSize 320, bits offset 78)
+        - usr/data/Data/player/sound_normal.png (PNG image data, 24 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/sound_select.png (PNG image data, 24 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/stop.bmp (PC bitmap, Windows 3.x format, 16 x 15 x 8, image size 242, resolution 2834 x 2834 px/m, 5 important colors, cbSize 316, bits offset 74)
+        - usr/data/Data/player/tab10_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab10_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab11_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab11_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab12_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab12_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab13_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab13_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab14_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab14_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab15_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab15_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab16_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab16_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab1_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab1_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab2_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab2_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab3_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab3_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab4_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab4_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab5_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab5_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab6_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab6_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab7_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab7_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab8_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab8_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab9_normal.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab9_select.png (PNG image data, 46 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab_normal.png (PNG image data, 46 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tab_select.png (PNG image data, 46 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tag_list_disable.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tag_list_normal.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tag_list_push.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tag_list_select.png (PNG image data, 51 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagadd_disable.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagadd_normal.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagadd_push.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagadd_select.png (PNG image data, 34 x 33, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagmanage_disable.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagmanage_normal.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagmanage_push.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/tagmanage_select.png (PNG image data, 45 x 29, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_16ch_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_16ch_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_16ch_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_16ch_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_1ch_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_1ch_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_1ch_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_1ch_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_4ch_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_4ch_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_4ch_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_4ch_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_9ch_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_9ch_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_9ch_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_9ch_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_fullscreen_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_fullscreen_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_fullscreen_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_fullscreen_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_selfdef_disable.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_selfdef_normal.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_selfdef_push.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+        - usr/data/Data/player/window_selfdef_select.png (PNG image data, 34 x 34, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/popup/**
+        - usr/data/Data/popup/bmp_popup.bmp (PC bitmap, Windows 3.x format, 64 x 64 x 8, image size 4098, resolution 2834 x 2834 px/m, 79 important colors, cbSize 4468, bits offset 370)
+      - **usr/data/Data/ptz/**
+        - usr/data/Data/ptz/down0.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/down1.png (PNG image data, 40 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/down2.png (PNG image data, 40 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/down3.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/left0.png (PNG image data, 44 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/left1.png (PNG image data, 44 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/left2.png (PNG image data, 44 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/left3.png (PNG image data, 44 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/leftdown0.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/leftdown1.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/leftdown2.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/leftdown3.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/leftup0.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/leftup1.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/leftup2.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/leftup3.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/plus0.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/plus1.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/plus2.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/plus3.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/position0.png (PNG image data, 46 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/position1.png (PNG image data, 46 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/position2.png (PNG image data, 46 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/position3.png (PNG image data, 46 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/right0.png (PNG image data, 44 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/right1.png (PNG image data, 44 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/right2.png (PNG image data, 44 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/right3.png (PNG image data, 44 x 40, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/rightdown0.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/rightdown1.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/rightdown2.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/rightdown3.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/rightup0.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/rightup1.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/rightup2.png (PNG image data, 47 x 46, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/rightup3.png (PNG image data, 47 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/subtractive0.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/subtractive1.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/subtractive2.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/subtractive3.png (PNG image data, 32 x 32, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/ptz/up0.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/up1.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/up2.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptz/up3.png (PNG image data, 40 x 46, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/ptzext/**
+        - usr/data/Data/ptzext/autopan_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autopan_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autopan_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autopan_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autoscan_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autoscan_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autoscan_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/autoscan_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/aux_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/aux_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/aux_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/aux_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/flip_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/flip_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/flip_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/flip_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/highspeed_disable.png (PNG image data, 40 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/highspeed_normal.png (PNG image data, 40 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/highspeed_push.png (PNG image data, 40 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/highspeed_select.png (PNG image data, 40 x 40, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/menu_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/menu_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/menu_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/menu_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/pattern_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/pattern_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/pattern_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/pattern_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/preset_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/preset_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/preset_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/preset_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/reset_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/reset_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/reset_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/reset_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/setting_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/setting_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/setting_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/setting_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/toleft_normal.png (PNG image data, 13 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/toleft_select.png (PNG image data, 13 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/toright_normal.png (PNG image data, 13 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/toright_select.png (PNG image data, 13 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/tour_disable.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/tour_normal.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/tour_push.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+        - usr/data/Data/ptzext/tour_select.png (PNG image data, 34 x 35, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/sharePicture/**
+        - usr/data/Data/sharePicture/PcapInvalid.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/PcapStart_normal.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/PcapStart_select.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/PcapStop_normal.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/PcapStop_select.png (PNG image data, 24 x 20, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/bmp_frame.bmp (PC bitmap, Windows 3.x format, 216 x 112 x 16, image size 48386, resolution 2834 x 2834 px/m, cbSize 48440, bits offset 54)
+        - usr/data/Data/sharePicture/bmp_tab.bmp (PC bitmap, Windows 3.x format, 256 x 28 x 8, image size 7170, resolution 2834 x 2834 px/m, 57 important colors, cbSize 7452, bits offset 282)
+        - usr/data/Data/sharePicture/bmp_tip.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 95 important colors, cbSize 1012, bits offset 434)
+        - usr/data/Data/sharePicture/bmp_tipbar.bmp (PC bitmap, Windows 3.x format, 72 x 62 x 8, image size 4466, resolution 2834 x 2834 px/m, 48 important colors, cbSize 4712, bits offset 246)
+        - usr/data/Data/sharePicture/bmp_title.bmp (PC bitmap, Windows 3.x format, 152 x 112 x 16, image size 34050, resolution 2834 x 2834 px/m, cbSize 34104, bits offset 54)
+        - usr/data/Data/sharePicture/button_close_disabled.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 5 important colors, cbSize 652, bits offset 74)
+        - usr/data/Data/sharePicture/button_close_normal.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 4 important colors, cbSize 648, bits offset 70)
+        - usr/data/Data/sharePicture/button_close_pushed.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 66 important colors, cbSize 896, bits offset 318)
+        - usr/data/Data/sharePicture/button_close_selected.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 22 important colors, cbSize 720, bits offset 142)
+        - usr/data/Data/sharePicture/button_disable.bmp (PC bitmap, Windows 3.x format, 76 x 26 x 8, image size 1978, resolution 11808 x 11808 px/m, 82 important colors, cbSize 2360, bits offset 382)
+        - usr/data/Data/sharePicture/button_normal.bmp (PC bitmap, Windows 3.x format, 76 x 26 x 8, image size 1978, resolution 11808 x 11808 px/m, 89 important colors, cbSize 2388, bits offset 410)
+        - usr/data/Data/sharePicture/button_normal_ex.png (PNG image data, 105 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/button_push.bmp (PC bitmap, Windows 3.x format, 76 x 26 x 8, image size 1978, resolution 11808 x 11808 px/m, 130 important colors, cbSize 2552, bits offset 574)
+        - usr/data/Data/sharePicture/button_select.bmp (PC bitmap, Windows 3.x format, 76 x 26 x 8, image size 1978, resolution 11808 x 11808 px/m, 133 important colors, cbSize 2564, bits offset 586)
+        - usr/data/Data/sharePicture/button_select_ex.png (PNG image data, 105 x 30, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/channel_state_lock.bmp (PC bitmap, Windows 3.x format, 108 x 24 x 16, image size 5186, resolution 2834 x 2834 px/m, cbSize 5240, bits offset 54)
+        - usr/data/Data/sharePicture/channel_state_mtd.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 164 important colors, cbSize 1288, bits offset 710)
+        - usr/data/Data/sharePicture/channel_state_record.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 233 important colors, cbSize 1564, bits offset 986)
+        - usr/data/Data/sharePicture/channel_state_vls.bmp (PC bitmap, Windows 3.x format, 108 x 24 x 16, image size 5186, resolution 2834 x 2834 px/m, cbSize 5240, bits offset 54)
+        - usr/data/Data/sharePicture/checkbox_select_hover.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/checkbox_select_large_hover.png (PNG image data, 28 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/checkbox_signal_large_select.png (PNG image data, 28 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/checkbox_signal_select.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/config_alarm0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 78 important colors, cbSize 944, bits offset 366)
+        - usr/data/Data/sharePicture/config_chnname0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 255 important colors, cbSize 1652, bits offset 1074)
+        - usr/data/Data/sharePicture/config_image0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 96 important colors, cbSize 1016, bits offset 438)
+        - usr/data/Data/sharePicture/config_ipc0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 251 important colors, cbSize 1636, bits offset 1058)
+        - usr/data/Data/sharePicture/config_md0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 9 important colors, cbSize 668, bits offset 90)
+        - usr/data/Data/sharePicture/config_net0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 157 important colors, cbSize 1260, bits offset 682)
+        - usr/data/Data/sharePicture/config_ptz0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 43 important colors, cbSize 804, bits offset 226)
+        - usr/data/Data/sharePicture/config_storage0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 255 important colors, cbSize 1652, bits offset 1074)
+        - usr/data/Data/sharePicture/config_sys0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 233 important colors, cbSize 1564, bits offset 986)
+        - usr/data/Data/sharePicture/config_sysinfo0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 219 important colors, cbSize 1508, bits offset 930)
+        - usr/data/Data/sharePicture/detail_normal.png (PNG image data, 24 x 20, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/detail_push.png (PNG image data, 24 x 20, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/detail_select.png (PNG image data, 24 x 20, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/dir.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/disable_large_normal.png (PNG image data, 28 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/disable_normal.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/dvr.bmp (PC bitmap, Windows 3.x format, 32 x 32 x 8, image size 1026, resolution 2834 x 2834 px/m, 38 important colors, cbSize 1232, bits offset 206)
+        - usr/data/Data/sharePicture/file.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/gridLock.png (PNG image data, 27 x 17, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/gridLockSelected.png (PNG image data, 27 x 17, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/gridUnLock.png (PNG image data, 27 x 17, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/gridUnLockSelected.png (PNG image data, 27 x 17, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/info_bps0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 156 important colors, cbSize 1256, bits offset 678)
+        - usr/data/Data/sharePicture/info_log0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 65 important colors, cbSize 892, bits offset 314)
+        - usr/data/Data/sharePicture/info_netDetect0.bmp (PC bitmap, Windows 3.x format, 24 x 24 x 8, image size 578, resolution 2834 x 2834 px/m, 255 important colors, cbSize 1652, bits offset 1074)
+        - usr/data/Data/sharePicture/input_control.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/input_lowercase.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/input_mark.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/input_numeric.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/input_pinyin.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/input_uppercase.png (PNG image data, 38 x 26, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/left_disable.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/left_normal.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 255 important colors, cbSize 1860, bits offset 1074)
+        - usr/data/Data/sharePicture/left_push.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/left_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/menu_normal.png (PNG image data, 153 x 54, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/menu_tab_normal.png (PNG image data, 147 x 35, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/menu_tab_select.png (PNG image data, 147 x 35, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/play_search_disable.png (PNG image data, 19 x 19, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/play_search_normal.png (PNG image data, 19 x 19, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/play_search_push.png (PNG image data, 19 x 19, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/play_search_select.png (PNG image data, 19 x 19, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/radio_tab_normal.png (PNG image data, 127 x 35, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/radio_tab_select.png (PNG image data, 127 x 35, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_del_disable.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_del_normal.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_del_selected.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_edit_disable.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_edit_normal.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_edit_selected.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_stat_disable.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remotdev_stat_normal.png (PNG image data, 24 x 24, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/remote_info.alarm.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 172 important colors, cbSize 1528, bits offset 742)
+        - usr/data/Data/sharePicture/remote_info.notsupport.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 13 important colors, cbSize 892, bits offset 106)
+        - usr/data/Data/sharePicture/remote_info.support.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 92 important colors, cbSize 1208, bits offset 422)
+        - usr/data/Data/sharePicture/reset0.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/reset1.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/reset2.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/reset3.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/reticle_state_bad.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 86 important colors, cbSize 1184, bits offset 398)
+        - usr/data/Data/sharePicture/right_disable.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/right_normal.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, 255 important colors, cbSize 1860, bits offset 1074)
+        - usr/data/Data/sharePicture/right_push.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/right_select.bmp (PC bitmap, Windows 3.x format, 28 x 28 x 8, image size 786, resolution 2834 x 2834 px/m, cbSize 1864, bits offset 1078)
+        - usr/data/Data/sharePicture/signal1.bmp (PC bitmap, Windows 3.x format, 30 x 24 x 8, image size 770, resolution 2834 x 2834 px/m, 20 important colors, cbSize 904, bits offset 134)
+        - usr/data/Data/sharePicture/signal2.bmp (PC bitmap, Windows 3.x format, 30 x 24 x 8, image size 770, resolution 2834 x 2834 px/m, 25 important colors, cbSize 924, bits offset 154)
+        - usr/data/Data/sharePicture/signal3.bmp (PC bitmap, Windows 3.x format, 30 x 24 x 8, image size 770, resolution 2834 x 2834 px/m, 30 important colors, cbSize 944, bits offset 174)
+        - usr/data/Data/sharePicture/signal4.bmp (PC bitmap, Windows 3.x format, 30 x 24 x 8, image size 770, resolution 2834 x 2834 px/m, 35 important colors, cbSize 964, bits offset 194)
+        - usr/data/Data/sharePicture/signal5.bmp (PC bitmap, Windows 3.x format, 30 x 24 x 8, image size 770, resolution 2834 x 2834 px/m, 44 important colors, cbSize 1000, bits offset 230)
+        - usr/data/Data/sharePicture/signal_select_large_normal.png (PNG image data, 28 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/signal_select_normal.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/sharePicture/start_normal.bmp (PC bitmap, Windows 3.x format, 24 x 20 x 8, image size 482, resolution 2834 x 2834 px/m, 5 important colors, cbSize 556, bits offset 74)
+        - usr/data/Data/sharePicture/sub_window_bottom.png (PNG image data, 122 x 22, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/sub_window_top.png (PNG image data, 122 x 22, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/tip.bmp (PC bitmap, Windows 3.x format, 32 x 32 x 8, image size 1026, resolution 2833 x 2833 px/m, 215 important colors, cbSize 1940, bits offset 914)
+        - usr/data/Data/sharePicture/view_disable.png (PNG image data, 24 x 24, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/view_normal.png (PNG image data, 24 x 24, 8-bit/color RGB, non-interlaced)
+        - usr/data/Data/sharePicture/view_select.png (PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/vol_background.bmp (PC bitmap, Windows 3.x format, 105 x 20 x 8, image size 2162, resolution 2834 x 2834 px/m, 5 important colors, cbSize 2236, bits offset 74)
+        - usr/data/Data/sharePicture/vol_disable.bmp (PC bitmap, Windows 3.x format, 6 x 20 x 8, image size 162, resolution 2834 x 2834 px/m, 32 important colors, cbSize 344, bits offset 182)
+        - usr/data/Data/sharePicture/vol_elapsed.bmp (PC bitmap, Windows 3.x format, 105 x 20 x 8, image size 2162, resolution 2834 x 2834 px/m, 90 important colors, cbSize 2576, bits offset 414)
+        - usr/data/Data/sharePicture/vol_normal.bmp (PC bitmap, Windows 3.x format, 6 x 20 x 8, image size 162, resolution 2834 x 2834 px/m, 44 important colors, cbSize 392, bits offset 230)
+        - usr/data/Data/sharePicture/vol_select.bmp (PC bitmap, Windows 3.x format, 6 x 20 x 8, image size 162, resolution 2834 x 2834 px/m, 44 important colors, cbSize 392, bits offset 230)
+        - usr/data/Data/sharePicture/window_bottom.png (PNG image data, 21 x 53, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/window_bottom1.png (PNG image data, 21 x 53, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/window_title.png (PNG image data, 188 x 32, 8-bit/color RGBA, non-interlaced)
+        - usr/data/Data/sharePicture/window_top.png (PNG image data, 10 x 43, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/slider/**
+        - usr/data/Data/slider/slider_line.bmp (PC bitmap, Windows 3.x format, 134 x 5 x 8, image size 682, resolution 2834 x 2834 px/m, 12 important colors, cbSize 784, bits offset 102)
+        - usr/data/Data/slider/spot0.bmp (PC bitmap, Windows 3.x format, 14 x 14 x 8, image size 226, resolution 2834 x 2834 px/m, 33 important colors, cbSize 412, bits offset 186)
+        - usr/data/Data/slider/spot1.bmp (PC bitmap, Windows 3.x format, 14 x 14 x 8, image size 226, resolution 2834 x 2834 px/m, 39 important colors, cbSize 436, bits offset 210)
+        - usr/data/Data/slider/spot2.bmp (PC bitmap, Windows 3.x format, 14 x 14 x 8, image size 226, resolution 2834 x 2834 px/m, 31 important colors, cbSize 404, bits offset 178)
+      - **usr/data/Data/storagePage/**
+        - usr/data/Data/storagePage/ClearNormal.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/ClearSelected.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/SettingNormal.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/SettingSelected.png (PNG image data, 32 x 32, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkAlarmDisable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkAlarmDisableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkAlarmEnable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkAlarmEnableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDAlarmDisable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDAlarmDisableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDAlarmEnable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDAlarmEnableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDDisable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDDisableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDEnable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkMDEnableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkRegularDisable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkRegularDisableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkRegularEnable.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+        - usr/data/Data/storagePage/checkRegularEnableSelect.png (PNG image data, 22 x 22, 8-bit colormap, non-interlaced)
+      - **usr/data/Data/tab/**
+        - usr/data/Data/tab/tab_normal.bmp (PC bitmap, Windows 3.x format, 147 x 35 x 8, image size 5182, resolution 2834 x 2834 px/m, 38 important colors, cbSize 5388, bits offset 206)
+        - usr/data/Data/tab/tab_pushed.bmp (PC bitmap, Windows 3.x format, 147 x 35 x 8, image size 5182, resolution 2834 x 2834 px/m, 39 important colors, cbSize 5392, bits offset 210)
+        - usr/data/Data/tab/tab_select.bmp (PC bitmap, Windows 3.x format, 147 x 35 x 8, image size 5182, resolution 2834 x 2834 px/m, 38 important colors, cbSize 5388, bits offset 206)
+      - **usr/data/Data/textbox/**
+        - usr/data/Data/textbox/textbox1.bmp (PC bitmap, Windows 3.x format, 128 x 128 x 8, image size 16386, resolution 2795 x 2795 px/m, 16 important colors, cbSize 16504, bits offset 118)
+        - usr/data/Data/textbox/textbox2.bmp (PC bitmap, Windows 3.x format, 128 x 128 x 8, image size 16386, resolution 2795 x 2795 px/m, 16 important colors, cbSize 16504, bits offset 118)
+      - **usr/data/Data/title48/**
+        - usr/data/Data/title48/advanced1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 254 important colors, cbSize 3376, bits offset 1070)
+        - usr/data/Data/title48/advanced2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, cbSize 3384, bits offset 1078)
+        - usr/data/Data/title48/backup1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 253 important colors, cbSize 3372, bits offset 1066)
+        - usr/data/Data/title48/backup2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 252 important colors, cbSize 3368, bits offset 1062)
+        - usr/data/Data/title48/config1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 254 important colors, cbSize 3376, bits offset 1070)
+        - usr/data/Data/title48/config2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 255 important colors, cbSize 3380, bits offset 1074)
+        - usr/data/Data/title48/exit1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 255 important colors, cbSize 3380, bits offset 1074)
+        - usr/data/Data/title48/exit2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 253 important colors, cbSize 3372, bits offset 1066)
+        - usr/data/Data/title48/info1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 255 important colors, cbSize 3380, bits offset 1074)
+        - usr/data/Data/title48/info2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 255 important colors, cbSize 3380, bits offset 1074)
+        - usr/data/Data/title48/search1.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 246 important colors, cbSize 3344, bits offset 1038)
+        - usr/data/Data/title48/search2.bmp (PC bitmap, Windows 3.x format, 48 x 48 x 8, image size 2306, resolution 2795 x 2795 px/m, 255 important colors, cbSize 3380, bits offset 1074)
+      - **usr/data/Data/usbDetectPage/**
+        - usr/data/Data/usbDetectPage/usb_disk.png (PNG image data, 57 x 72, 8-bit colormap, non-interlaced)
+    - usr/data/config.lua (ISO-8859 text)
+    - usr/data/hardware.lua (ASCII text)
+    - **usr/data/player/**
+    - usr/data/space (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped)
+    - **usr/data/ssl/**
+      - usr/data/ssl/ca.crt (PEM certificate)
+      - usr/data/ssl/ca.key (ASCII text)
+      - usr/data/ssl/cacert.pem (PEM certificate)
+      - usr/data/ssl/privkey.pem (ASCII text)
+      - usr/data/ssl/pubkey.pem (ASCII text)
+  - **usr/etc/**
+    - usr/etc/Global.lua (ISO-8859 text, with CRLF line terminators)
+    - usr/etc/load_modules.sh (POSIX shell script, ASCII text executable)
+    - usr/etc/telnet_cfg (ASCII text)
+  - **usr/lib/**
+    - usr/lib/lib.7z (7-zip archive data, version 0.4)
+    - **usr/lib/lib.7z.extracted/**
+      - **usr/lib/lib.7z.extracted/0/**
+        - **usr/lib/lib.7z.extracted/0/lib/**
+          - usr/lib/lib.7z.extracted/0/lib/8192cu.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=e470f396ec6553bc0a349f024ec34416da2f6ae7, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/8192eu.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=d178dc9e85c504c1b5e323f8c52ee4ba5b552ef9, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/avss.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=66c0cc7d117133d8d0289adc0373a7577f1777a9, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/crgctrl_hi3521a.sh (POSIX shell script, ISO-8859 text executable)
+          - usr/lib/lib.7z.extracted/0/lib/driverbox.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=a63dfefe7b40aab2d303e8d0c8174abbbca7ab10, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_adec.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=49385cea1ba10e943a16a71ef82137b40ad90fb9, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_aenc.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=1ba65341fc9e8d0ae00524af7a8a9ea75f793d39, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_ai.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=5c3649c6950e2dcbeed6f70789d7877ce89056cd, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_aio.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c8992201f6d45daab19cd4fb1ca1ce52f9994cfb, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_ao.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=718693fb1bd20299d3c3c00243a419e199da6b2b, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_base.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=9708d7a9046e1be11ba8e788948349f03c3e5590, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_chnl.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=92ea8b3844f44f01de9e84697408909ee48254a5, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_h264e.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=119810bdefa0a9eddb2e85a47bc735a2c5ac083f, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_hdmi.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c9825c86610b80899fbf0739a02e49fe26087482, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_ive.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=adba2ed6e5beade94ae718d3bc563ab554203b24, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_jpegd.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=bf5a3352c00aef02989efddf282e4c2042c4aa05, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_jpege.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=bdd8db01c7d439bc93d632b6fcee069c9388ae5d, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_rc.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=ea5799b5116a4ded00424d0e8f9d6d202846418e, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_region.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c6785d8e07665d9f18e2f058610602d540cbeaa7, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_sys.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=442493f4b48d313c5e4cf9e7a59e2e6d348f03fb, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_tde.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=a1bc3d305bfa5fd266c83c1d546049d39adf0030, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vda.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=002109f04f118ee5aa9ee1c6d01e84e617752416, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vdec.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c1e878227cff1e53ece9d9b7a7888e17370bc4cb, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_venc.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c36f594cc252cc31e79c9aed60ab160b21c0a835, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vfmw.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c97ff118e0b3c524eb1be5f5665ce55f8771d3e7, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vgs.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=c06591cbb3065f64337bb304970d5620056fc1fe, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_viu.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=cac4bca19414177f0e6b0aa9b5192fdaf6cc9cb0, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vou.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=ec2c661e05dd9c62eb777f1f1af35590217be9ec, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi3521a_vpss.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=ade4f73297fca2fd32f8a546e914833eb6d88fed, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi_i2c.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=48878dd1a00d2946294b3101178a5565cb6127cf, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi_media.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=3353e9c4286e3c1527755fc37f2621853f148576, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hi_rtc.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=4a4130285446e6e2f685add5079e1afdfdd317d4, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hifb.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=1658218783951d53351d5b147fbee58d08e2f419, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/hiuser.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=13a10a6247da5befe213fa742cfd73e8c2f0b79d, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/i2c_common.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=3ceb6ccc6558ff55e4526cd6b765859ebf3bc3ca, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/i2c_read (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, with debug_info, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/i2c_write (ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, with debug_info, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/load_hisimod.sh (POSIX shell script, Unicode text, UTF-8 text executable)
+          - usr/lib/lib.7z.extracted/0/lib/mmz.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=40dfecd01b26ffdd8b763b12f87b5a4073336286, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/option.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=972cb8b1d3c989938b7f6d67d91154b97ff4d3e8, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/osa.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=9909304c44bc8253865cd91ab0eace8f25b4dd53, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/pinmux_hi3521a_i2s.sh (POSIX shell script, ISO-8859 text executable)
+          - usr/lib/lib.7z.extracted/0/lib/pinmux_hi3521a_vga_hdmi_spi.sh (POSIX shell script, ASCII text executable)
+          - usr/lib/lib.7z.extracted/0/lib/pinmux_hi3521a_vicap.sh (POSIX shell script, ISO-8859 text executable)
+          - usr/lib/lib.7z.extracted/0/lib/sysctl_hi3521a_asic.sh (POSIX shell script, ISO-8859 text executable)
+          - usr/lib/lib.7z.extracted/0/lib/usb_wwan.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=43c64de82f255b72a2b8ca779751c6d317c4fb9f, not stripped)
+          - usr/lib/lib.7z.extracted/0/lib/usbserial.ko (ELF 32-bit LSB relocatable, ARM, EABI5 version 1 (SYSV), BuildID[sha1]=7ba74793ff53db5d66b44445040049870373a352, not stripped)
+  - **usr/sbin/**
+    - usr/sbin/.dec.sh (Bourne-Again shell script, ASCII text executable, with very long lines (674))
+    - usr/sbin/3gconfig (ASCII text)
+    - usr/sbin/3gpp (symbolic link to ../../sbin/3gpp)
+    - usr/sbin/ii (POSIX shell script, ASCII text executable)
+    - usr/sbin/nfs (POSIX shell script, ASCII text executable)
+    - usr/sbin/usb_modeswitch (symbolic link to ../../bin/busybox)
 - **var/**
-  - Challenge `unknown`
+  - var/Challenge (empty)
 - **web/**
-  - **Component/**
-    - chnlGroup.js `js`
-    - level.js `js`
-    - schedule.htm `htm`
-    - schedule.js `js`
-  - Data_Signature `unknown`
-  - SigFileList `unknown`
-  - cap.js `js`
-  - **config/**
-    - index.htm `htm`
-  - **css/**
-    - Intellent.css `css`
-    - alarmindex.css `css`
-    - custom.css `css`
-    - faceplayback.css `css`
-    - fn.css `css`
-    - index.css `css`
-    - infoindex.css `css`
-    - oem.css `css`
-    - playbackindex.css `css`
-    - previewindex.css `css`
-    - reset.css `css`
-    - setindex.css `css`
-    - skin.css `css`
-    - ui.css `css`
-  - favicon.ico `ico`
-  - **html/**
-    - 3gnetcfg.htm `htm`
-    - ATMConfig.htm `htm`
-    - IVSConfig.htm `htm`
-    - adddevice.htm `htm`
-    - alarmboxcfg.htm `htm`
-    - alarmcenter.htm `htm`
-    - alarmindex.htm `htm`
-    - alarmlink.htm `htm`
-    - alarmout.htm `htm`
-    - audiocfg.htm `htm`
-    - audioset.htm `htm`
-    - audiosetTemp.htm `htm`
-    - automaintain.htm `htm`
-    - autoregister.htm `htm`
-    - blackwhite.htm `htm`
-    - broadcast.htm `htm`
-    - cfgmanage.htm `htm`
-    - chanldiscgroup.htm `htm`
-    - chanlhddquota.htm `htm`
-    - chnlname.htm `htm`
-    - chnltype.htm `htm`
-    - connetcfg.htm `htm`
-    - ddnsconfig.htm `htm`
-    - defaultcfg.htm `htm`
-    - diskerror.htm `htm`
-    - diskinfo.htm `htm`
-    - emailconfig.htm `htm`
-    - encodecfg.htm `htm`
-    - faceplayback.htm `htm`
-    - general.htm `htm`
-    - guiset.htm `htm`
-    - https.htm `htm`
-    - imageprty.htm `htm`
-    - infoindex.htm `htm`
-    - ipAccess.htm `htm`
-    - ipcFaceNewConfig.htm `htm`
-    - iscsiconfig.htm `htm`
-    - localconfig.htm `htm`
-    - localstorage.htm `htm`
-    - logmanage.htm `htm`
-    - onlineuser.htm `htm`
-    - p2pset.htm `htm`
-    - playbackindex.htm `htm`
-    - pppoe.htm `htm`
-    - previewindex.htm `htm`
-    - ptzconfig.htm `htm`
-    - recordcontrol.htm `htm`
-    - recordplan.htm `htm`
-    - remotestorage.htm `htm`
-    - serialconfig.htm `htm`
-    - setindex.htm `htm`
-    - snmpconfig.htm `htm`
-    - tcpip_ipc.htm `htm`
-    - update.htm `htm`
-    - upnpconfig.htm `htm`
-    - usermanage.htm `htm`
-    - useronvif.htm `htm`
-    - version.htm `htm`
-    - videodetect.htm `htm`
-    - videomatrix.htm `htm`
-    - wificfg.htm `htm`
-  - **image/**
-    - alert.gif `gif`
-    - allbg.png `png`
-    - bg.png `png`
-    - bgl.png `png`
-    - boat.png `png`
-    - btnbar.png `png`
-    - connfail.gif `gif`
-    - connsucss.gif `gif`
-    - custom.png `png`
-    - horizonline.png `png`
-    - icons.png `png`
-    - icons2.png `png`
-    - lbt.png `png`
-    - lgbg.jpg `jpg`
-    - lgbg.png `png`
-    - load.gif `gif`
-    - loginlogo.jpg `jpg`
-    - logo.jpg `jpg`
-    - pause.png `png`
-    - pic.png `png`
-    - playback.png `png`
-    - playbackbg.png `png`
-    - playbackline.png `png`
-    - playbacktimebg.png `png`
-    - pre.png `png`
-    - redTip.png `png`
-    - redTipbg.png `png`
-    - set.gif `gif`
-    - timep_boxbg.png `png`
-    - timep_boxbg2.png `png`
-    - timep_boxbg3.png `png`
-    - timep_hourbg.png `png`
-    - timep_weekbg.png `png`
-    - timep_weekbg2.png `png`
-    - updatebg.png `png`
-    - verticalline.png `png`
-  - index.htm `htm`
-  - **js/**
-    - 3gnetcfg.js `js`
-    - ATMConfig.js `js`
-    - Calendar.js `js`
-    - FileList.js `js`
-    - Grid.js `js`
-    - GroupControl.js `js`
-    - IVSConfig.js `js`
-    - IVSFaceSearch.js `js`
-    - PlayControl.js `js`
-    - WindowManager.js `js`
-    - adddevice.js `js`
-    - alarmboxcfg.js `js`
-    - alarmcenter.js `js`
-    - alarmindex.js `js`
-    - alarmlink.js `js`
-    - alarmout.js `js`
-    - appAbility.js `js`
-    - audiocfg.js `js`
-    - audioset.js `js`
-    - automaintain.js `js`
-    - autoregister.js `js`
-    - blackwhite.js `js`
-    - broadcast.js `js`
-    - cfgmanage.js `js`
-    - chanldiscgroup.js `js`
-    - chanlhddquota.js `js`
-    - chnlname.js `js`
-    - chnltype.js `js`
-    - connetcfg.js `js`
-    - ddnsconfig.js `js`
-    - defaultcfg.js `js`
-    - deviceInitial.js `js`
-    - diskerror.js `js`
-    - diskinfo.js `js`
-    - emailconfig.js `js`
-    - encodecfg.js `js`
-    - eventScript.js `js`
-    - faceplayback.js `js`
-    - findPwd.js `js`
-    - ft.js `js`
-    - general.js `js`
-    - guiset.js `js`
-    - https.js `js`
-    - imageprty.js `js`
-    - index.js `js`
-    - infoindex.js `js`
-    - ipAccess.js `js`
-    - ipcFaceNewConfig.js `js`
-    - iscsiconfig.js `js`
-    - localconfig.js `js`
-    - localstorage.js `js`
-    - loginEx.js `js`
-    - logmanage.js `js`
-    - onlineuser.js `js`
-    - p2pset.js `js`
-    - playbackindex.js `js`
-    - pppoe.js `js`
-    - previewindex.js `js`
-    - ptzCtrl.js `js`
-    - ptzconfig.js `js`
-    - publicFunc.js `js`
-    - qrcode.js `js`
-    - recordcontrol.js `js`
-    - recordplan.js `js`
-    - remotestorage.js `js`
-    - serialconfig.js `js`
-    - setindex.js `js`
-    - snmpconfig.js `js`
-    - system.js `js`
-    - tcpip_ipc.js `js`
-    - update.js `js`
-    - upnpconfig.js `js`
-    - usermanage.js `js`
-    - useronvif.js `js`
-    - version.js `js`
-    - videodetect.js `js`
-    - videomatrix.js `js`
-    - wificfg.js `js`
-  - **jsBase/**
-    - **lib/**
-      - base64.js `js`
-      - m1.2.js `js`
-      - md5.js `js`
-      - more.js `js`
-      - qrcode.js `js`
-  - **jsCore/**
-    - aes.js `js`
-    - common.js `js`
-    - rpcCore.js `js`
-    - rsa.js `js`
-  - local.png `png`
-  - olp.js `js`
-  - **platformHtm/**
-    - GAYS.htm `htm`
-    - GAYS.js `js`
-  - pluginVersion.js `js`
-  - webVersion.js `js`
-  - webplugin.exe `exe`
+  - **web/Component/**
+    - web/Component/chnlGroup.js (HTML document, ASCII text, with very long lines (4555), with no line terminators)
+    - web/Component/level.js (ASCII text, with very long lines (918), with no line terminators)
+    - web/Component/schedule.htm (Unicode text, UTF-8 text, with very long lines (7025), with no line terminators)
+    - web/Component/schedule.js (ASCII text, with very long lines (13401), with no line terminators)
+  - web/Data_Signature (data)
+  - web/SigFileList (ASCII text)
+  - web/cap.js (ASCII text, with no line terminators)
+  - **web/config/**
+    - web/config/index.htm (HTML document, Unicode text, UTF-8 text, with very long lines (1434), with CRLF line terminators)
+  - **web/css/**
+    - web/css/Intellent.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/alarmindex.css (Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/css/custom.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/faceplayback.css (ASCII text, with CRLF line terminators)
+    - web/css/fn.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/index.css (Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/css/infoindex.css (Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/css/oem.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/playbackindex.css (Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/css/previewindex.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/reset.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/setindex.css (Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/css/skin.css (Unicode text, UTF-8 text, with CRLF line terminators)
+    - web/css/ui.css (Unicode text, UTF-8 text, with CRLF line terminators)
+  - web/favicon.ico (MS Windows icon resource - 1 icon, 16x16, 32 bits/pixel)
+  - **web/html/**
+    - web/html/3gnetcfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (9621), with CRLF line terminators)
+    - web/html/ATMConfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (17978), with no line terminators)
+    - web/html/IVSConfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (11588), with no line terminators)
+    - web/html/adddevice.htm (HTML document, Unicode text, UTF-8 text, with very long lines (33354), with no line terminators)
+    - web/html/alarmboxcfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (578), with no line terminators)
+    - web/html/alarmcenter.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2378), with no line terminators)
+    - web/html/alarmindex.htm (HTML document, Unicode text, UTF-8 text, with very long lines (7920), with no line terminators)
+    - web/html/alarmlink.htm (HTML document, Unicode text, UTF-8 text, with very long lines (15712), with no line terminators)
+    - web/html/alarmout.htm (HTML document, Unicode text, UTF-8 text, with very long lines (3299), with no line terminators)
+    - web/html/audiocfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (1639), with no line terminators)
+    - web/html/audioset.htm (HTML document, Unicode text, UTF-8 text, with very long lines (11017), with no line terminators)
+    - web/html/audiosetTemp.htm (HTML document, ASCII text, with no line terminators)
+    - web/html/automaintain.htm (HTML document, Unicode text, UTF-8 text, with very long lines (3476), with CRLF line terminators)
+    - web/html/autoregister.htm (HTML document, Unicode text, UTF-8 text, with very long lines (1615), with no line terminators)
+    - web/html/blackwhite.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5692), with no line terminators)
+    - web/html/broadcast.htm (HTML document, Unicode text, UTF-8 text, with very long lines (1608), with no line terminators)
+    - web/html/cfgmanage.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2855), with no line terminators)
+    - web/html/chanldiscgroup.htm (HTML document, Unicode text, UTF-8 text, with very long lines (8337), with CRLF line terminators)
+    - web/html/chanlhddquota.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2342), with CRLF line terminators)
+    - web/html/chnlname.htm (HTML document, Unicode text, UTF-8 text, with very long lines (853), with no line terminators)
+    - web/html/chnltype.htm (HTML document, ASCII text, with very long lines (979), with no line terminators)
+    - web/html/connetcfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5584), with no line terminators)
+    - web/html/ddnsconfig.htm (HTML document, ASCII text, with very long lines (4931), with no line terminators)
+    - web/html/defaultcfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2730), with no line terminators)
+    - web/html/diskerror.htm (HTML document, Unicode text, UTF-8 text, with very long lines (64490), with no line terminators)
+    - web/html/diskinfo.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5554), with no line terminators)
+    - web/html/emailconfig.htm (HTML document, ASCII text, with very long lines (4587), with CRLF line terminators)
+    - web/html/encodecfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (28274), with CRLF line terminators)
+    - web/html/faceplayback.htm (HTML document, Unicode text, UTF-8 text, with very long lines (10609), with CRLF line terminators)
+    - web/html/general.htm (Unicode text, UTF-8 text, with very long lines (2203), with no line terminators)
+    - web/html/guiset.htm (HTML document, Unicode text, UTF-8 text, with very long lines (27420), with CRLF line terminators)
+    - web/html/https.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2517), with no line terminators)
+    - web/html/imageprty.htm (HTML document, Unicode text, UTF-8 text, with very long lines (25115), with no line terminators)
+    - web/html/infoindex.htm (HTML document, Unicode text, UTF-8 text, with very long lines (3640), with no line terminators)
+    - web/html/ipAccess.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5518), with no line terminators)
+    - web/html/ipcFaceNewConfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (10792), with no line terminators)
+    - web/html/iscsiconfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5104), with no line terminators)
+    - web/html/localconfig.htm (Unicode text, UTF-8 text, with very long lines (32592), with no line terminators)
+    - web/html/localstorage.htm (HTML document, Unicode text, UTF-8 text, with very long lines (9257), with no line terminators)
+    - web/html/logmanage.htm (HTML document, Unicode text, UTF-8 text, with very long lines (4201), with no line terminators)
+    - web/html/onlineuser.htm (HTML document, Unicode text, UTF-8 text, with very long lines (936), with no line terminators)
+    - web/html/p2pset.htm (HTML document, Unicode text, UTF-8 text, with very long lines (3652), with no line terminators)
+    - web/html/playbackindex.htm (HTML document, Unicode text, UTF-8 text, with very long lines (55503), with no line terminators)
+    - web/html/pppoe.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2123), with no line terminators)
+    - web/html/previewindex.htm (HTML document, Unicode text, UTF-8 (with BOM) text, with very long lines (398), with CRLF line terminators)
+    - web/html/ptzconfig.htm (HTML document, ASCII text, with very long lines (3584), with no line terminators)
+    - web/html/recordcontrol.htm (HTML document, ASCII text, with very long lines (2592), with CRLF line terminators)
+    - web/html/recordplan.htm (Unicode text, UTF-8 text, with very long lines (26902), with no line terminators)
+    - web/html/remotestorage.htm (HTML document, Unicode text, UTF-8 text, with very long lines (6611), with no line terminators)
+    - web/html/serialconfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2461), with no line terminators)
+    - web/html/setindex.htm (HTML document, Unicode text, UTF-8 text, with very long lines (25530), with no line terminators)
+    - web/html/snmpconfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (2382), with no line terminators)
+    - web/html/tcpip_ipc.htm (Unicode text, UTF-8 text, with very long lines (10149), with no line terminators)
+    - web/html/update.htm (Unicode text, UTF-8 text, with very long lines (6776), with no line terminators)
+    - web/html/upnpconfig.htm (HTML document, Unicode text, UTF-8 text, with very long lines (4405), with no line terminators)
+    - web/html/usermanage.htm (HTML document, Unicode text, UTF-8 text, with very long lines (23422), with no line terminators)
+    - web/html/useronvif.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5412), with no line terminators)
+    - web/html/version.htm (ASCII text, with very long lines (2804), with no line terminators)
+    - web/html/videodetect.htm (HTML document, Unicode text, UTF-8 text, with very long lines (34698), with no line terminators)
+    - web/html/videomatrix.htm (HTML document, Unicode text, UTF-8 text, with very long lines (8945), with no line terminators)
+    - web/html/wificfg.htm (HTML document, Unicode text, UTF-8 text, with very long lines (5459), with no line terminators)
+  - **web/image/**
+    - web/image/alert.gif (GIF image data, version 89a, 28 x 24)
+    - web/image/allbg.png (PNG image data, 1 x 600, 8-bit colormap, non-interlaced)
+    - web/image/bg.png (PNG image data, 1 x 170, 8-bit grayscale, non-interlaced)
+    - web/image/bgl.png (PNG image data, 1 x 734, 8-bit colormap, non-interlaced)
+    - web/image/boat.png (PNG image data, 104 x 699, 8-bit colormap, non-interlaced)
+    - web/image/btnbar.png (PNG image data, 385 x 73, 8-bit colormap, non-interlaced)
+    - web/image/connfail.gif (GIF image data, version 89a, 16 x 16)
+    - web/image/connsucss.gif (GIF image data, version 89a, 16 x 16)
+    - web/image/custom.png (PNG image data, 90 x 120, 8-bit colormap, non-interlaced)
+    - web/image/horizonline.png (PNG image data, 320 x 5, 8-bit grayscale, non-interlaced)
+    - web/image/icons.png (PNG image data, 570 x 720, 8-bit colormap, non-interlaced)
+    - web/image/icons2.png (PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced)
+    - web/image/lbt.png (PNG image data, 101 x 29, 8-bit colormap, non-interlaced)
+    - web/image/lgbg.jpg (JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 515x276, components 3)
+    - web/image/lgbg.png (PNG image data, 483 x 317, 8-bit colormap, non-interlaced)
+    - web/image/load.gif (GIF image data, version 89a, 16 x 16)
+    - web/image/loginlogo.jpg (JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 515x44, components 3)
+    - web/image/logo.jpg (JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 256x55, components 3)
+    - web/image/pause.png (PNG image data, 33 x 67, 8-bit colormap, non-interlaced)
+    - web/image/pic.png (PNG image data, 454 x 250, 8-bit/color RGBA, non-interlaced)
+    - web/image/playback.png (PNG image data, 486 x 478, 8-bit colormap, non-interlaced)
+    - web/image/playbackbg.png (PNG image data, 237 x 1, 8-bit grayscale, non-interlaced)
+    - web/image/playbackline.png (PNG image data, 1 x 400, 8-bit colormap, non-interlaced)
+    - web/image/playbacktimebg.png (PNG image data, 1 x 13, 1-bit colormap, non-interlaced)
+    - web/image/pre.png (PNG image data, 368 x 17, 8-bit colormap, non-interlaced)
+    - web/image/redTip.png (PNG image data, 5 x 5, 8-bit/color RGBA, non-interlaced)
+    - web/image/redTipbg.png (PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced)
+    - web/image/set.gif (GIF image data, version 89a, 16 x 16)
+    - web/image/timep_boxbg.png (PNG image data, 11 x 80, 2-bit colormap, non-interlaced)
+    - web/image/timep_boxbg2.png (PNG image data, 11 x 100, 2-bit colormap, non-interlaced)
+    - web/image/timep_boxbg3.png (PNG image data, 11 x 80, 2-bit colormap, non-interlaced)
+    - web/image/timep_hourbg.png (PNG image data, 44 x 5, 1-bit colormap, non-interlaced)
+    - web/image/timep_weekbg.png (PNG image data, 5 x 40, 1-bit colormap, non-interlaced)
+    - web/image/timep_weekbg2.png (PNG image data, 5 x 50, 1-bit colormap, non-interlaced)
+    - web/image/updatebg.png (PNG image data, 17 x 56, 8-bit colormap, non-interlaced)
+    - web/image/verticalline.png (PNG image data, 5 x 320, 8-bit grayscale, non-interlaced)
+  - web/index.htm (HTML document, Unicode text, UTF-8 text, with very long lines (23411), with CRLF line terminators)
+  - **web/js/**
+    - web/js/3gnetcfg.js (ASCII text, with very long lines (22409), with no line terminators)
+    - web/js/ATMConfig.js (HTML document, ASCII text, with very long lines (16724), with no line terminators)
+    - web/js/Calendar.js (ASCII text, with very long lines (5306), with no line terminators)
+    - web/js/FileList.js (ASCII text, with very long lines (3584), with no line terminators)
+    - web/js/Grid.js (ASCII text, with very long lines (795), with no line terminators)
+    - web/js/GroupControl.js (ASCII text, with very long lines (4457), with no line terminators)
+    - web/js/IVSConfig.js (HTML document, ASCII text, with very long lines (25793), with no line terminators)
+    - web/js/IVSFaceSearch.js (ASCII text, with very long lines (2692), with no line terminators)
+    - web/js/PlayControl.js (ASCII text, with very long lines (836), with no line terminators)
+    - web/js/WindowManager.js (ASCII text, with very long lines (1231), with no line terminators)
+    - web/js/adddevice.js (ASCII text, with very long lines (32115))
+    - web/js/alarmboxcfg.js (HTML document, ASCII text, with very long lines (1537), with no line terminators)
+    - web/js/alarmcenter.js (ASCII text, with very long lines (4440), with no line terminators)
+    - web/js/alarmindex.js (ASCII text, with very long lines (5113), with no line terminators)
+    - web/js/alarmlink.js (ASCII text, with very long lines (32062))
+    - web/js/alarmout.js (ASCII text, with very long lines (13449), with no line terminators)
+    - web/js/appAbility.js (ASCII text, with very long lines (16256), with no line terminators)
+    - web/js/audiocfg.js (ASCII text, with very long lines (2849), with no line terminators)
+    - web/js/audioset.js (ASCII text, with very long lines (9448), with no line terminators)
+    - web/js/automaintain.js (ASCII text, with very long lines (3911), with no line terminators)
+    - web/js/autoregister.js (ASCII text, with very long lines (2544), with no line terminators)
+    - web/js/blackwhite.js (ASCII text, with very long lines (12094), with no line terminators)
+    - web/js/broadcast.js (ASCII text, with very long lines (2717), with no line terminators)
+    - web/js/cfgmanage.js (ASCII text, with very long lines (3550), with no line terminators)
+    - web/js/chanldiscgroup.js (ASCII text, with very long lines (22317), with no line terminators)
+    - web/js/chanlhddquota.js (ASCII text, with very long lines (11291), with no line terminators)
+    - web/js/chnlname.js (ASCII text, with very long lines (3130), with no line terminators)
+    - web/js/chnltype.js (HTML document, ASCII text, with very long lines (20703), with no line terminators)
+    - web/js/connetcfg.js (ASCII text, with very long lines (7963), with no line terminators)
+    - web/js/ddnsconfig.js (ASCII text, with very long lines (20002), with no line terminators)
+    - web/js/defaultcfg.js (ASCII text, with very long lines (2862), with no line terminators)
+    - web/js/deviceInitial.js (ASCII text, with very long lines (5081), with no line terminators)
+    - web/js/diskerror.js (ASCII text, with very long lines (19918), with no line terminators)
+    - web/js/diskinfo.js (HTML document, ASCII text, with very long lines (10306), with no line terminators)
+    - web/js/emailconfig.js (ASCII text, with very long lines (10687), with no line terminators)
+    - web/js/encodecfg.js (ASCII text, with very long lines (32188))
+    - web/js/eventScript.js (ASCII text, with very long lines (5905), with no line terminators)
+    - web/js/faceplayback.js (ASCII text, with very long lines (16894), with no line terminators)
+    - web/js/findPwd.js (ASCII text, with very long lines (9676), with no line terminators)
+    - web/js/ft.js (ASCII text, with no line terminators)
+    - web/js/general.js (ASCII text, with very long lines (2725), with no line terminators)
+    - web/js/guiset.js (ASCII text, with very long lines (32321))
+    - web/js/https.js (ASCII text, with very long lines (2776), with no line terminators)
+    - web/js/imageprty.js (ASCII text, with very long lines (32358))
+    - web/js/index.js (ASCII text, with very long lines (32046))
+    - web/js/infoindex.js (ASCII text, with very long lines (4364), with no line terminators)
+    - web/js/ipAccess.js (ASCII text, with very long lines (9757), with no line terminators)
+    - web/js/ipcFaceNewConfig.js (ASCII text, with very long lines (24016), with no line terminators)
+    - web/js/iscsiconfig.js (HTML document, ASCII text, with very long lines (10051), with no line terminators)
+    - web/js/localconfig.js (ASCII text, with very long lines (32119))
+    - web/js/localstorage.js (HTML document, ASCII text, with very long lines (19790), with no line terminators)
+    - web/js/loginEx.js (ASCII text, with very long lines (5152), with no line terminators)
+    - web/js/logmanage.js (ASCII text, with very long lines (12454), with no line terminators)
+    - web/js/onlineuser.js (HTML document, ASCII text, with very long lines (1109), with no line terminators)
+    - web/js/p2pset.js (ASCII text, with very long lines (5546), with no line terminators)
+    - web/js/playbackindex.js (ASCII text, with very long lines (32085))
+    - web/js/pppoe.js (ASCII text, with very long lines (2535), with no line terminators)
+    - web/js/previewindex.js (HTML document, ASCII text, with very long lines (32094))
+    - web/js/ptzCtrl.js (ASCII text, with very long lines (2587), with no line terminators)
+    - web/js/ptzconfig.js (ASCII text, with very long lines (8397), with no line terminators)
+    - web/js/publicFunc.js (Unicode text, UTF-8 text, with very long lines (32477))
+    - web/js/qrcode.js (ASCII text, with very long lines (16824), with no line terminators)
+    - web/js/recordcontrol.js (ASCII text, with very long lines (8119), with no line terminators)
+    - web/js/recordplan.js (ASCII text, with very long lines (25017), with no line terminators)
+    - web/js/remotestorage.js (ASCII text, with very long lines (9102), with no line terminators)
+    - web/js/serialconfig.js (ASCII text, with very long lines (3486), with no line terminators)
+    - web/js/setindex.js (ASCII text, with very long lines (25181), with no line terminators)
+    - web/js/snmpconfig.js (ASCII text, with very long lines (3107), with no line terminators)
+    - web/js/system.js (ASCII text, with very long lines (1484), with no line terminators)
+    - web/js/tcpip_ipc.js (Unicode text, UTF-8 text, with very long lines (24720), with no line terminators)
+    - web/js/update.js (Unicode text, UTF-8 text, with very long lines (11909), with no line terminators)
+    - web/js/upnpconfig.js (HTML document, ASCII text, with very long lines (5569), with no line terminators)
+    - web/js/usermanage.js (ASCII text, with very long lines (32343))
+    - web/js/useronvif.js (HTML document, ASCII text, with very long lines (5859), with no line terminators)
+    - web/js/version.js (Unicode text, UTF-8 text, with very long lines (4048), with no line terminators)
+    - web/js/videodetect.js (ASCII text, with very long lines (32833))
+    - web/js/videomatrix.js (ASCII text, with very long lines (32138))
+    - web/js/wificfg.js (HTML document, Unicode text, UTF-8 text, with very long lines (9716), with no line terminators)
+  - **web/jsBase/**
+    - **web/jsBase/lib/**
+      - web/jsBase/lib/base64.js (ASCII text, with very long lines (1466), with no line terminators)
+      - web/jsBase/lib/m1.2.js (ASCII text, with very long lines (32155))
+      - web/jsBase/lib/md5.js (ASCII text, with very long lines (4302), with no line terminators)
+      - web/jsBase/lib/more.js (ASCII text, with very long lines (27050), with no line terminators)
+      - web/jsBase/lib/qrcode.js (ASCII text, with very long lines (14489), with no line terminators)
+  - **web/jsCore/**
+    - web/jsCore/aes.js (ASCII text, with very long lines (13633), with no line terminators)
+    - web/jsCore/common.js (ASCII text, with very long lines (10177), with no line terminators)
+    - web/jsCore/rpcCore.js (ASCII text, with very long lines (32019))
+    - web/jsCore/rsa.js (ASCII text, with very long lines (11802), with no line terminators)
+  - web/local.png (ISO-8859 text)
+  - web/olp.js (ASCII text, with very long lines (3125), with no line terminators)
+  - **web/platformHtm/**
+    - web/platformHtm/GAYS.htm (HTML document, Unicode text, UTF-8 (with BOM) text, with CRLF line terminators)
+    - web/platformHtm/GAYS.js (Unicode text, UTF-8 text, with CRLF line terminators)
+  - web/pluginVersion.js (ASCII text, with no line terminators)
+  - web/webVersion.js (ASCII text, with no line terminators)
+  - web/webplugin.exe (PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive)
 ```
 
 # Firmware Details
 
 - **File Size**: 22106176 bytes
 - **MD5 Hash**: 487471520fbaace46b1677890f4ef4c6
-- **File Format**: bin
+- **File Format**: u-boot legacy uImage, hi3520Dromfs, Linux/ARM, OS Kernel Image (gzip), 13144064 bytes, Wed Nov 29 14:28:44 2017, Load Address: 0XA0060000, Entry Point: 0XA0DA0000, Header CRC: 0X71FF3C3D, Data CRC: 0X3F9F5075
 - **Detected URLs**: ['http://192.168.1.108', 'http://203.0.113.25', 'http://amcrest.com', 'http://orange.instaon.com', 'http://www.apple.com', 'http://www.dahuaddns.com', 'http://www.freebsd.org', 'http://www.iana.org', 'http://www.keplerproject.org', 'http://www.quickddns.com', 'http://www.w3.org']
 - **Detected IP Addresses**: ['0.0.0.0', '0.9.33.2', '1.0.0.1', '1.1.1.1', '10.6.3.213', '10.6.5.52', '110.119.0.1', '110.119.120.1', '127.0.0.1', '172.8.1.176', '192.168.0.0', '192.168.1.1', '192.168.1.108', '192.168.1.240', '192.168.25.22', '203.0.113.25', '224.0.0.0', '239.255.255.255', '255.255.255.0']
 - **Entropy**: 8.0
@@ -2285,13 +2282,13 @@
 
 
 - Found Cryptographic Functions:
-  * [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, RSA_private_decrypt, RAND_bytes(m_rand_data, m_rand_length) != 0
+  * RSA_private_decrypt, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, RSA_public_encrypt, RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0
 
 - Weak Encryption Detected:
-  * EAP: no MD5 secret for auth to %q, RSA-MD5, function hex_md5(a){return faultylabs.MD5(a)}"undefined"==typeof faultylabs&&(faultylabs={}),faultylabs.MD5=function(a){function b(a){var b=(a>>>0).toString(16);return"00000000".substr(0,8-b.length)+b}function c(a){for(var b=[],c=0;c<a.length;c++)b=b.concat(k(a[c]));return b}function d(a){for(var b=[],c=0;8>c;c++)b.push(255&a),a>>>=8;return b}function e(a,b){return a<<b&4294967295|a>>>32-b}function f(a,b,c){return a&b|~a&c}function g(a,b,c){return c&a|~c&b}function h(a,b,c){return a^b^c}function i(a,b,c){return b^(a|~c)}function j(a,b){return a[b+3]<<24|a[b+2]<<16|a[b+1]<<8|a[b]}function k(a){for(var b=[],c=0;c<a.length;c++)if(a.charCodeAt(c)<=127)b.push(a.charCodeAt(c));else for(var d=encodeURIComponent(a.charAt(c)).substr(1).split("%"),e=0;e<d.length;e++)b.push(parseInt(d[e],16));return b}function l(){for(var a="",c=0,d=0,e=3;e>=0;e--)d=arguments[e],c=255&d,d>>>=8,c<<=8,c|=255&d,d>>>=8,c<<=8,c|=255&d,d>>>=8,c<<=8,c|=d,a+=b(c);return a}function m(a){for(var b=new Array(a.length),c=0;c<a.length;c++)b[c]=a[c];return b}function n(a,b){return 4294967295&a+b}function o(){function a(a,b,c,d){var f=v;v=u,u=t,t=n(t,e(n(s,n(a,n(b,c))),d)),s=f}var b=p.length;p.push(128);var c=p.length%64;if(c>56){for(var k=0;64-c>k;k++)p.push(0);c=p.length%64}for(k=0;56-c>k;k++)p.push(0);p=p.concat(d(8*b));var m=1732584193,o=4023233417,q=2562383102,r=271733878,s=0,t=0,u=0,v=0;for(k=0;k<p.length/64;k++){s=m,t=o,u=q,v=r;var w=64*k;a(f(t,u,v),3614090360,j(p,w),7),a(f(t,u,v),3905402710,j(p,w+4),12),a(f(t,u,v),606105819,j(p,w+8),17),a(f(t,u,v),3250441966,j(p,w+12),22),a(f(t,u,v),4118548399,j(p,w+16),7),a(f(t,u,v),1200080426,j(p,w+20),12),a(f(t,u,v),2821735955,j(p,w+24),17),a(f(t,u,v),4249261313,j(p,w+28),22),a(f(t,u,v),1770035416,j(p,w+32),7),a(f(t,u,v),2336552879,j(p,w+36),12),a(f(t,u,v),4294925233,j(p,w+40),17),a(f(t,u,v),2304563134,j(p,w+44),22),a(f(t,u,v),1804603682,j(p,w+48),7),a(f(t,u,v),4254626195,j(p,w+52),12),a(f(t,u,v),2792965006,j(p,w+56),17),a(f(t,u,v),1236535329,j(p,w+60),22),a(g(t,u,v),4129170786,j(p,w+4),5),a(g(t,u,v),3225465664,j(p,w+24),9),a(g(t,u,v),643717713,j(p,w+44),14),a(g(t,u,v),3921069994,j(p,w),20),a(g(t,u,v),3593408605,j(p,w+20),5),a(g(t,u,v),38016083,j(p,w+40),9),a(g(t,u,v),3634488961,j(p,w+60),14),a(g(t,u,v),3889429448,j(p,w+16),20),a(g(t,u,v),568446438,j(p,w+36),5),a(g(t,u,v),3275163606,j(p,w+56),9),a(g(t,u,v),4107603335,j(p,w+12),14),a(g(t,u,v),1163531501,j(p,w+32),20),a(g(t,u,v),2850285829,j(p,w+52),5),a(g(t,u,v),4243563512,j(p,w+8),9),a(g(t,u,v),1735328473,j(p,w+28),14),a(g(t,u,v),2368359562,j(p,w+48),20),a(h(t,u,v),4294588738,j(p,w+20),4),a(h(t,u,v),2272392833,j(p,w+32),11),a(h(t,u,v),1839030562,j(p,w+44),16),a(h(t,u,v),4259657740,j(p,w+56),23),a(h(t,u,v),2763975236,j(p,w+4),4),a(h(t,u,v),1272893353,j(p,w+16),11),a(h(t,u,v),4139469664,j(p,w+28),16),a(h(t,u,v),3200236656,j(p,w+40),23),a(h(t,u,v),681279174,j(p,w+52),4),a(h(t,u,v),3936430074,j(p,w),11),a(h(t,u,v),3572445317,j(p,w+12),16),a(h(t,u,v),76029189,j(p,w+24),23),a(h(t,u,v),3654602809,j(p,w+36),4),a(h(t,u,v),3873151461,j(p,w+48),11),a(h(t,u,v),530742520,j(p,w+60),16),a(h(t,u,v),3299628645,j(p,w+8),23),a(i(t,u,v),4096336452,j(p,w),6),a(i(t,u,v),1126891415,j(p,w+28),10),a(i(t,u,v),2878612391,j(p,w+56),15),a(i(t,u,v),4237533241,j(p,w+20),21),a(i(t,u,v),1700485571,j(p,w+48),6),a(i(t,u,v),2399980690,j(p,w+12),10),a(i(t,u,v),4293915773,j(p,w+40),15),a(i(t,u,v),2240044497,j(p,w+4),21),a(i(t,u,v),1873313359,j(p,w+32),6),a(i(t,u,v),4264355552,j(p,w+60),10),a(i(t,u,v),2734768916,j(p,w+24),15),a(i(t,u,v),1309151649,j(p,w+52),21),a(i(t,u,v),4149444226,j(p,w+16),6),a(i(t,u,v),3174756917,j(p,w+44),10),a(i(t,u,v),718787259,j(p,w+8),15),a(i(t,u,v),3951481745,j(p,w+36),21),m=n(m,s),o=n(o,t),q=n(q,u),r=n(r,v)}return l(r,q,o,m).toUpperCase()}var p=null,q=null;return"string"==typeof a?p=k(a):a.constructor==Array?0===a.length?p=a:"string"==typeof a[0]?p=c(a):"number"==typeof a[0]?p=a:q=typeof a[0]:"undefined"!=typeof ArrayBuffer?a instanceof ArrayBuffer?p=m(new Uint8Array(a)):a instanceof Uint8Array||a instanceof Int8Array?p=m(a):a instanceof Uint32Array||a instanceof Int32Array||a instanceof Uint16Array||a instanceof Int16Array||a instanceof Float32Array||a instanceof Float64Array?p=m(new Uint8Array(a.buffer)):q=typeof a:q=typeof a,q&&alert("MD5 type mismatch, cannot process "+q),o()};, DES-ECB, AES-192-CBC-HMAC-SHA1
+  * DES-CDMF, SRTP_AES128_CM_SHA1_32, pbeWithMD5AndDES-CBC, EAP-MD5: Challenge, PSK-3DES-EDE-CBC-SHA
 
 - Found Hardcoded Base64 Keys:
-  * pR+sJnkw/h+a5ZUIqZkLJWxwmTOTZNEAimCR0yjjTeVm1qQ0nY2u++UYVEKk2HpU
+  * b3JrIGluICh1c2VkIGluIHRoZSBwcm9tcHQgYmVsb3cpCmlmIFsgLXogIiR7ZGViaWFuX2Nocm9v
 
 - Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
