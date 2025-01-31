@@ -1890,6 +1890,7 @@
 | `bash`     |
 
 </details>
+
 # Vulnerabilities in executable files
 
 ## File: sbin/insmod
