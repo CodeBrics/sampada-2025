@@ -1,3 +1,6 @@
+<details>
+<summary>📁 FILE STRUCTURE</summary>
+
 # Directory Tree Structure
 
 ```# Directory Tree Structure
@@ -1462,6 +1465,8 @@
   - web/webplugin.exe `exe`
 ```
 
+</details>
+
 # Firmware Details
 
 - **File Size**: 22106176 bytes
@@ -2284,13 +2289,13 @@
 
 
 - Found Cryptographic Functions:
-  * RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), RAND_bytes(m_rand_data, m_rand_length) != 0, RSA_private_decrypt
+  * RAND_bytes(m_rand_data, m_rand_length) != 0, RSA_public_encrypt, RSA_private_decrypt, RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s()
 
 - Weak Encryption Detected:
-  * PBE-SHA1-3DES, EAP: received MD5-Challenge with no data, SNIFFERDESTPORT, EAPOL: Decrypted(RC4) key, EDH-DSS-DES-CBC3-SHA
+  * RC4(128), 3DES(168), 6MD5 Hash %s for [%pI6c]:%u->[%pI6c]:%u, DES-EDE3, SRTP_AES128_CM_SHA1_32
 
 - Found Hardcoded Base64 Keys:
-  * aAojIGFwcGVuZCB0byB0aGUgaGlzdG9yeSBmaWxlLCBkb24ndCBvdmVyd3JpdGUgaXQKc2hvcHQg
+  * 2QKgkQqVjfnOBhOOpkCHNiwY+5ptehwWcwI2nw+MKp4aP4xEl1HUSpK3UU6jm2yY
 
 - Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
