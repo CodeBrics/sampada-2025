@@ -1479,7 +1479,10 @@
 - **Build_date**: 2017-11-29 14:28:44
 - **Developer**: D@0.gN
 
-- **UI Resources**: # UI Resources
+- **UI Resources**: <details>
+<summary>UI Resources</summary>
+
+# UI Resources
 
 ## .css
 - **web/css/**
@@ -2281,19 +2284,20 @@
   - updatebg.png
   - verticalline.png
 
+</details>
 - **Packing**: Archive Detected
 - **Architecture**: 0             0x0             uImage header, header size: 64 bytes, header CRC: 0x71FF3C3D, created: 2017-11-29 14:28:44, image size: 13144064 bytes, Data Address: 0xA0060000, Entry Point: 0xA0DA0000, data CRC: 0x3F9F5075, OS: Linux, CPU: ARM, image type: OS Kernel Image, compression type: gzip, image name: "hi3520Dromfs"
 ## Cryptographic Analysis
 
 
 - Found Cryptographic Functions:
-  * RAND_bytes(m_rand_data, m_rand_length) != 0, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, RSA_private_decrypt, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s()
+  * RSA_public_encrypt, RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), RSA_private_decrypt, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s()
 
 - Weak Encryption Detected:
-  * id-smime-alg-3DESwrap, DES-CBC, EXP-DHE-DSS-DES-CBC-SHA, tMD5F, NULL-MD5
+  * DESCPCMDCREC[, [%s:%d] this:%p tid:%d,  default setting add !DES !RC4 failed!, EAP: no MD5 secret for auth of %q, DES-ECB, RC4-40
 
 - Found Hardcoded Base64 Keys:
-  * bVxdXHdcW1wwMzNbMDszMW1cXV1cblxbXDAzM1swOzMxbVxdXDM0MlwyMjRcMjI0XDM0MlwyMjRc
+  * nAdfRdmUcCb5xKqf/LsqIpbNJs83IbLCDPYzoonsDhCCkr/lkILrzj1+51Y8hf67
 
 - Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
