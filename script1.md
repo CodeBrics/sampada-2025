@@ -1479,7 +1479,8 @@
 - **Build_date**: 2017-11-29 14:28:44
 - **Developer**: D@0.gN
 
-- **UI Resources**: <details>
+- **UI Resources**:
+<details>
 <summary><strong>UI Resources</strong></summary>
 
 # UI Resources
@@ -2283,8 +2284,6 @@
   - timep_weekbg2.png
   - updatebg.png
   - verticalline.png
-
-
 </details>
 
 - **Packing**: Archive Detected
