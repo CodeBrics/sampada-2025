@@ -2287,13 +2287,13 @@
 
 
 - Found Cryptographic Functions:
-  * RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RSA_public_encrypt, RSA_private_decrypt
+  * RAND_bytes(m_rand_data, m_rand_length) != 0, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, RSA_private_decrypt, [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s()
 
 - Weak Encryption Detected:
-  * WPA: RC4 key data too long (%lu), 3DES, RSA-NP-MD5, hmacWithSHA1, ","DESCONOCIDO","DESCON","INCONNU"],"conf_3gnet.UP":["UP","HOCH","Nahoru","
+  * id-smime-alg-3DESwrap, DES-CBC, EXP-DHE-DSS-DES-CBC-SHA, tMD5F, NULL-MD5
 
 - Found Hardcoded Base64 Keys:
-  * /usr/data/Data/storagePage/SettingNormal
+  * bVxdXHdcW1wwMzNbMDszMW1cXV1cblxbXDAzM1swOzMxbVxdXDM0MlwyMjRcMjI0XDM0MlwyMjRc
 
 - Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
