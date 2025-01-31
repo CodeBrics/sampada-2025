@@ -2,7 +2,9 @@
 
 ```# Directory Tree Structure
 
-- **bin/**
+<details>
+<summary><strong>bin/</strong></summary>
+
   - bin/Data_Signature `unknown`
   - bin/SigFileList `unknown`
   - bin/[ `unknown`
@@ -70,30 +72,84 @@
   - bin/vi `unknown`
   - bin/vlock `unknown`
   - bin/wget `unknown`
-- **boot/**
+</details>
+
+<details>
+<summary><strong>boot/</strong></summary>
+
   - boot/uImage `unknown`
-  - **boot/uImage.extracted/**
-    - **boot/uImage.extracted/0/**
+  <details>
+  <summary><strong>boot/uImage.extracted/</strong></summary>
+
+    <details>
+    <summary><strong>boot/uImage.extracted/0/</strong></summary>
+
       - boot/uImage.extracted/0/Linux-3.10.0.bin `bin`
-      - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/**
-        - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/**
+      <details>
+      <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/</strong></summary>
+
+        <details>
+        <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/</strong></summary>
+
           - boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin `bin`
-          - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/**
-            - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/**
-              - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/dev/**
-              - **boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/root/**
-- **dev/**
-- **etc/**
+          <details>
+          <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/</strong></summary>
+
+            <details>
+            <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/</strong></summary>
+
+              <details>
+              <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/dev/</strong></summary>
+
+</details>
+
+              <details>
+              <summary><strong>boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin.extracted/52C6A0/root/</strong></summary>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>dev/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>etc/</strong></summary>
+
   - etc/Data_Signature `unknown`
   - etc/SigFileList `unknown`
   - etc/SigFilePartition `unknown`
-  - **etc/Wireless/**
-    - **etc/Wireless/RT2870STA/**
+  <details>
+  <summary><strong>etc/Wireless/</strong></summary>
+
+    <details>
+    <summary><strong>etc/Wireless/RT2870STA/</strong></summary>
+
       - etc/Wireless/RT2870STA/RT2870STA.dat `dat`
+</details>
+
   - etc/fs-version `unknown`
   - etc/fstab `unknown`
   - etc/group `unknown`
-  - **etc/init.d/**
+</details>
+
+  <details>
+  <summary><strong>etc/init.d/</strong></summary>
+
     - etc/init.d/S00devs `unknown`
     - etc/init.d/S01udev `unknown`
     - etc/init.d/S02wndev `unknown`
@@ -107,7 +163,11 @@
   - etc/mtab `unknown`
   - etc/passwd `unknown`
   - etc/passwd- `unknown`
-  - **etc/ppp/**
+</details>
+
+  <details>
+  <summary><strong>etc/ppp/</strong></summary>
+
     - etc/ppp/options `unknown`
     - etc/ppp/pap-secrets `unknown`
     - etc/ppp/pppoe-enable `unknown`
@@ -118,8 +178,14 @@
   - etc/protocols `unknown`
   - etc/resolv.conf `conf`
   - etc/services `unknown`
-  - **etc/udev/**
-    - **etc/udev/rules.d/**
+</details>
+
+  <details>
+  <summary><strong>etc/udev/</strong></summary>
+
+    <details>
+    <summary><strong>etc/udev/rules.d/</strong></summary>
+
       - etc/udev/rules.d/54-gphoto.rules `rules`
       - etc/udev/rules.d/60-pcmcia.rules `rules`
       - etc/udev/rules.d/75-cd-aliases-generator.rules.optional `optional`
@@ -129,9 +195,21 @@
       - etc/udev/rules.d/99-fuse.rules `rules`
       - etc/udev/rules.d/device-mapper.rules `rules`
     - etc/udev/udev.conf `conf`
-- **home/**
+</details>
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>home/</strong></summary>
+
 - init `unknown`
-- **lib/**
+</details>
+
+<details>
+<summary><strong>lib/</strong></summary>
+
   - lib/Data_Signature `unknown`
   - lib/SigFileList `unknown`
   - lib/ld-uClibc-0.9.33.2.so `so`
@@ -157,21 +235,81 @@
   - lib/libutil-0.9.33.2.so `so`
   - lib/libutil.so.0 `0`
 - linuxrc `unknown`
-- **mnt/**
-  - **mnt/custom/**
-  - **mnt/dvs/**
-  - **mnt/logo/**
-  - **mnt/mtd/**
-    - **mnt/mtd/Config/**
-      - **mnt/mtd/Config/ppp/**
-    - **mnt/mtd/ppp/**
-  - **mnt/nfs/**
-  - **mnt/web/**
-- **nfs/**
-- **proc/**
-  - **proc/dahua/**
-- **root/**
-- **sbin/**
+</details>
+
+<details>
+<summary><strong>mnt/</strong></summary>
+
+  <details>
+  <summary><strong>mnt/custom/</strong></summary>
+
+</details>
+
+  <details>
+  <summary><strong>mnt/dvs/</strong></summary>
+
+</details>
+
+  <details>
+  <summary><strong>mnt/logo/</strong></summary>
+
+</details>
+
+  <details>
+  <summary><strong>mnt/mtd/</strong></summary>
+
+    <details>
+    <summary><strong>mnt/mtd/Config/</strong></summary>
+
+      <details>
+      <summary><strong>mnt/mtd/Config/ppp/</strong></summary>
+
+</details>
+
+</details>
+
+    <details>
+    <summary><strong>mnt/mtd/ppp/</strong></summary>
+
+</details>
+
+</details>
+
+  <details>
+  <summary><strong>mnt/nfs/</strong></summary>
+
+</details>
+
+  <details>
+  <summary><strong>mnt/web/</strong></summary>
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>nfs/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>proc/</strong></summary>
+
+  <details>
+  <summary><strong>proc/dahua/</strong></summary>
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>root/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>sbin/</strong></summary>
+
   - sbin/3gpp `unknown`
   - sbin/Data_Signature `unknown`
   - sbin/SigFileList `unknown`
@@ -207,34 +345,68 @@
   - sbin/snmpd `unknown`
   - sbin/upgraded `unknown`
   - sbin/upnp_tv_ctrlpt `unknown`
-- **share/**
-- **slave/**
-- **sys/**
-- **tmp/**
+</details>
+
+<details>
+<summary><strong>share/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>slave/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>sys/</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>tmp/</strong></summary>
+
   - tmp/daemon `unknown`
   - tmp/daemon1 `unknown`
   - tmp/daemon2 `unknown`
-  - **tmp/wireless/**
+  <details>
+  <summary><strong>tmp/wireless/</strong></summary>
+
     - tmp/wireless/1 `unknown`
     - tmp/wireless/108 `unknown`
     - tmp/wireless/81 `unknown`
     - tmp/wireless/99 `unknown`
-- **usr/**
+</details>
+
+</details>
+
+<details>
+<summary><strong>usr/</strong></summary>
+
   - usr/Data_Signature `unknown`
   - usr/SigFileList `unknown`
-  - **usr/bin/**
+  <details>
+  <summary><strong>usr/bin/</strong></summary>
+
     - usr/bin/Challenge `unknown`
     - usr/bin/DahuaExec `unknown`
-    - **usr/bin/lua/**
+    <details>
+    <summary><strong>usr/bin/lua/</strong></summary>
+
       - usr/bin/lua/ATMCtrl.lua `lua`
       - usr/bin/lua/ATMHead.lua `lua`
       - usr/bin/lua/LiveUpdate.lua `lua`
       - usr/bin/lua/PTZCtrl.lua `lua`
-      - **usr/bin/lua/com/**
+      <details>
+      <summary><strong>usr/bin/lua/com/</strong></summary>
+
         - usr/bin/lua/com/ParseKLPOSStr.lua `lua`
       - usr/bin/lua/compat-5.1.lua `lua`
       - usr/bin/lua/init.lua `lua`
-      - **usr/bin/lua/ptz/**
+</details>
+
+      <details>
+      <summary><strong>usr/bin/lua/ptz/</strong></summary>
+
         - usr/bin/lua/ptz/AD1641M.lua `lua`
         - usr/bin/lua/ptz/ADMatrix.lua `lua`
         - usr/bin/lua/ptz/Banknote.lua `lua`
@@ -293,14 +465,34 @@
         - usr/bin/lua/ptz/WV-CS950.lua `lua`
         - usr/bin/lua/ptz/Yaan.lua `lua`
       - usr/bin/lua/utils.lua `lua`
-    - **usr/bin/secboot/**
+</details>
+
+</details>
+
+    <details>
+    <summary><strong>usr/bin/secboot/</strong></summary>
+
       - usr/bin/secboot/public.pem `pem`
-    - **usr/bin/ssl/**
+</details>
+
+    <details>
+    <summary><strong>usr/bin/ssl/</strong></summary>
+
       - usr/bin/ssl/pwdreset.pem `pem`
-  - **usr/data/**
+</details>
+
+</details>
+
+  <details>
+  <summary><strong>usr/data/</strong></summary>
+
     - usr/data/CustomConfig `unknown`
-    - **usr/data/Data/**
-      - **usr/data/Data/DeviceSecurity/**
+    <details>
+    <summary><strong>usr/data/Data/</strong></summary>
+
+      <details>
+      <summary><strong>usr/data/Data/DeviceSecurity/</strong></summary>
+
         - usr/data/Data/DeviceSecurity/PatternNormal.png `png`
         - usr/data/Data/DeviceSecurity/PatternSelect.png `png`
         - usr/data/Data/DeviceSecurity/device_init_step1.png `png`
@@ -322,7 +514,11 @@
         - usr/data/Data/DeviceSecurity/progress9.png `png`
       - usr/data/Data/Font.bin `bin`
       - usr/data/Data/FontSmallEn.bin `bin`
-      - **usr/data/Data/Intell/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/Intell/</strong></summary>
+
         - usr/data/Data/Intell/CrossLineDetection.png `png`
         - usr/data/Data/Intell/CrossRegionDetection.png `png`
         - usr/data/Data/Intell/LeftDetection.png `png`
@@ -343,7 +539,11 @@
         - usr/data/Data/Intell/delete_select.bmp `bmp`
         - usr/data/Data/Intell/filteredit_normal.bmp `bmp`
         - usr/data/Data/Intell/filteredit_select.bmp `bmp`
-      - **usr/data/Data/NavigationBar/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/NavigationBar/</strong></summary>
+
         - usr/data/Data/NavigationBar/Separator.png `png`
         - usr/data/Data/NavigationBar/alert_normal.png `png`
         - usr/data/Data/NavigationBar/alert_select.png `png`
@@ -406,7 +606,11 @@
         - usr/data/Data/NavigationBar/windows8_select.png `png`
         - usr/data/Data/NavigationBar/windows9_normal.png `png`
         - usr/data/Data/NavigationBar/windows9_select.png `png`
-      - **usr/data/Data/RealPlay/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/RealPlay/</strong></summary>
+
         - usr/data/Data/RealPlay/audio_close_normal.png `png`
         - usr/data/Data/RealPlay/audio_close_selected.png `png`
         - usr/data/Data/RealPlay/audio_disable.png `png`
@@ -451,15 +655,31 @@
         - usr/data/Data/RealPlay/zoomin_on_selected.png `png`
         - usr/data/Data/RealPlay/zoomin_selected.png `png`
       - usr/data/Data/StringAll.7z `7z`
-      - **usr/data/Data/StringAll.7z.extracted/**
-        - **usr/data/Data/StringAll.7z.extracted/0/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/StringAll.7z.extracted/</strong></summary>
+
+        <details>
+        <summary><strong>usr/data/Data/StringAll.7z.extracted/0/</strong></summary>
+
           - usr/data/Data/StringAll.7z.extracted/0/StringAll `unknown`
-      - **usr/data/Data/afterSaleService/**
+</details>
+
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/afterSaleService/</strong></summary>
+
         - usr/data/Data/afterSaleService/DahuaTechnology.png `png`
         - usr/data/Data/afterSaleService/after_sale_service.png `png`
         - usr/data/Data/afterSaleService/after_sale_service1.png `png`
         - usr/data/Data/afterSaleService/after_sale_service2.png `png`
-      - **usr/data/Data/colorSettingPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/colorSettingPage/</strong></summary>
+
         - usr/data/Data/colorSettingPage/Brightness.png `png`
         - usr/data/Data/colorSettingPage/Contrast.png `png`
         - usr/data/Data/colorSettingPage/EqLevel.png `png`
@@ -483,13 +703,25 @@
         - usr/data/Data/colorSettingPage/unlock_disable.png `png`
         - usr/data/Data/colorSettingPage/unlock_normal.png `png`
         - usr/data/Data/colorSettingPage/unlock_select.png `png`
-      - **usr/data/Data/ctrl/**
-        - **usr/data/Data/ctrl/button/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/ctrl/</strong></summary>
+
+        <details>
+        <summary><strong>usr/data/Data/ctrl/button/</strong></summary>
+
           - usr/data/Data/ctrl/button/button_disable.bmp `bmp`
           - usr/data/Data/ctrl/button/button_normal.bmp `bmp`
           - usr/data/Data/ctrl/button/button_push.bmp `bmp`
           - usr/data/Data/ctrl/button/button_select.bmp `bmp`
-      - **usr/data/Data/cursors/**
+</details>
+
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/cursors/</strong></summary>
+
         - usr/data/Data/cursors/arrow.cur `cur`
         - usr/data/Data/cursors/busy.cur `cur`
         - usr/data/Data/cursors/hand.cur `cur`
@@ -500,7 +732,11 @@
         - usr/data/Data/cursors/size4.cur `cur`
         - usr/data/Data/cursors/wait.cur `cur`
         - usr/data/Data/cursors/zoomin.cur `cur`
-      - **usr/data/Data/desktopPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/desktopPage/</strong></summary>
+
         - usr/data/Data/desktopPage/3G_pppon.bmp `bmp`
         - usr/data/Data/desktopPage/4G_pppon.bmp `bmp`
         - usr/data/Data/desktopPage/channel_state_lock.bmp `bmp`
@@ -509,14 +745,22 @@
         - usr/data/Data/desktopPage/tour_disable.bmp `bmp`
         - usr/data/Data/desktopPage/tour_enable.bmp `bmp`
         - usr/data/Data/desktopPage/wifi_enable.bmp `bmp`
-      - **usr/data/Data/exitPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/exitPage/</strong></summary>
+
         - usr/data/Data/exitPage/logout1.png `png`
         - usr/data/Data/exitPage/logout2.png `png`
         - usr/data/Data/exitPage/reboot1.png `png`
         - usr/data/Data/exitPage/reboot2.png `png`
         - usr/data/Data/exitPage/shutdown1.png `png`
         - usr/data/Data/exitPage/shutdown2.png `png`
-      - **usr/data/Data/faceplayer/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/faceplayer/</strong></summary>
+
         - usr/data/Data/faceplayer/face_export_normal.png `png`
         - usr/data/Data/faceplayer/face_export_select.png `png`
         - usr/data/Data/faceplayer/face_search_disable.png `png`
@@ -573,7 +817,11 @@
         - usr/data/Data/faceplayer/play_volume_normal.bmp `bmp`
         - usr/data/Data/faceplayer/play_volume_select.bmp `bmp`
         - usr/data/Data/faceplayer/right_select.bmp `bmp`
-      - **usr/data/Data/guiCtrls/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/guiCtrls/</strong></summary>
+
         - usr/data/Data/guiCtrls/disable_select.png `png`
         - usr/data/Data/guiCtrls/expand1.bmp `bmp`
         - usr/data/Data/guiCtrls/expand2.bmp `bmp`
@@ -595,10 +843,18 @@
         - usr/data/Data/guiCtrls/zhaohuimima_disable.png `png`
         - usr/data/Data/guiCtrls/zhaohuimima_normal.png `png`
         - usr/data/Data/guiCtrls/zhaohuimima_select.png `png`
-      - **usr/data/Data/infoOnlineUserPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/infoOnlineUserPage/</strong></summary>
+
         - usr/data/Data/infoOnlineUserPage/shield_normal.png `png`
         - usr/data/Data/infoOnlineUserPage/shield_push.png `png`
-      - **usr/data/Data/mainMenu/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/mainMenu/</strong></summary>
+
         - usr/data/Data/mainMenu/16split_normal.png `png`
         - usr/data/Data/mainMenu/1split_normal.png `png`
         - usr/data/Data/mainMenu/3G.png `png`
@@ -624,7 +880,11 @@
         - usr/data/Data/mainMenu/ptz_normal.png `png`
         - usr/data/Data/mainMenu/record_normal.png `png`
         - usr/data/Data/mainMenu/search_normal.png `png`
-      - **usr/data/Data/mainPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/mainPage/</strong></summary>
+
         - usr/data/Data/mainPage/advanced1.bmp `bmp`
         - usr/data/Data/mainPage/advanced2.bmp `bmp`
         - usr/data/Data/mainPage/backup1.bmp `bmp`
@@ -637,12 +897,20 @@
         - usr/data/Data/mainPage/info2.bmp `bmp`
         - usr/data/Data/mainPage/search1.bmp `bmp`
         - usr/data/Data/mainPage/search2.bmp `bmp`
-      - **usr/data/Data/menu/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/menu/</strong></summary>
+
         - usr/data/Data/menu/tpl_menu_bar.bmp `bmp`
         - usr/data/Data/menu/tpl_menu_popup_item2.bmp `bmp`
         - usr/data/Data/menu/tpl_menu_popup_with_title.bmp `bmp`
         - usr/data/Data/menu/tpl_menu_popup_without_title.bmp `bmp`
-      - **usr/data/Data/motionSetPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/motionSetPage/</strong></summary>
+
         - usr/data/Data/motionSetPage/blue_down.png `png`
         - usr/data/Data/motionSetPage/blue_normal.png `png`
         - usr/data/Data/motionSetPage/blue_select.png `png`
@@ -655,11 +923,19 @@
         - usr/data/Data/motionSetPage/yellow_down.png `png`
         - usr/data/Data/motionSetPage/yellow_normal.png `png`
         - usr/data/Data/motionSetPage/yellow_select.png `png`
-      - **usr/data/Data/netCameraPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/netCameraPage/</strong></summary>
+
         - usr/data/Data/netCameraPage/remotdev_editipc_disable.png `png`
         - usr/data/Data/netCameraPage/remotdev_editipc_normal.png `png`
         - usr/data/Data/netCameraPage/remotdev_editipc_selected.png `png`
-      - **usr/data/Data/player/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/player/</strong></summary>
+
         - usr/data/Data/player/IVS_select.png `png`
         - usr/data/Data/player/advanced_search_disable.png `png`
         - usr/data/Data/player/advanced_search_normal.png `png`
@@ -677,7 +953,9 @@
         - usr/data/Data/player/button_close_normal.bmp `bmp`
         - usr/data/Data/player/button_close_pushed.bmp `bmp`
         - usr/data/Data/player/button_close_selected.bmp `bmp`
-        - **usr/data/Data/player/calendar/**
+        <details>
+        <summary><strong>usr/data/Data/player/calendar/</strong></summary>
+
           - usr/data/Data/player/calendar/arraw_disable.bmp `bmp`
           - usr/data/Data/player/calendar/arraw_disable1.bmp `bmp`
           - usr/data/Data/player/calendar/arraw_normal.bmp `bmp`
@@ -899,9 +1177,19 @@
         - usr/data/Data/player/window_selfdef_normal.png `png`
         - usr/data/Data/player/window_selfdef_push.png `png`
         - usr/data/Data/player/window_selfdef_select.png `png`
-      - **usr/data/Data/popup/**
+</details>
+
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/popup/</strong></summary>
+
         - usr/data/Data/popup/bmp_popup.bmp `bmp`
-      - **usr/data/Data/ptz/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/ptz/</strong></summary>
+
         - usr/data/Data/ptz/down0.png `png`
         - usr/data/Data/ptz/down1.png `png`
         - usr/data/Data/ptz/down2.png `png`
@@ -946,7 +1234,11 @@
         - usr/data/Data/ptz/up1.png `png`
         - usr/data/Data/ptz/up2.png `png`
         - usr/data/Data/ptz/up3.png `png`
-      - **usr/data/Data/ptzext/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/ptzext/</strong></summary>
+
         - usr/data/Data/ptzext/autopan_disable.png `png`
         - usr/data/Data/ptzext/autopan_normal.png `png`
         - usr/data/Data/ptzext/autopan_push.png `png`
@@ -995,7 +1287,11 @@
         - usr/data/Data/ptzext/tour_normal.png `png`
         - usr/data/Data/ptzext/tour_push.png `png`
         - usr/data/Data/ptzext/tour_select.png `png`
-      - **usr/data/Data/sharePicture/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/sharePicture/</strong></summary>
+
         - usr/data/Data/sharePicture/PcapInvalid.png `png`
         - usr/data/Data/sharePicture/PcapStart_normal.png `png`
         - usr/data/Data/sharePicture/PcapStart_select.png `png`
@@ -1111,12 +1407,20 @@
         - usr/data/Data/sharePicture/window_bottom1.png `png`
         - usr/data/Data/sharePicture/window_title.png `png`
         - usr/data/Data/sharePicture/window_top.png `png`
-      - **usr/data/Data/slider/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/slider/</strong></summary>
+
         - usr/data/Data/slider/slider_line.bmp `bmp`
         - usr/data/Data/slider/spot0.bmp `bmp`
         - usr/data/Data/slider/spot1.bmp `bmp`
         - usr/data/Data/slider/spot2.bmp `bmp`
-      - **usr/data/Data/storagePage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/storagePage/</strong></summary>
+
         - usr/data/Data/storagePage/ClearNormal.png `png`
         - usr/data/Data/storagePage/ClearSelected.png `png`
         - usr/data/Data/storagePage/SettingNormal.png `png`
@@ -1137,14 +1441,26 @@
         - usr/data/Data/storagePage/checkRegularDisableSelect.png `png`
         - usr/data/Data/storagePage/checkRegularEnable.png `png`
         - usr/data/Data/storagePage/checkRegularEnableSelect.png `png`
-      - **usr/data/Data/tab/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/tab/</strong></summary>
+
         - usr/data/Data/tab/tab_normal.bmp `bmp`
         - usr/data/Data/tab/tab_pushed.bmp `bmp`
         - usr/data/Data/tab/tab_select.bmp `bmp`
-      - **usr/data/Data/textbox/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/textbox/</strong></summary>
+
         - usr/data/Data/textbox/textbox1.bmp `bmp`
         - usr/data/Data/textbox/textbox2.bmp `bmp`
-      - **usr/data/Data/title48/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/title48/</strong></summary>
+
         - usr/data/Data/title48/advanced1.bmp `bmp`
         - usr/data/Data/title48/advanced2.bmp `bmp`
         - usr/data/Data/title48/backup1.bmp `bmp`
@@ -1157,27 +1473,57 @@
         - usr/data/Data/title48/info2.bmp `bmp`
         - usr/data/Data/title48/search1.bmp `bmp`
         - usr/data/Data/title48/search2.bmp `bmp`
-      - **usr/data/Data/usbDetectPage/**
+</details>
+
+      <details>
+      <summary><strong>usr/data/Data/usbDetectPage/</strong></summary>
+
         - usr/data/Data/usbDetectPage/usb_disk.png `png`
+</details>
+
     - usr/data/config.lua `lua`
     - usr/data/hardware.lua `lua`
-    - **usr/data/player/**
+</details>
+
+    <details>
+    <summary><strong>usr/data/player/</strong></summary>
+
     - usr/data/space `unknown`
-    - **usr/data/ssl/**
+</details>
+
+    <details>
+    <summary><strong>usr/data/ssl/</strong></summary>
+
       - usr/data/ssl/ca.crt `crt`
       - usr/data/ssl/ca.key `key`
       - usr/data/ssl/cacert.pem `pem`
       - usr/data/ssl/privkey.pem `pem`
       - usr/data/ssl/pubkey.pem `pem`
-  - **usr/etc/**
+</details>
+
+</details>
+
+  <details>
+  <summary><strong>usr/etc/</strong></summary>
+
     - usr/etc/Global.lua `lua`
     - usr/etc/load_modules.sh `sh`
     - usr/etc/telnet_cfg `unknown`
-  - **usr/lib/**
+</details>
+
+  <details>
+  <summary><strong>usr/lib/</strong></summary>
+
     - usr/lib/lib.7z `7z`
-    - **usr/lib/lib.7z.extracted/**
-      - **usr/lib/lib.7z.extracted/0/**
-        - **usr/lib/lib.7z.extracted/0/lib/**
+    <details>
+    <summary><strong>usr/lib/lib.7z.extracted/</strong></summary>
+
+      <details>
+      <summary><strong>usr/lib/lib.7z.extracted/0/</strong></summary>
+
+        <details>
+        <summary><strong>usr/lib/lib.7z.extracted/0/lib/</strong></summary>
+
           - usr/lib/lib.7z.extracted/0/lib/8192cu.ko `ko`
           - usr/lib/lib.7z.extracted/0/lib/8192eu.ko `ko`
           - usr/lib/lib.7z.extracted/0/lib/avss.ko `ko`
@@ -1225,17 +1571,39 @@
           - usr/lib/lib.7z.extracted/0/lib/sysctl_hi3521a_asic.sh `sh`
           - usr/lib/lib.7z.extracted/0/lib/usb_wwan.ko `ko`
           - usr/lib/lib.7z.extracted/0/lib/usbserial.ko `ko`
-  - **usr/sbin/**
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+  <details>
+  <summary><strong>usr/sbin/</strong></summary>
+
     - usr/sbin/.dec.sh `sh`
     - usr/sbin/3gconfig `unknown`
     - usr/sbin/3gpp `unknown`
     - usr/sbin/ii `unknown`
     - usr/sbin/nfs `unknown`
     - usr/sbin/usb_modeswitch `unknown`
-- **var/**
+</details>
+
+</details>
+
+<details>
+<summary><strong>var/</strong></summary>
+
   - var/Challenge `unknown`
-- **web/**
-  - **web/Component/**
+</details>
+
+<details>
+<summary><strong>web/</strong></summary>
+
+  <details>
+  <summary><strong>web/Component/</strong></summary>
+
     - web/Component/chnlGroup.js `js`
     - web/Component/level.js `js`
     - web/Component/schedule.htm `htm`
@@ -1243,9 +1611,17 @@
   - web/Data_Signature `unknown`
   - web/SigFileList `unknown`
   - web/cap.js `js`
-  - **web/config/**
+</details>
+
+  <details>
+  <summary><strong>web/config/</strong></summary>
+
     - web/config/index.htm `htm`
-  - **web/css/**
+</details>
+
+  <details>
+  <summary><strong>web/css/</strong></summary>
+
     - web/css/Intellent.css `css`
     - web/css/alarmindex.css `css`
     - web/css/custom.css `css`
@@ -1261,7 +1637,11 @@
     - web/css/skin.css `css`
     - web/css/ui.css `css`
   - web/favicon.ico `ico`
-  - **web/html/**
+</details>
+
+  <details>
+  <summary><strong>web/html/</strong></summary>
+
     - web/html/3gnetcfg.htm `htm`
     - web/html/ATMConfig.htm `htm`
     - web/html/IVSConfig.htm `htm`
@@ -1323,7 +1703,11 @@
     - web/html/videodetect.htm `htm`
     - web/html/videomatrix.htm `htm`
     - web/html/wificfg.htm `htm`
-  - **web/image/**
+</details>
+
+  <details>
+  <summary><strong>web/image/</strong></summary>
+
     - web/image/alert.gif `gif`
     - web/image/allbg.png `png`
     - web/image/bg.png `png`
@@ -1361,7 +1745,11 @@
     - web/image/updatebg.png `png`
     - web/image/verticalline.png `png`
   - web/index.htm `htm`
-  - **web/js/**
+</details>
+
+  <details>
+  <summary><strong>web/js/</strong></summary>
+
     - web/js/3gnetcfg.js `js`
     - web/js/ATMConfig.js `js`
     - web/js/Calendar.js `js`
@@ -1440,26 +1828,46 @@
     - web/js/videodetect.js `js`
     - web/js/videomatrix.js `js`
     - web/js/wificfg.js `js`
-  - **web/jsBase/**
-    - **web/jsBase/lib/**
+</details>
+
+  <details>
+  <summary><strong>web/jsBase/</strong></summary>
+
+    <details>
+    <summary><strong>web/jsBase/lib/</strong></summary>
+
       - web/jsBase/lib/base64.js `js`
       - web/jsBase/lib/m1.2.js `js`
       - web/jsBase/lib/md5.js `js`
       - web/jsBase/lib/more.js `js`
       - web/jsBase/lib/qrcode.js `js`
-  - **web/jsCore/**
+</details>
+
+</details>
+
+  <details>
+  <summary><strong>web/jsCore/</strong></summary>
+
     - web/jsCore/aes.js `js`
     - web/jsCore/common.js `js`
     - web/jsCore/rpcCore.js `js`
     - web/jsCore/rsa.js `js`
   - web/local.png `png`
   - web/olp.js `js`
-  - **web/platformHtm/**
+</details>
+
+  <details>
+  <summary><strong>web/platformHtm/</strong></summary>
+
     - web/platformHtm/GAYS.htm `htm`
     - web/platformHtm/GAYS.js `js`
   - web/pluginVersion.js `js`
   - web/webVersion.js `js`
   - web/webplugin.exe `exe`
+</details>
+
+</details>
+
 ```
 
 # Firmware Details
@@ -2284,13 +2692,13 @@
 
 
 - Found Cryptographic Functions:
-  * [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), [1;31;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key failed|%s:%d|%s(), RSA_public_encrypt, RSA_private_decrypt, RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0
+  * RAND_bytes(m_rand_data, m_rand_length) != 0, RAND_bytes(m_tgk_ptr, tgkLengthValue) != 0, [1;33;40m%02d:%02d:%02d|SecurityUnit-454744|AES_set_encrypt_key,the ret %d|%s:%d|%s(), RAND_bytes((unsigned char*)&csbId, sizeof(csbId)) != 0, RSA_private_decrypt
 
 - Weak Encryption Detected:
-  * DESCRIBE rtsp://, EXP-DHE-RSA-DES-CBC-SHA, hmacWithMD5, pbeWithSHA1AndDES-CBC, function BigInteger(a,b,c){null!=a&&("number"==typeof a?this.fromNumber(a,b,c):null==b&&"string"!=typeof a?this.fromString(a,256):this.fromString(a,b))}function nbi(){return new BigInteger(null)}function am1(a,b,c,d,e,f){for(;--f>=0;){var g=b*this[a++]+c[d]+e;e=Math.floor(g/67108864),c[d++]=67108863&g}return e}function am2(a,b,c,d,e,f){for(var g=32767&b,h=b>>15;--f>=0;){var i=32767&this[a],j=this[a++]>>15,k=h*i+j*g;i=g*i+((32767&k)<<15)+c[d]+(1073741823&e),e=(i>>>30)+(k>>>15)+h*j+(e>>>30),c[d++]=1073741823&i}return e}function am3(a,b,c,d,e,f){for(var g=16383&b,h=b>>14;--f>=0;){var i=16383&this[a],j=this[a++]>>14,k=h*i+j*g;i=g*i+((16383&k)<<14)+c[d]+e,e=(i>>28)+(k>>14)+h*j,c[d++]=268435455&i}return e}function int2char(a){return BI_RM.charAt(a)}function intAt(a,b){var c=BI_RC[a.charCodeAt(b)];return null==c?-1:c}function bnpCopyTo(a){for(var b=this.t-1;b>=0;--b)a[b]=this[b];a.t=this.t,a.s=this.s}function bnpFromInt(a){this.t=1,this.s=0>a?-1:0,a>0?this[0]=a:-1>a?this[0]=a+DV:this.t=0}function nbv(a){var b=nbi();return b.fromInt(a),b}function bnpFromString(a,b){var c;if(16==b)c=4;else if(8==b)c=3;else if(256==b)c=8;else if(2==b)c=1;else if(32==b)c=5;else{if(4!=b)return void this.fromRadix(a,b);c=2}this.t=0,this.s=0;for(var d=a.length,e=!1,f=0;--d>=0;){var g=8==c?255&a[d]:intAt(a,d);0>g?"-"==a.charAt(d)&&(e=!0):(e=!1,0==f?this[this.t++]=g:f+c>this.DB?(this[this.t-1]|=(g&(1<<this.DB-f)-1)<<f,this[this.t++]=g>>this.DB-f):this[this.t-1]|=g<<f,f+=c,f>=this.DB&&(f-=this.DB))}8==c&&0!=(128&a[0])&&(this.s=-1,f>0&&(this[this.t-1]|=(1<<this.DB-f)-1<<f)),this.clamp(),e&&BigInteger.ZERO.subTo(this,this)}function bnpClamp(){for(var a=this.s&this.DM;this.t>0&&this[this.t-1]==a;)--this.t}function bnToString(a){if(this.s<0)return"-"+this.negate().toString(a);var b;if(16==a)b=4;else if(8==a)b=3;else if(2==a)b=1;else if(32==a)b=5;else{if(4!=a)return this.toRadix(a);b=2}var c,d=(1<<b)-1,e=!1,f="",g=this.t,h=this.DB-g*this.DB%b;if(g-->0)for(h<this.DB&&(c=this[g]>>h)>0&&(e=!0,f=int2char(c));g>=0;)b>h?(c=(this[g]&(1<<h)-1)<<b-h,c|=this[--g]>>(h+=this.DB-b)):(c=this[g]>>(h-=b)&d,0>=h&&(h+=this.DB,--g)),c>0&&(e=!0),e&&(f+=int2char(c));return e?f:"0"}function bnNegate(){var a=nbi();return BigInteger.ZERO.subTo(this,a),a}function bnAbs(){return this.s<0?this.negate():this}function bnCompareTo(a){var b=this.s-a.s;if(0!=b)return b;var c=this.t;if(b=c-a.t,0!=b)return b;for(;--c>=0;)if(0!=(b=this[c]-a[c]))return b;return 0}function nbits(a){var b,c=1;return 0!=(b=a>>>16)&&(a=b,c+=16),0!=(b=a>>8)&&(a=b,c+=8),0!=(b=a>>4)&&(a=b,c+=4),0!=(b=a>>2)&&(a=b,c+=2),0!=(b=a>>1)&&(a=b,c+=1),c}function bnBitLength(){return this.t<=0?0:this.DB*(this.t-1)+nbits(this[this.t-1]^this.s&this.DM)}function bnpDLShiftTo(a,b){var c;for(c=this.t-1;c>=0;--c)b[c+a]=this[c];for(c=a-1;c>=0;--c)b[c]=0;b.t=this.t+a,b.s=this.s}function bnpDRShiftTo(a,b){for(var c=a;c<this.t;++c)b[c-a]=this[c];b.t=Math.max(this.t-a,0),b.s=this.s}function bnpLShiftTo(a,b){var c,d=a%this.DB,e=this.DB-d,f=(1<<e)-1,g=Math.floor(a/this.DB),h=this.s<<d&this.DM;for(c=this.t-1;c>=0;--c)b[c+g+1]=this[c]>>e|h,h=(this[c]&f)<<d;for(c=g-1;c>=0;--c)b[c]=0;b[g]=h,b.t=this.t+g+1,b.s=this.s,b.clamp()}function bnpRShiftTo(a,b){b.s=this.s;var c=Math.floor(a/this.DB);if(c>=this.t)return void(b.t=0);var d=a%this.DB,e=this.DB-d,f=(1<<d)-1;b[0]=this[c]>>d;for(var g=c+1;g<this.t;++g)b[g-c-1]|=(this[g]&f)<<e,b[g-c]=this[g]>>d;d>0&&(b[this.t-c-1]|=(this.s&f)<<e),b.t=this.t-c,b.clamp()}function bnpSubTo(a,b){for(var c=0,d=0,e=Math.min(a.t,this.t);e>c;)d+=this[c]-a[c],b[c++]=d&this.DM,d>>=this.DB;if(a.t<this.t){for(d-=a.s;c<this.t;)d+=this[c],b[c++]=d&this.DM,d>>=this.DB;d+=this.s}else{for(d+=this.s;c<a.t;)d-=a[c],b[c++]=d&this.DM,d>>=this.DB;d-=a.s}b.s=0>d?-1:0,-1>d?b[c++]=this.DV+d:d>0&&(b[c++]=d),b.t=c,b.clamp()}function bnpMultiplyTo(a,b){var c=this.abs(),d=a.abs(),e=c.t;for(b.t=e+d.t;--e>=0;)b[e]=0;for(e=0;e<d.t;++e)b[e+c.t]=c.am(0,d[e],b,e,0,c.t);b.s=0,b.clamp(),this.s!=a.s&&BigInteger.ZERO.subTo(b,b)}function bnpSquareTo(a){for(var b=this.abs(),c=a.t=2*b.t;--c>=0;)a[c]=0;for(c=0;c<b.t-1;++c){var d=b.am(c,b[c],a,2*c,0,1);(a[c+b.t]+=b.am(c+1,2*b[c],a,2*c+1,d,b.t-c-1))>=b.DV&&(a[c+b.t]-=b.DV,a[c+b.t+1]=1)}a.t>0&&(a[a.t-1]+=b.am(c,b[c],a,2*c,0,1)),a.s=0,a.clamp()}function bnpDivRemTo(a,b,c){var d=a.abs();if(!(d.t<=0)){var e=this.abs();if(e.t<d.t)return null!=b&&b.fromInt(0),void(null!=c&&this.copyTo(c));null==c&&(c=nbi());var f=nbi(),g=this.s,h=a.s,i=this.DB-nbits(d[d.t-1]);i>0?(d.lShiftTo(i,f),e.lShiftTo(i,c)):(d.copyTo(f),e.copyTo(c));var j=f.t,k=f[j-1];if(0!=k){var l=k*(1<<this.F1)+(j>1?f[j-2]>>this.F2:0),m=this.FV/l,n=(1<<this.F1)/l,o=1<<this.F2,p=c.t,q=p-j,r=null==b?nbi():b;for(f.dlShiftTo(q,r),c.compareTo(r)>=0&&(c[c.t++]=1,c.subTo(r,c)),BigInteger.ONE.dlShiftTo(j,r),r.subTo(f,f);f.t<j;)f[f.t++]=0;for(;--q>=0;){var s=c[--p]==k?this.DM:Math.floor(c[p]*m+(c[p-1]+o)*n);if((c[p]+=f.am(0,s,c,q,0,j))<s)for(f.dlShiftTo(q,r),c.subTo(r,c);c[p]<--s;)c.subTo(r,c)}null!=b&&(c.drShiftTo(j,b),g!=h&&BigInteger.ZERO.subTo(b,b)),c.t=j,c.clamp(),i>0&&c.rShiftTo(i,c),0>g&&BigInteger.ZERO.subTo(c,c)}}}function bnMod(a){var b=nbi();return this.abs().divRemTo(a,null,b),this.s<0&&b.compareTo(BigInteger.ZERO)>0&&a.subTo(b,b),b}function Classic(a){this.m=a}function cConvert(a){return a.s<0||a.compareTo(this.m)>=0?a.mod(this.m):a}function cRevert(a){return a}function cReduce(a){a.divRemTo(this.m,null,a)}function cMulTo(a,b,c){a.multiplyTo(b,c),this.reduce(c)}function cSqrTo(a,b){a.squareTo(b),this.reduce(b)}function bnpInvDigit(){if(this.t<1)return 0;var a=this[0];if(0==(1&a))return 0;var b=3&a;return b=b*(2-(15&a)*b)&15,b=b*(2-(255&a)*b)&255,b=b*(2-((65535&a)*b&65535))&65535,b=b*(2-a*b%this.DV)%this.DV,b>0?this.DV-b:-b}function Montgomery(a){this.m=a,this.mp=a.invDigit(),this.mpl=32767&this.mp,this.mph=this.mp>>15,this.um=(1<<a.DB-15)-1,this.mt2=2*a.t}function montConvert(a){var b=nbi();return a.abs().dlShiftTo(this.m.t,b),b.divRemTo(this.m,null,b),a.s<0&&b.compareTo(BigInteger.ZERO)>0&&this.m.subTo(b,b),b}function montRevert(a){var b=nbi();return a.copyTo(b),this.reduce(b),b}function montReduce(a){for(;a.t<=this.mt2;)a[a.t++]=0;for(var b=0;b<this.m.t;++b){var c=32767&a[b],d=c*this.mpl+((c*this.mph+(a[b]>>15)*this.mpl&this.um)<<15)&a.DM;for(c=b+this.m.t,a[c]+=this.m.am(0,d,a,b,0,this.m.t);a[c]>=a.DV;)a[c]-=a.DV,a[++c]++}a.clamp(),a.drShiftTo(this.m.t,a),a.compareTo(this.m)>=0&&a.subTo(this.m,a)}function montSqrTo(a,b){a.squareTo(b),this.reduce(b)}function montMulTo(a,b,c){a.multiplyTo(b,c),this.reduce(c)}function bnpIsEven(){return 0==(this.t>0?1&this[0]:this.s)}function bnpExp(a,b){if(a>4294967295||1>a)return BigInteger.ONE;var c=nbi(),d=nbi(),e=b.convert(this),f=nbits(a)-1;for(e.copyTo(c);--f>=0;)if(b.sqrTo(c,d),(a&1<<f)>0)b.mulTo(d,e,c);else{var g=c;c=d,d=g}return b.revert(c)}function bnModPowInt(a,b){var c;return c=256>a||b.isEven()?new Classic(b):new Montgomery(b),this.exp(a,c)}function Arcfour(){this.i=0,this.j=0,this.S=new Array}function ARC4init(a){var b,c,d;for(b=0;256>b;++b)this.S[b]=b;for(c=0,b=0;256>b;++b)c=c+this.S[b]+a[b%a.length]&255,d=this.S[b],this.S[b]=this.S[c],this.S[c]=d;this.i=0,this.j=0}function ARC4next(){var a;return this.i=this.i+1&255,this.j=this.j+this.S[this.i]&255,a=this.S[this.i],this.S[this.i]=this.S[this.j],this.S[this.j]=a,this.S[a+this.S[this.i]&255]}function prng_newstate(){return new Arcfour}function rng_seed_int(a){rng_pool[rng_pptr++]^=255&a,rng_pool[rng_pptr++]^=a>>8&255,rng_pool[rng_pptr++]^=a>>16&255,rng_pool[rng_pptr++]^=a>>24&255,rng_pptr>=rng_psize&&(rng_pptr-=rng_psize)}function rng_seed_time(){rng_seed_int((new Date).getTime())}function rng_get_byte(){if(null==rng_state){for(rng_seed_time(),rng_state=prng_newstate(),rng_state.init(rng_pool),rng_pptr=0;rng_pptr<rng_pool.length;++rng_pptr)rng_pool[rng_pptr]=0;rng_pptr=0}return rng_state.next()}function rng_get_bytes(a){var b;for(b=0;b<a.length;++b)a[b]=rng_get_byte()}function SecureRandom(){}function parseBigInt(a,b){return new BigInteger(a,b)}function linebrk(a,b){for(var c="",d=0;d+b<a.length;)c+=a.substring(d,d+b)+"\n",d+=b;return c+a.substring(d,a.length)}function byte2Hex(a){return 16>a?"0"+a.toString(16):a.toString(16)}function pkcs1pad2(a,b){if(b<a.length+11)return alert("Message too long for RSA"),null;for(var c=new Array,d=a.length-1;d>=0&&b>0;){var e=a.charCodeAt(d--);128>e?c[--b]=e:e>127&&2048>e?(c[--b]=63&e|128,c[--b]=e>>6|192):(c[--b]=63&e|128,c[--b]=e>>6&63|128,c[--b]=e>>12|224)}c[--b]=0;for(var f=new SecureRandom,g=new Array;b>2;){for(g[0]=0;0==g[0];)f.nextBytes(g);c[--b]=g[0]}return c[--b]=2,c[--b]=0,new BigInteger(c)}function RSAKey(){this.n=null,this.e=0,this.d=null,this.p=null,this.q=null,this.dmp1=null,this.dmq1=null,this.coeff=null}function RSASetPublic(a,b){null!=a&&null!=b&&a.length>0&&b.length>0?(this.n=parseBigInt(a,16),this.e=parseInt(b,16)):alert("Invalid RSA public key")}function RSADoPublic(a){return a.modPowInt(this.e,this.n)}function RSAEncrypt(a){var b=pkcs1pad2(a,this.n.bitLength()+7>>3);if(null==b)return null;var c=this.doPublic(b);if(null==c)return null;var d=c.toString(16),e=this.n.toString(16).length;return d.length<e&&(d=0..toFixed(e-d.length).split(".")[1]+d),d}var dbits,canary=0xdeadbeefcafe,j_lm=15715070==(16777215&canary);j_lm&&"Microsoft Internet Explorer"==navigator.appName?(BigInteger.prototype.am=am2,dbits=30):j_lm&&"Netscape"!=navigator.appName?(BigInteger.prototype.am=am1,dbits=26):(BigInteger.prototype.am=am3,dbits=28),BigInteger.prototype.DB=dbits,BigInteger.prototype.DM=(1<<dbits)-1,BigInteger.prototype.DV=1<<dbits;var BI_FP=52;BigInteger.prototype.FV=Math.pow(2,BI_FP),BigInteger.prototype.F1=BI_FP-dbits,BigInteger.prototype.F2=2*dbits-BI_FP;var BI_RM="0123456789abcdefghijklmnopqrstuvwxyz",BI_RC=new Array,rr,vv;for(rr="0".charCodeAt(0),vv=0;9>=vv;++vv)BI_RC[rr++]=vv;for(rr="a".charCodeAt(0),vv=10;36>vv;++vv)BI_RC[rr++]=vv;for(rr="A".charCodeAt(0),vv=10;36>vv;++vv)BI_RC[rr++]=vv;Classic.prototype.convert=cConvert,Classic.prototype.revert=cRevert,Classic.prototype.reduce=cReduce,Classic.prototype.mulTo=cMulTo,Classic.prototype.sqrTo=cSqrTo,Montgomery.prototype.convert=montConvert,Montgomery.prototype.revert=montRevert,Montgomery.prototype.reduce=montReduce,Montgomery.prototype.mulTo=montMulTo,Montgomery.prototype.sqrTo=montSqrTo,BigInteger.prototype.copyTo=bnpCopyTo,BigInteger.prototype.fromInt=bnpFromInt,BigInteger.prototype.fromString=bnpFromString,BigInteger.prototype.clamp=bnpClamp,BigInteger.prototype.dlShiftTo=bnpDLShiftTo,BigInteger.prototype.drShiftTo=bnpDRShiftTo,BigInteger.prototype.lShiftTo=bnpLShiftTo,BigInteger.prototype.rShiftTo=bnpRShiftTo,BigInteger.prototype.subTo=bnpSubTo,BigInteger.prototype.multiplyTo=bnpMultiplyTo,BigInteger.prototype.squareTo=bnpSquareTo,BigInteger.prototype.divRemTo=bnpDivRemTo,BigInteger.prototype.invDigit=bnpInvDigit,BigInteger.prototype.isEven=bnpIsEven,BigInteger.prototype.exp=bnpExp,BigInteger.prototype.toString=bnToString,BigInteger.prototype.negate=bnNegate,BigInteger.prototype.abs=bnAbs,BigInteger.prototype.compareTo=bnCompareTo,BigInteger.prototype.bitLength=bnBitLength,BigInteger.prototype.mod=bnMod,BigInteger.prototype.modPowInt=bnModPowInt,BigInteger.ZERO=nbv(0),BigInteger.ONE=nbv(1),Arcfour.prototype.init=ARC4init,Arcfour.prototype.next=ARC4next;var rng_psize=256,rng_state,rng_pool,rng_pptr;if(null==rng_pool){rng_pool=new Array,rng_pptr=0;var t;if("Netscape"==navigator.appName&&navigator.appVersion<"5"&&window.crypto){var z=window.crypto.random(32);for(t=0;t<z.length;++t)rng_pool[rng_pptr++]=255&z.charCodeAt(t)}for(;rng_psize>rng_pptr;)t=Math.floor(65536*Math.random()),rng_pool[rng_pptr++]=t>>>8,rng_pool[rng_pptr++]=255&t;rng_pptr=0,rng_seed_time()}SecureRandom.prototype.nextBytes=rng_get_bytes,RSAKey.prototype.doPublic=RSADoPublic,RSAKey.prototype.setPublic=RSASetPublic,RSAKey.prototype.encrypt=RSAEncrypt;
+  * function BigInteger(a,b,c){null!=a&&("number"==typeof a?this.fromNumber(a,b,c):null==b&&"string"!=typeof a?this.fromString(a,256):this.fromString(a,b))}function nbi(){return new BigInteger(null)}function am1(a,b,c,d,e,f){for(;--f>=0;){var g=b*this[a++]+c[d]+e;e=Math.floor(g/67108864),c[d++]=67108863&g}return e}function am2(a,b,c,d,e,f){for(var g=32767&b,h=b>>15;--f>=0;){var i=32767&this[a],j=this[a++]>>15,k=h*i+j*g;i=g*i+((32767&k)<<15)+c[d]+(1073741823&e),e=(i>>>30)+(k>>>15)+h*j+(e>>>30),c[d++]=1073741823&i}return e}function am3(a,b,c,d,e,f){for(var g=16383&b,h=b>>14;--f>=0;){var i=16383&this[a],j=this[a++]>>14,k=h*i+j*g;i=g*i+((16383&k)<<14)+c[d]+e,e=(i>>28)+(k>>14)+h*j,c[d++]=268435455&i}return e}function int2char(a){return BI_RM.charAt(a)}function intAt(a,b){var c=BI_RC[a.charCodeAt(b)];return null==c?-1:c}function bnpCopyTo(a){for(var b=this.t-1;b>=0;--b)a[b]=this[b];a.t=this.t,a.s=this.s}function bnpFromInt(a){this.t=1,this.s=0>a?-1:0,a>0?this[0]=a:-1>a?this[0]=a+DV:this.t=0}function nbv(a){var b=nbi();return b.fromInt(a),b}function bnpFromString(a,b){var c;if(16==b)c=4;else if(8==b)c=3;else if(256==b)c=8;else if(2==b)c=1;else if(32==b)c=5;else{if(4!=b)return void this.fromRadix(a,b);c=2}this.t=0,this.s=0;for(var d=a.length,e=!1,f=0;--d>=0;){var g=8==c?255&a[d]:intAt(a,d);0>g?"-"==a.charAt(d)&&(e=!0):(e=!1,0==f?this[this.t++]=g:f+c>this.DB?(this[this.t-1]|=(g&(1<<this.DB-f)-1)<<f,this[this.t++]=g>>this.DB-f):this[this.t-1]|=g<<f,f+=c,f>=this.DB&&(f-=this.DB))}8==c&&0!=(128&a[0])&&(this.s=-1,f>0&&(this[this.t-1]|=(1<<this.DB-f)-1<<f)),this.clamp(),e&&BigInteger.ZERO.subTo(this,this)}function bnpClamp(){for(var a=this.s&this.DM;this.t>0&&this[this.t-1]==a;)--this.t}function bnToString(a){if(this.s<0)return"-"+this.negate().toString(a);var b;if(16==a)b=4;else if(8==a)b=3;else if(2==a)b=1;else if(32==a)b=5;else{if(4!=a)return this.toRadix(a);b=2}var c,d=(1<<b)-1,e=!1,f="",g=this.t,h=this.DB-g*this.DB%b;if(g-->0)for(h<this.DB&&(c=this[g]>>h)>0&&(e=!0,f=int2char(c));g>=0;)b>h?(c=(this[g]&(1<<h)-1)<<b-h,c|=this[--g]>>(h+=this.DB-b)):(c=this[g]>>(h-=b)&d,0>=h&&(h+=this.DB,--g)),c>0&&(e=!0),e&&(f+=int2char(c));return e?f:"0"}function bnNegate(){var a=nbi();return BigInteger.ZERO.subTo(this,a),a}function bnAbs(){return this.s<0?this.negate():this}function bnCompareTo(a){var b=this.s-a.s;if(0!=b)return b;var c=this.t;if(b=c-a.t,0!=b)return b;for(;--c>=0;)if(0!=(b=this[c]-a[c]))return b;return 0}function nbits(a){var b,c=1;return 0!=(b=a>>>16)&&(a=b,c+=16),0!=(b=a>>8)&&(a=b,c+=8),0!=(b=a>>4)&&(a=b,c+=4),0!=(b=a>>2)&&(a=b,c+=2),0!=(b=a>>1)&&(a=b,c+=1),c}function bnBitLength(){return this.t<=0?0:this.DB*(this.t-1)+nbits(this[this.t-1]^this.s&this.DM)}function bnpDLShiftTo(a,b){var c;for(c=this.t-1;c>=0;--c)b[c+a]=this[c];for(c=a-1;c>=0;--c)b[c]=0;b.t=this.t+a,b.s=this.s}function bnpDRShiftTo(a,b){for(var c=a;c<this.t;++c)b[c-a]=this[c];b.t=Math.max(this.t-a,0),b.s=this.s}function bnpLShiftTo(a,b){var c,d=a%this.DB,e=this.DB-d,f=(1<<e)-1,g=Math.floor(a/this.DB),h=this.s<<d&this.DM;for(c=this.t-1;c>=0;--c)b[c+g+1]=this[c]>>e|h,h=(this[c]&f)<<d;for(c=g-1;c>=0;--c)b[c]=0;b[g]=h,b.t=this.t+g+1,b.s=this.s,b.clamp()}function bnpRShiftTo(a,b){b.s=this.s;var c=Math.floor(a/this.DB);if(c>=this.t)return void(b.t=0);var d=a%this.DB,e=this.DB-d,f=(1<<d)-1;b[0]=this[c]>>d;for(var g=c+1;g<this.t;++g)b[g-c-1]|=(this[g]&f)<<e,b[g-c]=this[g]>>d;d>0&&(b[this.t-c-1]|=(this.s&f)<<e),b.t=this.t-c,b.clamp()}function bnpSubTo(a,b){for(var c=0,d=0,e=Math.min(a.t,this.t);e>c;)d+=this[c]-a[c],b[c++]=d&this.DM,d>>=this.DB;if(a.t<this.t){for(d-=a.s;c<this.t;)d+=this[c],b[c++]=d&this.DM,d>>=this.DB;d+=this.s}else{for(d+=this.s;c<a.t;)d-=a[c],b[c++]=d&this.DM,d>>=this.DB;d-=a.s}b.s=0>d?-1:0,-1>d?b[c++]=this.DV+d:d>0&&(b[c++]=d),b.t=c,b.clamp()}function bnpMultiplyTo(a,b){var c=this.abs(),d=a.abs(),e=c.t;for(b.t=e+d.t;--e>=0;)b[e]=0;for(e=0;e<d.t;++e)b[e+c.t]=c.am(0,d[e],b,e,0,c.t);b.s=0,b.clamp(),this.s!=a.s&&BigInteger.ZERO.subTo(b,b)}function bnpSquareTo(a){for(var b=this.abs(),c=a.t=2*b.t;--c>=0;)a[c]=0;for(c=0;c<b.t-1;++c){var d=b.am(c,b[c],a,2*c,0,1);(a[c+b.t]+=b.am(c+1,2*b[c],a,2*c+1,d,b.t-c-1))>=b.DV&&(a[c+b.t]-=b.DV,a[c+b.t+1]=1)}a.t>0&&(a[a.t-1]+=b.am(c,b[c],a,2*c,0,1)),a.s=0,a.clamp()}function bnpDivRemTo(a,b,c){var d=a.abs();if(!(d.t<=0)){var e=this.abs();if(e.t<d.t)return null!=b&&b.fromInt(0),void(null!=c&&this.copyTo(c));null==c&&(c=nbi());var f=nbi(),g=this.s,h=a.s,i=this.DB-nbits(d[d.t-1]);i>0?(d.lShiftTo(i,f),e.lShiftTo(i,c)):(d.copyTo(f),e.copyTo(c));var j=f.t,k=f[j-1];if(0!=k){var l=k*(1<<this.F1)+(j>1?f[j-2]>>this.F2:0),m=this.FV/l,n=(1<<this.F1)/l,o=1<<this.F2,p=c.t,q=p-j,r=null==b?nbi():b;for(f.dlShiftTo(q,r),c.compareTo(r)>=0&&(c[c.t++]=1,c.subTo(r,c)),BigInteger.ONE.dlShiftTo(j,r),r.subTo(f,f);f.t<j;)f[f.t++]=0;for(;--q>=0;){var s=c[--p]==k?this.DM:Math.floor(c[p]*m+(c[p-1]+o)*n);if((c[p]+=f.am(0,s,c,q,0,j))<s)for(f.dlShiftTo(q,r),c.subTo(r,c);c[p]<--s;)c.subTo(r,c)}null!=b&&(c.drShiftTo(j,b),g!=h&&BigInteger.ZERO.subTo(b,b)),c.t=j,c.clamp(),i>0&&c.rShiftTo(i,c),0>g&&BigInteger.ZERO.subTo(c,c)}}}function bnMod(a){var b=nbi();return this.abs().divRemTo(a,null,b),this.s<0&&b.compareTo(BigInteger.ZERO)>0&&a.subTo(b,b),b}function Classic(a){this.m=a}function cConvert(a){return a.s<0||a.compareTo(this.m)>=0?a.mod(this.m):a}function cRevert(a){return a}function cReduce(a){a.divRemTo(this.m,null,a)}function cMulTo(a,b,c){a.multiplyTo(b,c),this.reduce(c)}function cSqrTo(a,b){a.squareTo(b),this.reduce(b)}function bnpInvDigit(){if(this.t<1)return 0;var a=this[0];if(0==(1&a))return 0;var b=3&a;return b=b*(2-(15&a)*b)&15,b=b*(2-(255&a)*b)&255,b=b*(2-((65535&a)*b&65535))&65535,b=b*(2-a*b%this.DV)%this.DV,b>0?this.DV-b:-b}function Montgomery(a){this.m=a,this.mp=a.invDigit(),this.mpl=32767&this.mp,this.mph=this.mp>>15,this.um=(1<<a.DB-15)-1,this.mt2=2*a.t}function montConvert(a){var b=nbi();return a.abs().dlShiftTo(this.m.t,b),b.divRemTo(this.m,null,b),a.s<0&&b.compareTo(BigInteger.ZERO)>0&&this.m.subTo(b,b),b}function montRevert(a){var b=nbi();return a.copyTo(b),this.reduce(b),b}function montReduce(a){for(;a.t<=this.mt2;)a[a.t++]=0;for(var b=0;b<this.m.t;++b){var c=32767&a[b],d=c*this.mpl+((c*this.mph+(a[b]>>15)*this.mpl&this.um)<<15)&a.DM;for(c=b+this.m.t,a[c]+=this.m.am(0,d,a,b,0,this.m.t);a[c]>=a.DV;)a[c]-=a.DV,a[++c]++}a.clamp(),a.drShiftTo(this.m.t,a),a.compareTo(this.m)>=0&&a.subTo(this.m,a)}function montSqrTo(a,b){a.squareTo(b),this.reduce(b)}function montMulTo(a,b,c){a.multiplyTo(b,c),this.reduce(c)}function bnpIsEven(){return 0==(this.t>0?1&this[0]:this.s)}function bnpExp(a,b){if(a>4294967295||1>a)return BigInteger.ONE;var c=nbi(),d=nbi(),e=b.convert(this),f=nbits(a)-1;for(e.copyTo(c);--f>=0;)if(b.sqrTo(c,d),(a&1<<f)>0)b.mulTo(d,e,c);else{var g=c;c=d,d=g}return b.revert(c)}function bnModPowInt(a,b){var c;return c=256>a||b.isEven()?new Classic(b):new Montgomery(b),this.exp(a,c)}function Arcfour(){this.i=0,this.j=0,this.S=new Array}function ARC4init(a){var b,c,d;for(b=0;256>b;++b)this.S[b]=b;for(c=0,b=0;256>b;++b)c=c+this.S[b]+a[b%a.length]&255,d=this.S[b],this.S[b]=this.S[c],this.S[c]=d;this.i=0,this.j=0}function ARC4next(){var a;return this.i=this.i+1&255,this.j=this.j+this.S[this.i]&255,a=this.S[this.i],this.S[this.i]=this.S[this.j],this.S[this.j]=a,this.S[a+this.S[this.i]&255]}function prng_newstate(){return new Arcfour}function rng_seed_int(a){rng_pool[rng_pptr++]^=255&a,rng_pool[rng_pptr++]^=a>>8&255,rng_pool[rng_pptr++]^=a>>16&255,rng_pool[rng_pptr++]^=a>>24&255,rng_pptr>=rng_psize&&(rng_pptr-=rng_psize)}function rng_seed_time(){rng_seed_int((new Date).getTime())}function rng_get_byte(){if(null==rng_state){for(rng_seed_time(),rng_state=prng_newstate(),rng_state.init(rng_pool),rng_pptr=0;rng_pptr<rng_pool.length;++rng_pptr)rng_pool[rng_pptr]=0;rng_pptr=0}return rng_state.next()}function rng_get_bytes(a){var b;for(b=0;b<a.length;++b)a[b]=rng_get_byte()}function SecureRandom(){}function parseBigInt(a,b){return new BigInteger(a,b)}function linebrk(a,b){for(var c="",d=0;d+b<a.length;)c+=a.substring(d,d+b)+"\n",d+=b;return c+a.substring(d,a.length)}function byte2Hex(a){return 16>a?"0"+a.toString(16):a.toString(16)}function pkcs1pad2(a,b){if(b<a.length+11)return alert("Message too long for RSA"),null;for(var c=new Array,d=a.length-1;d>=0&&b>0;){var e=a.charCodeAt(d--);128>e?c[--b]=e:e>127&&2048>e?(c[--b]=63&e|128,c[--b]=e>>6|192):(c[--b]=63&e|128,c[--b]=e>>6&63|128,c[--b]=e>>12|224)}c[--b]=0;for(var f=new SecureRandom,g=new Array;b>2;){for(g[0]=0;0==g[0];)f.nextBytes(g);c[--b]=g[0]}return c[--b]=2,c[--b]=0,new BigInteger(c)}function RSAKey(){this.n=null,this.e=0,this.d=null,this.p=null,this.q=null,this.dmp1=null,this.dmq1=null,this.coeff=null}function RSASetPublic(a,b){null!=a&&null!=b&&a.length>0&&b.length>0?(this.n=parseBigInt(a,16),this.e=parseInt(b,16)):alert("Invalid RSA public key")}function RSADoPublic(a){return a.modPowInt(this.e,this.n)}function RSAEncrypt(a){var b=pkcs1pad2(a,this.n.bitLength()+7>>3);if(null==b)return null;var c=this.doPublic(b);if(null==c)return null;var d=c.toString(16),e=this.n.toString(16).length;return d.length<e&&(d=0..toFixed(e-d.length).split(".")[1]+d),d}var dbits,canary=0xdeadbeefcafe,j_lm=15715070==(16777215&canary);j_lm&&"Microsoft Internet Explorer"==navigator.appName?(BigInteger.prototype.am=am2,dbits=30):j_lm&&"Netscape"!=navigator.appName?(BigInteger.prototype.am=am1,dbits=26):(BigInteger.prototype.am=am3,dbits=28),BigInteger.prototype.DB=dbits,BigInteger.prototype.DM=(1<<dbits)-1,BigInteger.prototype.DV=1<<dbits;var BI_FP=52;BigInteger.prototype.FV=Math.pow(2,BI_FP),BigInteger.prototype.F1=BI_FP-dbits,BigInteger.prototype.F2=2*dbits-BI_FP;var BI_RM="0123456789abcdefghijklmnopqrstuvwxyz",BI_RC=new Array,rr,vv;for(rr="0".charCodeAt(0),vv=0;9>=vv;++vv)BI_RC[rr++]=vv;for(rr="a".charCodeAt(0),vv=10;36>vv;++vv)BI_RC[rr++]=vv;for(rr="A".charCodeAt(0),vv=10;36>vv;++vv)BI_RC[rr++]=vv;Classic.prototype.convert=cConvert,Classic.prototype.revert=cRevert,Classic.prototype.reduce=cReduce,Classic.prototype.mulTo=cMulTo,Classic.prototype.sqrTo=cSqrTo,Montgomery.prototype.convert=montConvert,Montgomery.prototype.revert=montRevert,Montgomery.prototype.reduce=montReduce,Montgomery.prototype.mulTo=montMulTo,Montgomery.prototype.sqrTo=montSqrTo,BigInteger.prototype.copyTo=bnpCopyTo,BigInteger.prototype.fromInt=bnpFromInt,BigInteger.prototype.fromString=bnpFromString,BigInteger.prototype.clamp=bnpClamp,BigInteger.prototype.dlShiftTo=bnpDLShiftTo,BigInteger.prototype.drShiftTo=bnpDRShiftTo,BigInteger.prototype.lShiftTo=bnpLShiftTo,BigInteger.prototype.rShiftTo=bnpRShiftTo,BigInteger.prototype.subTo=bnpSubTo,BigInteger.prototype.multiplyTo=bnpMultiplyTo,BigInteger.prototype.squareTo=bnpSquareTo,BigInteger.prototype.divRemTo=bnpDivRemTo,BigInteger.prototype.invDigit=bnpInvDigit,BigInteger.prototype.isEven=bnpIsEven,BigInteger.prototype.exp=bnpExp,BigInteger.prototype.toString=bnToString,BigInteger.prototype.negate=bnNegate,BigInteger.prototype.abs=bnAbs,BigInteger.prototype.compareTo=bnCompareTo,BigInteger.prototype.bitLength=bnBitLength,BigInteger.prototype.mod=bnMod,BigInteger.prototype.modPowInt=bnModPowInt,BigInteger.ZERO=nbv(0),BigInteger.ONE=nbv(1),Arcfour.prototype.init=ARC4init,Arcfour.prototype.next=ARC4next;var rng_psize=256,rng_state,rng_pool,rng_pptr;if(null==rng_pool){rng_pool=new Array,rng_pptr=0;var t;if("Netscape"==navigator.appName&&navigator.appVersion<"5"&&window.crypto){var z=window.crypto.random(32);for(t=0;t<z.length;++t)rng_pool[rng_pptr++]=255&z.charCodeAt(t)}for(;rng_psize>rng_pptr;)t=Math.floor(65536*Math.random()),rng_pool[rng_pptr++]=t>>>8,rng_pool[rng_pptr++]=255&t;rng_pptr=0,rng_seed_time()}SecureRandom.prototype.nextBytes=rng_get_bytes,RSAKey.prototype.doPublic=RSADoPublic,RSAKey.prototype.setPublic=RSASetPublic,RSAKey.prototype.encrypt=RSAEncrypt;, EAP: received MD5-Response with no data, SHA1, MOD:DESKTOP, DES-ECB
 
 - Found Hardcoded Base64 Keys:
-  * 8/JT7kdUysR2my1LmZj5sw7VAFfCZtQyxulCBJ+LYtDDdT20dPqsBjg33qH9JQ/w
+  * 2QKgkQqVjfnOBhOOpkCHNiwY+5ptehwWcwI2nw+MKp4aP4xEl1HUSpK3UU6jm2yY
 
 - Potential RSA Private Keys Found:
   * Potential RSA Key in: boot/uImage.extracted/0/Linux-3.10.0.bin.extracted/1F58/decompressed.bin
