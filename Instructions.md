@@ -1,32 +1,6 @@
-# Instructions for Building and Execution
-
-## How to Get the Code?
-
-Users need to clone the source code from our GitLab repository to their local machine. Follow these steps to implement it:
-
-1. Open a terminal or command prompt on your device.
-2. Use the following command to clone the repository from GitLab.
-
-
-    Bash:
-   #
-       git clone https://gitlab.com/craftbud_studios/sampada-hackathon-iot
-
-
-4. Navigate to the cloned directory from your terminal.
-
-
-    Bash:
-    #     
-        cd sampada-hackathon-iot/ 
-
-
-Done! Now your code is ready to be executed.
-
 ## Executing the Script
 
-You need to run the following command line instruction to execute the script in your terminal after cloning the source code into your local machine:
-
+To execute the script, this is to be done
 Format: ``` python3 file_name.py <firmware_binary> <report_file> ```
 
 ### Replace the instruction accordingly:
