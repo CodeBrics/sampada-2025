@@ -8,13 +8,17 @@ Users need to clone the source code from our GitLab repository to their local ma
 2. Use the following command to clone the repository from GitLab.
 
 
-    Bash: ```git clone <repository-url> ```
+    Bash:
+   #
+       git clone https://gitlab.com/craftbud_studios/sampada-hackathon-iot
 
 
-3. Navigate to the cloned directory from your terminal.
+4. Navigate to the cloned directory from your terminal.
 
 
-    Bash: ``` cd file_name ```
+    Bash:
+    #     
+        cd sampada-hackathon-iot/ 
 
 
 Done! Now your code is ready to be executed.
@@ -23,7 +27,7 @@ Done! Now your code is ready to be executed.
 
 You need to run the following command line instruction to execute the script in your terminal after cloning the source code into your local machine:
 
-Format: ``` python file_name.py <firmware_binary> <report_file> ```
+Format: ``` python3 file_name.py <firmware_binary> <report_file> ```
 
 ### Replace the instruction accordingly:
 - Name of the file: `file_name.py`
