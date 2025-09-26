@@ -1,4 +1,30 @@
-# sampada-2025
+# How To Run
+
+## Static Analysis on Firmware
+
+    `python3 static_analyis.py <firmware_binary> <report_file>`
+
+## Binary Analysis on Firmware
+
+    `python3 binary_analyis.py <firmware_binary> <report_file>`
+
+
+### Replace the instruction accordingly:
+- Path of the binary file (.bin): `<firmware_binary>`
+- Path of the report file (.txt): `<report_file>`
+
+### Example: ``` python binary_analysis.py firmware.bin report.txt ```
+
+
+## Automation
+
+We ensure in our script that the user does not need to perform any other tasks other than executing the command line instruction. To make the program automated, as per the requirements, we have used an `ensure_and_install_dependencies()` function which:
+
+- Automatically checks and installs all required tools.
+- Ensures that all the tools are available before execution, without the need for them to be preinstalled on the user's system.
+
+Therefore, there is no need for manual installations, making the process automated.
+
 # Firmware Analysis Progress Report
 
 ## **Introduction**
